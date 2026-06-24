@@ -1,0 +1,4 @@
+# Build/dev reference files — not needed for the live site
+disco-chunk-*.js
+ALBUM-ENTRY-REFERENCE.txt
+new-albums-*.js
