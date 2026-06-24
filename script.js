@@ -46,6 +46,62 @@ const STORAGE_PREFIX = 'aa_edit_';
 const STORAGE_SETTINGS = 'aa_settings';
 const STORAGE_DASHBOARD = 'aa_dashboard_open';
 
+// --- Firebase cloud sync ------------------------------------
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyADo4bTrSIgnLwQkYXsIIbivyZSPcNHATM",
+  authDomain: "audioaficionados-21ba0.firebaseapp.com",
+  projectId: "audioaficionados-21ba0",
+  storageBucket: "audioaficionados-21ba0.firebasestorage.app",
+  messagingSenderId: "94178984100",
+  appId: "1:94178984100:web:0b60930161c8c882e02631"
+};
+
+let _db = null;
+function getDB() {
+  if (_db) return _db;
+  if (typeof firebase === 'undefined') return null;
+  if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
+  _db = firebase.firestore();
+  return _db;
+}
+
+async function syncFromCloud() {
+  const db = getDB();
+  if (!db) return;
+  try {
+    const [editsSnap, artworkSnap] = await Promise.all([
+      db.collection('edits').get(),
+      db.collection('aa').doc('artwork').get()
+    ]);
+    editsSnap.forEach(doc => {
+      localStorage.setItem(STORAGE_PREFIX + doc.id, JSON.stringify(doc.data()));
+    });
+    if (artworkSnap.exists) {
+      const data = artworkSnap.data() || {};
+      Object.entries(data).forEach(([k, v]) => {
+        if (k.startsWith('aw_override_') && v) localStorage.setItem(k, v);
+      });
+    }
+  } catch(e) { /* offline — use localStorage */ }
+}
+
+function cloudSaveEdit(id, data) {
+  const db = getDB(); if (!db) return;
+  db.collection('edits').doc(id).set(data).catch(() => {});
+}
+
+function cloudDeleteEdit(id) {
+  const db = getDB(); if (!db) return;
+  db.collection('edits').doc(id).delete().catch(() => {});
+}
+
+function cloudSaveArtwork(key, url) {
+  const db = getDB(); if (!db) return;
+  const update = {};
+  update[key] = url ? url : firebase.firestore.FieldValue.delete();
+  db.collection('aa').doc('artwork').set(update, { merge: true }).catch(() => {});
+}
+
 // --- Application State --------------------------------------
 const APP = {
   view: 'home',
@@ -78,9 +134,11 @@ function getStoredEdits(id) {
 }
 function saveStoredEdits(id, data) {
   localStorage.setItem(STORAGE_PREFIX + id, JSON.stringify(data));
+  cloudSaveEdit(id, data);
 }
 function clearStoredEdits(id) {
   localStorage.removeItem(STORAGE_PREFIX + id);
+  cloudDeleteEdit(id);
 }
 function getAlbum(id) {
   const base = albumLibrary.find(a => a.id === id);
@@ -162,6 +220,7 @@ function getStudentArtwork(artworkKey) {
 function setArtworkOverride(artworkKey, url) {
   if (url) localStorage.setItem('aw_override_' + artworkKey, url);
   else localStorage.removeItem('aw_override_' + artworkKey);
+  cloudSaveArtwork('aw_override_' + artworkKey, url || null);
 }
 
 // Search MusicBrainz → Cover Art Archive for a single album, cache the result.
@@ -2190,8 +2249,9 @@ document.addEventListener('keydown', function(e) {
 // ============================================================
 // INITIALIZATION
 // ============================================================
-function init() {
+async function init() {
   loadSettings();
+  await syncFromCloud();
   checkUrlHash();
   if (APP.view === 'home') navigate('home');
   else renderApp();
