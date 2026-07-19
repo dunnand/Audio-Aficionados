@@ -1236,8 +1236,18 @@ function buildReactionSlide(album, qeBtn) {
   const teacherMode = !APP.projectorMode;
   const questions = (album.discussionQuestions || []).slice(0, 3);
 
-  const ratingButtons = Array.from({length: 10}, (_, i) => i + 1).map(n =>
-    `<button class="vote-btn ${score == n ? 'selected' : ''}" data-action="rate-album" data-album-id="${album.id}" data-score="${n}">${n}</button>`
+  const ratings = Array.isArray(album.ratings) ? album.ratings.map(Number).filter(n => !isNaN(n)) : [];
+  const hasRatings = ratings.length > 0;
+  const fmtHalf = v => v % 1 === 0 ? String(v) : v.toFixed(1);
+
+  const voteVals = [];
+  for (let v = 1; v <= 10; v += 0.5) voteVals.push(v);
+  const ratingButtons = voteVals.map(v =>
+    `<button class="vote-btn ${v % 1 !== 0 ? 'vote-btn-half' : ''}" data-action="add-rating" data-album-id="${album.id}" data-score="${v}">${fmtHalf(v)}</button>`
+  ).join('');
+
+  const ratingChips = ratings.map((r, i) =>
+    `<span class="rating-chip">${fmtHalf(r)}${teacherMode ? `<button class="rating-chip-x" data-action="remove-rating" data-album-id="${album.id}" data-idx="${i}" title="Remove this rating">&times;</button>` : ''}</span>`
   ).join('');
 
   return `<div class="slide slide-reaction">
@@ -1252,17 +1262,21 @@ function buildReactionSlide(album, qeBtn) {
         </div>
         ${score
           ? `<div class="reaction-score-big">${esc(score)}<span class="reaction-score-max">/10</span></div>
+             ${hasRatings ? `<div class="reaction-vote-count">average of ${ratings.length} rating${ratings.length !== 1 ? 's' : ''}</div>` : ''}
              ${reaction ? `<div class="reaction-word-display">"${esc(reaction)}"</div>` : ''}`
-          : `<div class="vote-rating-label">Class Score — click to set${teacherMode ? ' (or press 1–9, 0 = 10)' : ''}</div>
-             <div class="vote-buttons">${ratingButtons}</div>`
-        }
+          : ''}
+        ${hasRatings ? `<div class="rating-chips">${ratingChips}</div>` : ''}
+        ${(!score || hasRatings)
+          ? `<div class="vote-rating-label">${hasRatings ? 'Keep tallying — tap each rating' : 'Tally the class — tap each rating'}${teacherMode ? ' (keys 1–9, 0 = 10)' : ''}</div>
+             <div class="vote-buttons vote-buttons-tally">${ratingButtons}</div>`
+          : ''}
         ${teacherMode ? `
           <div class="vote-reaction-wrap">
             <div class="vote-rating-label">One-word reaction</div>
             <input class="vote-reaction-input" id="reaction-input-${album.id}" type="text" maxlength="30" placeholder="One word..."
               value="${esc(reaction || '')}" data-album-id="${album.id}" data-field="oneWordReaction">
           </div>
-          ${score ? `<button class="btn btn-ghost btn-sm teacher-only" data-action="rate-album" data-album-id="${album.id}" data-score="">Clear score</button>` : ''}
+          ${score ? `<button class="btn btn-ghost btn-sm teacher-only" data-action="rate-album" data-album-id="${album.id}" data-score="">Clear score${hasRatings ? ' &amp; tally' : ''}</button>` : ''}
         ` : ''}
       </div>
       <div class="reaction-right">
@@ -1670,6 +1684,9 @@ function buildResultsFields(a) {
       ${field('Class Score (1–10)','classScore',a.classScore,'number','','min="1" max="10" step="0.5"')}
       ${field('One-Word Reaction','oneWordReaction',a.oneWordReaction)}
     </div>
+    ${Array.isArray(a.ratings) && a.ratings.length
+      ? `<div class="field-hint" style="margin-top:-6px;margin-bottom:12px;">This score is the average of ${a.ratings.length} tallied ratings (${a.ratings.join(', ')}) from the Class Reaction slide. Adding another rating there recalculates it; &ldquo;Clear score &amp; tally&rdquo; on that slide starts over.</div>`
+      : ''}
     ${field('Completed Date','completedDate',a.completedDate,'text','Example: October 15, 2025')}`;
 }
 
@@ -1781,6 +1798,7 @@ function saveEdits(albumId) {
     icebreaker: { question: get('icebreakerQ'), activity: get('icebreakerActivity') },
     influenceMap: { ...base.influenceMap, sourceNotes: get('influenceSourceNotes') },
     classScore: get('classScore'),
+    ...(Array.isArray(base.ratings) && base.ratings.length ? { ratings: base.ratings } : {}),
     oneWordReaction: get('oneWordReaction'),
     completedDate: get('completedDate'),
     nextWeekAlbumId: get('nextWeekAlbumId'),
@@ -2142,16 +2160,54 @@ function toggleDashboard() {
   document.querySelector('.dashboard-body')?.classList.toggle('collapsed');
   document.querySelector('.dashboard-toggle')?.classList.toggle('open');
 }
-function setClassScore(albumId, score) {
-  const existing = getStoredEdits(albumId) || {};
-  existing.classScore = score || '';
-  saveStoredEdits(albumId, existing);
+function refreshSlideArea(albumId) {
   const album = getAlbum(albumId);
   const slideArea = document.querySelector('.slide-area');
-  if (slideArea && APP.view === 'presentation') {
+  if (album && slideArea && APP.view === 'presentation') {
     slideArea.innerHTML = buildSlide(album, APP.slideIndex);
     setTimeout(loadArtworkInView, 50);
   }
+}
+
+function setClassScore(albumId, score) {
+  const existing = getStoredEdits(albumId) || {};
+  existing.classScore = score || '';
+  if (!score) delete existing.ratings;   // clearing the score clears the tally too
+  saveStoredEdits(albumId, existing);
+  refreshSlideArea(albumId);
+}
+
+// --- Ratings tally: each vote is stored; classScore = the average ---
+function ratingsAverage(ratings) {
+  const avg = ratings.reduce((s, n) => s + n, 0) / ratings.length;
+  return String(Math.round(avg * 10) / 10);
+}
+
+function addRating(albumId, val) {
+  if (!(val >= 1 && val <= 10)) return;
+  const existing = getStoredEdits(albumId) || {};
+  const ratings = Array.isArray(existing.ratings) ? [...existing.ratings] : [];
+  ratings.push(val);
+  existing.ratings = ratings;
+  existing.classScore = ratingsAverage(ratings);
+  saveStoredEdits(albumId, existing);
+  refreshSlideArea(albumId);
+}
+
+function removeRating(albumId, idx) {
+  const existing = getStoredEdits(albumId) || {};
+  const ratings = Array.isArray(existing.ratings) ? [...existing.ratings] : [];
+  if (idx < 0 || idx >= ratings.length) return;
+  ratings.splice(idx, 1);
+  if (ratings.length) {
+    existing.ratings = ratings;
+    existing.classScore = ratingsAverage(ratings);
+  } else {
+    delete existing.ratings;
+    existing.classScore = '';
+  }
+  saveStoredEdits(albumId, existing);
+  refreshSlideArea(albumId);
 }
 
 // ============================================================
@@ -2197,6 +2253,8 @@ document.addEventListener('click', function(e) {
     case 'artwork-search': runArtworkSearch(btn.dataset.awKey, btn.dataset.awArtist, btn.dataset.awTitle); break;
     case 'save-quick-edit': saveQuickEdit(); break;
     case 'rate-album':    setClassScore(albumId, btn.dataset.score); break;
+    case 'add-rating':    addRating(albumId, parseFloat(btn.dataset.score)); break;
+    case 'remove-rating': removeRating(albumId, parseInt(btn.dataset.idx)); break;
     case 'add-track':     addTrack(); break;
     case 'del-track':     { const r = btn.closest('.track-edit-row'); if (r) r.remove(); break; }
     case 'add-ks':        addKS(); break;
@@ -2218,7 +2276,7 @@ document.addEventListener('click', function(e) {
         albumLibrary.forEach(a => {
           const stored = getStoredEdits(a.id);
           if (!stored) return;
-          delete stored.classScore; delete stored.oneWordReaction; delete stored.completedDate;
+          delete stored.classScore; delete stored.oneWordReaction; delete stored.completedDate; delete stored.ratings;
           Object.keys(stored).length ? saveStoredEdits(a.id, stored) : clearStoredEdits(a.id);
         });
         showToast('All ratings cleared.');
@@ -2350,11 +2408,11 @@ document.addEventListener('keydown', function(e) {
   }
 
   if (APP.view === 'presentation') {
-    // On the Class Reaction slide, number keys set the score (0 = 10)
+    // On the Class Reaction slide, number keys tally a rating (0 = 10)
     if (/^[0-9]$/.test(e.key)) {
       const album = getAlbum(APP.albumId);
-      if (album && getSlides(album)[APP.slideIndex] === 'reaction' && !album.classScore) {
-        setClassScore(APP.albumId, e.key === '0' ? '10' : e.key);
+      if (album && getSlides(album)[APP.slideIndex] === 'reaction') {
+        addRating(APP.albumId, e.key === '0' ? 10 : parseInt(e.key));
         return;
       }
     }

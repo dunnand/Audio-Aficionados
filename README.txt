@@ -117,15 +117,17 @@ HIDING ALBUM ARTWORK
 
 UPDATING CLASS SCORES
 ----------------------
-Option A — During the presentation:
-  Navigate to Slide 12 (Vote & Score).
-  Click a number from 1–10 to set the class score.
-  Type a one-word reaction in the text field.
-  The score saves automatically.
+Option A — Tally during the presentation (recommended):
+  On the Class Reaction slide, tap each student's rating (1–10 in half
+  steps) as they call it out — or press number keys 1–9 (0 = 10).
+  Every rating appears as a small chip (click its × to remove a mistake),
+  and the class score updates live as the average of all ratings.
+  Works in Projector Mode too. Type a one-word reaction in the text field.
+  Everything saves automatically. "Clear score & tally" starts over.
 
 Option B — In Teacher Review mode:
   Go to the "Class Results" section.
-  Enter the score and one-word reaction.
+  Enter a single score and one-word reaction directly.
   Click "Save Edits."
 
 
