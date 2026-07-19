@@ -351,45 +351,84 @@ async function fetchArtistImage(album, artistNameOverride) {
   if (ai.manualArtistImageUrl) return ai.manualArtistImageUrl;
   if (ai.localArtistImageFile) return ai.localArtistImageFile;
 
+  // Cache holds the in-flight promise first, then the final result, so
+  // parallel or repeated renders never trigger duplicate lookups AND a
+  // slow first lookup can't get stuck cached as a failure.
   const cacheKey = `artist-img::${name.toLowerCase()}`;
   if (APP.artworkCache[cacheKey] !== undefined) return APP.artworkCache[cacheKey];
-  APP.artworkCache[cacheKey] = null;
 
-  // TheAudioDB (free, no key needed)
-  try {
-    const q = encodeURIComponent(name);
-    const res = await fetch(`https://www.theaudiodb.com/api/v1/json/2/search.php?s=${q}`);
-    const data = await res.json();
-    const thumb = data?.artists?.[0]?.strArtistThumb;
-    if (thumb) { APP.artworkCache[cacheKey] = thumb; return thumb; }
-  } catch(e) {}
-
-  // Last.fm (optional, requires key in artistImages)
-  if (ai.lastFmApiKey) {
+  const lookup = (async () => {
+    // 1. TheAudioDB (free, no key needed — but blocked on some school networks)
     try {
-      const n = encodeURIComponent(ai.lastFmArtistName || name);
-      const res = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${n}&api_key=${ai.lastFmApiKey}&format=json`);
-      const data = await res.json();
-      const images = data?.artist?.image;
-      if (images) {
-        const large = images.find(i => i.size==='extralarge') || images[images.length-1];
-        if (large?.['#text'] && large['#text'] !== '') { APP.artworkCache[cacheKey] = large['#text']; return large['#text']; }
+      const q = encodeURIComponent(name);
+      const res = await fetch(`https://www.theaudiodb.com/api/v1/json/2/search.php?s=${q}`);
+      if (res.ok) {
+        const data = await res.json();
+        const thumb = data?.artists?.[0]?.strArtistThumb;
+        if (thumb) return thumb;
       }
     } catch(e) {}
-  }
 
+    // 2. Last.fm (optional, requires key in artistImages)
+    if (ai.lastFmApiKey) {
+      try {
+        const n = encodeURIComponent(ai.lastFmArtistName || name);
+        const res = await fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${n}&api_key=${ai.lastFmApiKey}&format=json`);
+        const data = await res.json();
+        const images = data?.artist?.image;
+        if (images) {
+          const large = images.find(i => i.size==='extralarge') || images[images.length-1];
+          if (large?.['#text'] && large['#text'] !== '') return large['#text'];
+        }
+      } catch(e) {}
+    }
+
+    // 3. Wikipedia page image (no key, reliable on school networks)
+    return await fetchWikipediaImage(name);
+  })();
+
+  APP.artworkCache[cacheKey] = lookup;
+  const url = await lookup;
+  APP.artworkCache[cacheKey] = url;
+  return url;
+}
+
+async function fetchWikipediaImage(name) {
+  try {
+    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name.replace(/ /g, '_'))}`);
+    if (res.ok) {
+      const data = await res.json();
+      const src = data?.thumbnail?.source;
+      if (src && data.type !== 'disambiguation') return src.replace(/\/(\d+)px-/, '/500px-');
+    }
+  } catch(e) {}
   return null;
+}
+
+function _placeArtistImage(elId, name, url, fallbackName) {
+  const img = new Image();
+  img.alt = name;
+  img.style.cssText = 'width:100%;height:100%;object-fit:cover;object-position:top center;display:block;';
+  img.onload = () => { const t = document.getElementById(elId); if (t) { t.innerHTML=''; t.appendChild(img); t.classList.add('has-image'); } };
+  if (fallbackName) {
+    // If this image host is blocked, retry once with Wikipedia's image
+    img.onerror = async () => {
+      const wiki = await fetchWikipediaImage(fallbackName);
+      if (wiki && wiki !== url) {
+        APP.artworkCache[`artist-img::${fallbackName.toLowerCase()}`] = wiki;
+        _placeArtistImage(elId, name, wiki, null);
+      }
+    };
+  }
+  img.src = url;
 }
 
 async function loadArtistImageElement(elId, album, artistNameOverride) {
   const url = await fetchArtistImage(album, artistNameOverride);
   const el = document.getElementById(elId);
   if (!el || !url) return;
-  const img = new Image();
-  img.alt = artistNameOverride || album?.artist || '';
-  img.style.cssText = 'width:100%;height:100%;object-fit:cover;object-position:top center;display:block;';
-  img.onload = () => { const t = document.getElementById(elId); if (t) { t.innerHTML=''; t.appendChild(img); t.classList.add('has-image'); } };
-  img.src = url;
+  const name = artistNameOverride || album?.artist || '';
+  _placeArtistImage(elId, name, url, name);
 }
 
 // Scan the DOM and trigger all async image loads.
