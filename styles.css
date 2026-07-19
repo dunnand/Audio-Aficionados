@@ -998,3 +998,90 @@ ul, ol { list-style: none; }
   .disco-card { width: 140px; }
   .disco-artwork.artwork-frame { width: 140px; height: 140px; }
 }
+
+/* --- Passcode gate ----------------------------------------- */
+.gate-screen {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  padding: 24px; background: radial-gradient(ellipse at top, var(--bg2), var(--bg));
+}
+.gate-box {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-xl); padding: 44px 36px;
+  width: 100%; max-width: 380px; text-align: center; box-shadow: var(--shadow-lg);
+}
+.gate-logo { font-size: 1.5rem; font-weight: 900; letter-spacing: 0.02em; margin-bottom: 6px; }
+.gate-logo span { color: var(--accent); }
+.gate-sub { font-size: 0.85rem; color: var(--text3); margin-bottom: 24px; }
+.gate-input {
+  width: 100%; padding: 12px 14px; border-radius: var(--radius);
+  border: 1px solid var(--border2); background: var(--bg2); color: var(--text);
+  font-size: 1rem; text-align: center; outline: none; letter-spacing: 0.2em;
+}
+.gate-input:focus { border-color: var(--accent); }
+.gate-error { color: var(--error); font-size: 0.8rem; min-height: 20px; margin: 8px 0 4px; }
+.gate-btn { width: 100%; }
+
+/* --- This Week hero ---------------------------------------- */
+.home-hero {
+  display: flex; align-items: center; gap: 28px; flex-wrap: wrap;
+  background: linear-gradient(120deg, var(--surface) 60%, rgba(233,30,140,0.08));
+  border: 1px solid var(--border2); border-radius: var(--radius-xl);
+  padding: 24px 28px; margin-bottom: 24px; box-shadow: var(--shadow);
+}
+.home-hero-art { width: 150px; flex-shrink: 0; }
+.home-hero-art .artwork-frame {
+  width: 150px; height: 150px; border-radius: var(--radius-lg);
+  overflow: hidden; box-shadow: var(--shadow-glow);
+}
+.home-hero-body { flex: 1; min-width: 220px; }
+.home-hero-label {
+  font-size: 0.72rem; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.14em; color: var(--accent); margin-bottom: 6px;
+}
+.home-hero-title { font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 900; line-height: 1.15; }
+.home-hero-artist { font-size: 1rem; color: var(--text2); margin: 4px 0 16px; }
+.home-hero-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.home-hero-next {
+  border-left: 1px solid var(--border2); padding-left: 24px;
+  min-width: 150px; flex-shrink: 0;
+}
+.home-hero-next-label {
+  font-size: 0.68rem; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--accent2); margin-bottom: 6px;
+}
+.home-hero-next-title { font-size: 0.95rem; font-weight: 700; }
+.home-hero-next-artist { font-size: 0.8rem; color: var(--text3); }
+@media (max-width: 640px) {
+  .home-hero { gap: 18px; padding: 18px; }
+  .home-hero-next { border-left: none; padding-left: 0; }
+}
+
+/* --- Library search + card extras -------------------------- */
+.album-search {
+  flex: 1; min-width: 200px; max-width: 340px;
+  padding: 8px 14px; border-radius: 999px;
+  border: 1px solid var(--border2); background: var(--surface); color: var(--text);
+  font-size: 0.85rem; outline: none;
+}
+.album-search:focus { border-color: var(--accent); }
+.album-card-week {
+  font-size: 0.66rem; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--text3); margin-bottom: 4px;
+}
+.badge-edited {
+  background: rgba(96,96,128,0.18); color: var(--text2);
+  border: 1px solid var(--border2);
+}
+
+/* --- Ratings leaderboard extras ----------------------------- */
+.rating-card { position: relative; }
+.rating-crown {
+  position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+  font-size: 1.2rem; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6)); z-index: 2;
+}
+.rating-card-more {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 4px; border: 1px dashed var(--border2); background: transparent;
+}
+.rating-more-num { font-size: 1.6rem; font-weight: 900; color: var(--text2); }
+.rating-more-label { font-size: 0.72rem; color: var(--text3); text-align: center; }

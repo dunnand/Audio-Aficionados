@@ -5,11 +5,13 @@ A weekly album listening club website
 
 QUICK START
 -----------
-1. Open the "Audio-Aficionados" folder on your computer.
-2. Double-click "index.html" to open the site in your web browser.
-3. No internet connection is required to use the site itself.
-   (Album artwork loads from iTunes when connected to the internet.)
-4. No login, no server, and no installation is needed.
+1. Open the live site at https://wcyt.org/Audio-Aficionados/
+   (or double-click "index.html" in the Audio-Aficionados folder to run it locally).
+2. Enter the class passcode when asked (same as the teacher dashboard PIN).
+   The passcode is remembered per browser, so you only enter it once per device.
+3. Scores, edits, and artwork choices sync automatically between devices
+   through Firebase, so the classroom computer and your home computer stay
+   in step. If offline, the site still works from its last local copy.
 
 
 OPENING THE WEBSITE
@@ -20,11 +22,14 @@ The site works best in full-screen mode. Press F11 to toggle full screen.
 
 HOW TO START AN ALBUM PRESENTATION
 ------------------------------------
-1. The homepage shows all albums in the library as cards.
-2. Find the album you are focusing on this week.
+1. The homepage opens with a "This Week" banner showing the current album —
+   click "Start Listening Session" right from there.
+   (The banner shows whichever album is marked status "current," or the
+   earliest week not yet completed. Next week's album is previewed beside it.)
+2. Or scroll/search the Album Library — the search box filters by album
+   or artist name, and every card shows its week number.
 3. (Optional) Click "Review / Edit Before Class" first to check or adjust content.
-4. Click "Start Listening Session" to launch the 14-slide presentation.
-5. Use the Previous / Next buttons (or arrow keys) to move through the slides.
+4. Use the Previous / Next buttons (or arrow keys) to move through the slides.
 
 
 KEYBOARD SHORTCUTS
@@ -32,7 +37,10 @@ KEYBOARD SHORTCUTS
   Right Arrow   — Next slide
   Left Arrow    — Previous slide
   Home or Esc   — Return to Album Selector (homepage)
+                  (Esc closes an open popup first)
   R             — Restart the current album presentation
+  P             — Toggle Projector Mode
+  1–9, 0        — On the Class Reaction slide: set the class score (0 = 10)
 
 
 PROJECTOR MODE
@@ -46,17 +54,18 @@ PROJECTOR MODE
 
 TEACHER DASHBOARD
 -----------------
-The Teacher Dashboard appears at the top of the homepage.
+The Teacher Dashboard sits under the This Week banner on the homepage.
 It shows:
-  - Current album
-  - Next week's album
-  - Albums needing teacher review
+  - Library size and completed count
+  - Albums flagged "Needs Teacher Review"
   - Albums with possible explicit content
-  - Albums missing class scores
-  - Completed and upcoming album counts
-  - Export/Import buttons
+  - Completed albums missing class scores
+  - Export/Import and artwork tools
 
 Click the arrow next to "Teacher Dashboard" to expand or collapse it.
+Albums you have edited show a small "Edited" badge on their library card —
+that means your saved edits override what's written in albumLibrary.js
+(use "Reset Edits" on the album's edit screen to go back to the library data).
 
 
 REVIEWING AN ALBUM BEFORE CLASS
@@ -136,8 +145,9 @@ Examples:
 
 EXPORTING FULL YEAR DATA
 -------------------------
-IMPORTANT: Browser data can be lost if the browser cache is cleared.
-Export your data regularly to back it up.
+Edits and scores are saved to Firebase automatically, and also cached in
+the browser. Exports are still recommended as an occasional offline backup
+(they protect against accidental deletions, which sync too).
 
 1. On the homepage, click "Export Full Year Data" in the Teacher Dashboard.
    OR find it in the Teacher Review screen for any album.

@@ -46,6 +46,45 @@ const STORAGE_PREFIX = 'aa_edit_';
 const STORAGE_SETTINGS = 'aa_settings';
 const STORAGE_DASHBOARD = 'aa_dashboard_open';
 
+// --- Site passcode gate -------------------------------------
+// The site is publicly hosted; this keeps edits and teacher tools
+// behind the class passcode. Asked once per browser.
+const SITE_PASSCODE = '2027';
+const STORAGE_ACCESS = 'aa_access';
+
+function isUnlocked() {
+  try { return localStorage.getItem(STORAGE_ACCESS) === SITE_PASSCODE; }
+  catch(e) { return false; }
+}
+
+function buildGate() {
+  const app = document.getElementById('app');
+  if (!app) return;
+  app.className = '';
+  app.innerHTML = `<div class="gate-screen">
+    <div class="gate-box">
+      <div class="gate-logo"><span>Audio</span> Aficionados</div>
+      <div class="gate-sub">Enter the class passcode to continue</div>
+      <input type="password" id="gate-input" class="gate-input" placeholder="Passcode" autocomplete="off">
+      <div class="gate-error" id="gate-error"></div>
+      <button class="btn btn-primary gate-btn" id="gate-btn">Enter</button>
+    </div>
+  </div>`;
+  const tryUnlock = () => {
+    const v = document.getElementById('gate-input').value.trim();
+    if (v === SITE_PASSCODE) {
+      try { localStorage.setItem(STORAGE_ACCESS, v); } catch(e) {}
+      startApp();
+    } else {
+      document.getElementById('gate-error').textContent = 'Incorrect passcode.';
+      document.getElementById('gate-input').value = '';
+    }
+  };
+  document.getElementById('gate-btn').addEventListener('click', tryUnlock);
+  document.getElementById('gate-input').addEventListener('keydown', e => { if (e.key === 'Enter') tryUnlock(); });
+  document.getElementById('gate-input').focus();
+}
+
 // --- Firebase cloud sync ------------------------------------
 const FIREBASE_CONFIG = {
   apiKey: "AIzaSyADo4bTrSIgnLwQkYXsIIbivyZSPcNHATM",
@@ -550,7 +589,13 @@ function showToast(msg, type='success') {
 }
 
 // --- Router / Navigation ------------------------------------
+let EDIT_DIRTY = false;   // set when the edit form changes; cleared on save
+
 function navigate(view, albumId, slideIndex) {
+  if (APP.view === 'edit' && view !== 'edit' && EDIT_DIRTY) {
+    if (!confirm('You have unsaved edits. Leave without saving?')) return;
+  }
+  if (APP.view === 'edit' || view === 'edit') EDIT_DIRTY = false;
   APP.view = view;
   if (albumId !== undefined) APP.albumId = albumId;
   if (slideIndex !== undefined) APP.slideIndex = slideIndex;
@@ -583,7 +628,6 @@ function renderApp() {
     default:             app.classList.add('view-home');         app.innerHTML = buildHome();
   }
   setTimeout(loadArtworkInView, 50);
-  bindInputEvents();
 }
 
 // ============================================================
@@ -594,12 +638,55 @@ function buildHome() {
   return `
     ${buildSiteHeader()}
     <div class="home-content">
+      ${buildThisWeekHero(albums)}
       ${buildDashboard(albums)}
-      <div class="section-heading">Album Library</div>
+      <div class="section-heading" style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+        <span>Album Library</span>
+        <input id="album-search" class="album-search" type="search" placeholder="Search albums or artists&hellip;" autocomplete="off">
+      </div>
       <div class="album-grid">
         ${albums.map(a => buildAlbumCard(a)).join('')}
       </div>
     </div>`;
+}
+
+// The album marked status:'current', or the earliest week not yet completed.
+function getCurrentAlbum(albums) {
+  const cur = albums.find(a => a.status === 'current');
+  if (cur) return cur;
+  return albums
+    .filter(a => a.status !== 'completed')
+    .sort((x, y) => (x.week || 999) - (y.week || 999))[0] || null;
+}
+
+function buildThisWeekHero(albums) {
+  const cur = getCurrentAlbum(albums);
+  if (!cur) return '';
+  const next = cur.nextWeekAlbumId
+    ? albums.find(a => a.id === cur.nextWeekAlbumId)
+    : albums.find(a => a.week === (cur.week || 0) + 1);
+  const awId = `hero-aw-${cur.id}`;
+  const showArt = cur.artwork?.showArtwork !== false && !cur.artwork?.useTextOnlyFallback;
+
+  return `<div class="home-hero">
+    <div class="home-hero-art">
+      ${showArt ? artworkFrame(awId, cur.artist, cur.title, '', cur.artworkKey || '') : ''}
+    </div>
+    <div class="home-hero-body">
+      <div class="home-hero-label">This Week ${cur.week ? `&mdash; Week ${cur.week}` : ''}</div>
+      <div class="home-hero-title">${esc(cur.title)}</div>
+      <div class="home-hero-artist">${esc(cur.artist)}${cur.year ? ` &middot; ${cur.year}` : ''}</div>
+      <div class="home-hero-actions">
+        <button class="btn btn-primary" data-action="start-presentation" data-album-id="${cur.id}">&#9654; Start Listening Session</button>
+        <button class="btn btn-ghost btn-sm" data-action="edit-album" data-album-id="${cur.id}">Review / Edit</button>
+      </div>
+    </div>
+    ${next ? `<div class="home-hero-next">
+      <div class="home-hero-next-label">Next Week</div>
+      <div class="home-hero-next-title">${esc(next.title)}</div>
+      <div class="home-hero-next-artist">${esc(next.artist)}</div>
+    </div>` : ''}
+  </div>`;
 }
 
 function buildSiteHeader() {
@@ -674,7 +761,7 @@ function buildPrePresentationChecks(album) {
 }
 
 function buildDashboard(albums) {
-  const needsReview = albums.filter(a => a.needsTeacherReview || !a.teacherApproved);
+  const needsReview = albums.filter(a => a.needsTeacherReview || a.status === 'needs-review');
   const missingScore = albums.filter(a => a.status === 'completed' && !a.classScore);
   const completed = albums.filter(a => a.status === 'completed' && a.classScore);
   const explicitFlags = albums.filter(a => a.tracklist?.some(t => t.explicit));
@@ -724,12 +811,14 @@ function buildAlbumCard(album) {
   const awId = `card-aw-${album.id}`;
   const badges = [];
   if (album.status === 'completed')    badges.push(`<span class="badge badge-completed">Completed</span>`);
+  if (album.status === 'current')      badges.push(`<span class="badge badge-current">This Week</span>`);
   if (album.status === 'needs-review') badges.push(`<span class="badge badge-review">Needs Review</span>`);
   if (album.needsTeacherReview)        badges.push(`<span class="badge badge-review">Review Required</span>`);
+  if (getStoredEdits(album.id))        badges.push(`<span class="badge badge-edited" title="This album has local edits that override albumLibrary.js — Reset Edits in the edit screen removes them">&#9998; Edited</span>`);
   const showArtwork = album.artwork?.showArtwork !== false;
   const useTextOnly = album.artwork?.useTextOnlyFallback === true;
 
-  return `<div class="album-card">
+  return `<div class="album-card" data-search="${esc((album.title + ' ' + album.artist).toLowerCase())}">
     <div class="album-card-artwork-wrap">
       ${showArtwork && !useTextOnly
         ? artworkFrame(awId, album.artist, album.title, '', album.artworkKey || '')
@@ -741,6 +830,7 @@ function buildAlbumCard(album) {
            </div></div>`}
     </div>
     <div class="album-card-body">
+      ${album.week ? `<div class="album-card-week">Week ${album.week}</div>` : ''}
       <div class="album-card-title">${esc(album.title)}</div>
       <div class="album-card-artist">${esc(album.artist)}</div>
       <div class="album-card-year">${album.year}</div>
@@ -1163,10 +1253,8 @@ function buildReactionSlide(album, qeBtn) {
         ${score
           ? `<div class="reaction-score-big">${esc(score)}<span class="reaction-score-max">/10</span></div>
              ${reaction ? `<div class="reaction-word-display">"${esc(reaction)}"</div>` : ''}`
-          : `${teacherMode
-              ? `<div class="vote-rating-label">Class Score — click to set</div>
-                 <div class="vote-buttons">${ratingButtons}</div>`
-              : `<div class="reaction-waiting">Discussing now...</div>`}`
+          : `<div class="vote-rating-label">Class Score — click to set${teacherMode ? ' (or press 1–9, 0 = 10)' : ''}</div>
+             <div class="vote-buttons">${ratingButtons}</div>`
         }
         ${teacherMode ? `
           <div class="vote-reaction-wrap">
@@ -1224,18 +1312,24 @@ function buildRatingsSlide(album, qeBtn) {
     </div>`;
   }
 
-  const cards = rated.map(a => {
+  const RATINGS_CAP = 12;
+  const sorted = [...rated].sort((x, y) => (parseFloat(y.classScore) || 0) - (parseFloat(x.classScore) || 0));
+  const shown = sorted.slice(0, RATINGS_CAP);
+  const overflow = sorted.length - shown.length;
+
+  const cards = shown.map((a, rank) => {
     const awId = `rating-aw-${a.id}`;
     const score = parseFloat(a.classScore);
     const scoreClass = score >= 8 ? 'score-high' : score >= 6 ? 'score-mid' : 'score-low';
     return `<div class="rating-card">
+      ${rank === 0 ? '<div class="rating-crown" title="Highest rated">&#128081;</div>' : ''}
       ${artworkFrame(awId, a.artist, a.title, 'rating-artwork')}
       <div class="rating-card-title">${esc(a.title)}</div>
       <div class="rating-card-artist">${esc(a.artist)}</div>
       <div class="rating-card-score ${scoreClass}">${esc(a.classScore)}<span class="rating-score-denom">/10</span></div>
       ${a.oneWordReaction ? `<div class="rating-card-word">&ldquo;${esc(a.oneWordReaction)}&rdquo;</div>` : ''}
     </div>`;
-  }).join('');
+  }).join('') + (overflow > 0 ? `<div class="rating-card rating-card-more"><div class="rating-more-num">+${overflow}</div><div class="rating-more-label">more in the Archive</div></div>` : '');
 
   return `<div class="slide slide-ratings">
     ${qeBtn}
@@ -1321,14 +1415,18 @@ function buildComingNextSlide(album, qeBtn) {
 // ARCHIVE VIEW (standalone)
 // ============================================================
 function buildArchive() {
-  const completed = getAllAlbums().filter(a => a.classScore || a.status === 'completed');
+  const completed = getAllAlbums()
+    .filter(a => a.classScore || a.status === 'completed')
+    .sort((x, y) => (x.week || 999) - (y.week || 999));
+  const scores = completed.map(a => parseFloat(a.classScore)).filter(n => !isNaN(n));
+  const avg = scores.length ? (scores.reduce((s, n) => s + n, 0) / scores.length).toFixed(1) : null;
   return `
     ${buildSiteHeader()}
     <div class="archive-view">
       <div style="margin-bottom:16px;"><button class="btn btn-ghost btn-sm" data-action="go-home">&#8592; Back to Library</button></div>
       <div class="archive-header">
         <div class="archive-title">Audio Aficionados Listening Archive</div>
-        <div class="archive-sub">All completed albums and class scores</div>
+        <div class="archive-sub">All completed albums and class scores${avg ? ` &mdash; class average ${avg}/10 across ${scores.length} rated album${scores.length !== 1 ? 's' : ''}` : ''}</div>
       </div>
       ${buildArchiveTable(completed)}
     </div>`;
@@ -1406,10 +1504,10 @@ function editSection(title, body, open=true) {
     <div class="edit-section-body${open ? '' : ' collapsed'}">${body}</div>
   </div>`;
 }
-function field(label, name, value='', type='text', hint='') {
+function field(label, name, value='', type='text', hint='', attrs='') {
   return `<div class="field-group">
     <label class="field-label" for="ef-${name}">${esc(label)}</label>
-    <input class="field-input" type="${type}" id="ef-${name}" name="${name}" value="${esc(value||'')}">
+    <input class="field-input" type="${type}" id="ef-${name}" name="${name}" value="${esc(value||'')}"${attrs ? ' ' + attrs : ''}>
     ${hint ? `<div class="field-hint">${esc(hint)}</div>` : ''}
   </div>`;
 }
@@ -1569,7 +1667,7 @@ function buildDiscussionEditor(a) {
 function buildResultsFields(a) {
   return `
     <div class="field-row">
-      ${field('Class Score (1–10)','classScore',a.classScore,'number')}
+      ${field('Class Score (1–10)','classScore',a.classScore,'number','','min="1" max="10" step="0.5"')}
       ${field('One-Word Reaction','oneWordReaction',a.oneWordReaction)}
     </div>
     ${field('Completed Date','completedDate',a.completedDate,'text','Example: October 15, 2025')}`;
@@ -1695,6 +1793,7 @@ function saveEdits(albumId) {
   };
 
   saveStoredEdits(id, edits);
+  EDIT_DIRTY = false;
   showToast('Edits saved!');
 }
 
@@ -1763,7 +1862,7 @@ function buildQuickEditFields(album, slideType) {
       return `<div class="field-group"><label class="field-label">Why They Matter (one per line)</label><textarea class="field-textarea" name="importance" style="min-height:160px">${(album.importance||[]).map(esc).join('\n')}</textarea></div>`;
     case 'discography': return buildDiscoEditor(album);
     case 'reaction':
-      return `${field('Class Score (1–10)','classScore',album.classScore,'number')}
+      return `${field('Class Score (1–10)','classScore',album.classScore,'number','','min="1" max="10" step="0.5"')}
               ${field('One-Word Reaction','oneWordReaction',album.oneWordReaction)}
               ${field('Completed Date','completedDate',album.completedDate)}
               ${buildDiscussionEditor(album)}`;
@@ -2197,7 +2296,21 @@ document.addEventListener('change', function(e) {
 // INPUT EVENTS
 // ============================================================
 function bindInputEvents() {
+  // Library search box — filters album cards in place
+  document.addEventListener('input', function(e) {
+    if (e.target.id === 'album-search') {
+      const q = e.target.value.trim().toLowerCase();
+      document.querySelectorAll('.album-card').forEach(card => {
+        card.style.display = !q || (card.dataset.search || '').includes(q) ? '' : 'none';
+      });
+      return;
+    }
+    // Any change inside the edit form marks it dirty
+    if (e.target.closest('#edit-form')) EDIT_DIRTY = true;
+  });
+
   document.addEventListener('change', function(e) {
+    if (e.target.closest('#edit-form')) EDIT_DIRTY = true;
     // Next-week album picker (inline dropdown on coming-next slide)
     const picker = e.target.closest('[data-action="set-next-week"]');
     if (picker) {
@@ -2231,9 +2344,20 @@ function bindInputEvents() {
 // ============================================================
 document.addEventListener('keydown', function(e) {
   if (['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) return;
-  if (!document.getElementById('modal-overlay')?.classList.contains('hidden')) return;
+  if (!document.getElementById('modal-overlay')?.classList.contains('hidden')) {
+    if (e.key === 'Escape') closeModal();
+    return;
+  }
 
   if (APP.view === 'presentation') {
+    // On the Class Reaction slide, number keys set the score (0 = 10)
+    if (/^[0-9]$/.test(e.key)) {
+      const album = getAlbum(APP.albumId);
+      if (album && getSlides(album)[APP.slideIndex] === 'reaction' && !album.classScore) {
+        setClassScore(APP.albumId, e.key === '0' ? '10' : e.key);
+        return;
+      }
+    }
     switch(e.key) {
       case 'ArrowRight': case 'ArrowDown': e.preventDefault(); nextSlide(); break;
       case 'ArrowLeft':  case 'ArrowUp':  e.preventDefault(); prevSlide(); break;
@@ -2249,12 +2373,18 @@ document.addEventListener('keydown', function(e) {
 // ============================================================
 // INITIALIZATION
 // ============================================================
-async function init() {
-  loadSettings();
+async function startApp() {
   await syncFromCloud();
   checkUrlHash();
   if (APP.view === 'home') navigate('home');
   else renderApp();
+}
+
+async function init() {
+  loadSettings();
+  bindInputEvents();   // document-level delegation — registered exactly once
+  if (!isUnlocked()) { buildGate(); return; }
+  await startApp();
 }
 
 document.addEventListener('DOMContentLoaded', init);
