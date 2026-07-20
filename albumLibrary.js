@@ -55741,7 +55741,7 @@ const albumLibrary = [
     "classScore": "",
     "oneWordReaction": "",
     "completedDate": "",
-    "nextWeekAlbumId": "",
+    "nextWeekAlbumId": "mc5-kick-out-the-jams",
     "nextWeekPreview": {
         "nextAlbum": {
             "title": "To Be Announced",
@@ -55758,5 +55758,10762 @@ const albumLibrary = [
             "studentTask": "Listen to a single disc alone and imagine the three other layers playing simultaneously."
         }
     }
+}
+,
+{
+  "id": "mc5-kick-out-the-jams",
+  "weekNumber": 180,
+  "title": "Kick Out the Jams",
+  "artist": "MC5",
+  "year": 1969,
+  "label": "Elektra",
+  "producer": "Jac Holzman, Bruce Botnick",
+  "artworkKey": "mc5-kick-out-the-jams",
+  "genres": [
+    "Proto-Punk",
+    "Hard Rock",
+    "Garage Rock"
+  ],
+  "theme": "What happens when a band decides a record should sound like a riot — recorded live in Detroit before punk had a name.",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "February 1969",
+  "originalLabel": "Elektra",
+  "artistCountry": "United States (Detroit, Michigan)",
+  "artistScene": "Proto-Punk · Detroit Rock · Counterculture",
+  "artistYearsActive": "1963 – 1972",
+  "artistOverview": "The MC5 were the loudest, most politically radical band of late-1960s Detroit, managed by activist John Sinclair and tied to the White Panther movement. Their debut was recorded live at the Grande Ballroom because no studio could capture their energy. They sold few records but practically invented punk rock's attitude.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Rob Tyner",
+      "role": "Vocals",
+      "years": "1964–1972",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Wayne Kramer",
+      "role": "Guitar",
+      "years": "1963–1972",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Fred Smith",
+      "role": "Guitar",
+      "years": "1963–1972",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Michael Davis",
+      "role": "Bass",
+      "years": "1964–1972",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dennis Thompson",
+      "role": "Drums",
+      "years": "1964–1972",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Chuck Berry",
+        "note": "The riff vocabulary underneath all the noise is pure Berry, played twice as fast.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "John Coltrane",
+        "note": "The band openly modeled their freak-out sections on free jazz.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "James Brown",
+        "note": "The live-show-as-event concept — sweat, call-and-response, no letup.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Clash",
+        "note": "Political rock delivered at maximum volume starts here.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Rage Against the Machine",
+        "note": "Covered 'Kick Out the Jams' — the direct descendants of the MC5's politics-plus-riffs formula.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The White Stripes",
+        "note": "Detroit garage revival that treated the MC5 as hometown scripture.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "The Stooges",
+        "note": "Their Ann Arbor sibling band — signed to Elektra on the same weekend."
+      },
+      {
+        "artist": "Blue Cheer",
+        "note": "The other 1968 band competing for loudest in America."
+      },
+      {
+        "artist": "Grand Funk Railroad",
+        "note": "Fellow Michigan hard rock, minus the politics."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Proto-Punk / Hard Rock",
+    "mood": "Explosive, chaotic, defiant, joyful",
+    "mainSounds": "Twin overdriven guitars, shouted vocals, crowd noise bleeding into everything",
+    "productionStyle": "Recorded live over two nights at Detroit's Grande Ballroom — the crowd is part of the record",
+    "energy": "Full throttle from the first second — the record barely breathes",
+    "keyIdea": "A live album as a debut was a radical statement: this band only truly existed on stage."
+  },
+  "icebreaker": {
+    "question": "Is a recording of a live show more 'real' than a studio album, or just messier? Which would you rather have from your favorite artist?",
+    "activity": "In pairs: name one concert (or live video) that changed how you felt about an artist. (2 min)"
+  },
+  "beforeYouListen": [
+    "This was recorded live at Detroit's Grande Ballroom on October 30–31, 1968 — no studio versions exist of most songs.",
+    "The band was managed by activist John Sinclair, who was later jailed for marijuana possession — John Lennon wrote a song demanding his release.",
+    "The title track's original spoken intro contained profanity that got the album pulled from stores — we're using the clean 'brothers and sisters' version.",
+    "Listen for the crowd: the audience is mixed as loud as the band on purpose."
+  ],
+  "importance": [
+    "Widely considered the first punk album — seven years before punk officially existed.",
+    "Proved a debut could be a live record — an almost unheard-of gamble in 1969.",
+    "Its censorship battle (a department store refused to stock it; the band took out an ad saying so) is an early landmark in rock-versus-retail fights.",
+    "Rolling Stone ranks it among the greatest live albums ever made."
+  ],
+  "historicalContext": "Recorded in October 1968, months after Detroit's 1967 uprising and during the most turbulent year of the decade — assassinations, riots at the Democratic Convention, Vietnam at its peak. The MC5 believed rock music was literally a revolutionary force, and this album is that belief pressed into vinyl.",
+  "bandDiscography": [
+    {
+      "title": "Kick Out the Jams",
+      "artist": "MC5",
+      "year": 1969,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Back in the USA",
+      "artist": "MC5",
+      "year": 1970,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "High Time",
+      "artist": "MC5",
+      "year": 1971,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "moderate",
+    "themes": "Revolutionary politics; the original intro contains one strong profanity — the clean version replaces it. Teacher should choose which pressing to play.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "Yes — the 'brothers and sisters' edit of the title track was the official single version.",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "Recorded in just two nights at the Grande Ballroom, blocks from where the band grew up.",
+    "Hudson's department store refused to sell it; Elektra dropped the band after they publicly attacked the store in an ad.",
+    "The phrase 'kick out the jams' meant 'stop jamming and play for real' — heckling other bands.",
+    "The 33⅓ book on Kick Out the Jams was written by Don McLeese (2005)."
+  ],
+  "tracklist": [
+    {
+      "title": "Ramblin' Rose",
+      "displayTitle": "Ramblin' Rose",
+      "duration": "4:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Wayne Kramer sings falsetto lead — a chaotic, funny opener."
+    },
+    {
+      "title": "Kick Out the Jams",
+      "displayTitle": "Kick Out the Jams",
+      "duration": "2:52",
+      "single": true,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Play the clean 'brothers and sisters' intro version in class — the original intro has strong profanity."
+    },
+    {
+      "title": "Come Together",
+      "displayTitle": "Come Together",
+      "duration": "4:47",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Not the Beatles song — released months before theirs."
+    },
+    {
+      "title": "Rocket Reducer No. 62 (Rama Lama Fa Fa Fa)",
+      "displayTitle": "Rocket Reducer No. 62 (Rama Lama Fa Fa Fa)",
+      "duration": "5:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Borderline",
+      "displayTitle": "Borderline",
+      "duration": "2:53",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Motor City Is Burning",
+      "displayTitle": "Motor City Is Burning",
+      "duration": "6:06",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "John Lee Hooker cover about the 1967 Detroit uprising — the political heart of the record."
+    },
+    {
+      "title": "I Want You Right Now",
+      "displayTitle": "I Want You Right Now",
+      "duration": "5:36",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Starship",
+      "displayTitle": "Starship",
+      "duration": "8:11",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Co-credited to Sun Ra — the free-jazz freak-out finale."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Kick Out the Jams",
+      "note": "Two and a half minutes that predict all of punk rock. Listen for how the guitars stay slightly out of control the whole time — that instability IS the sound."
+    },
+    {
+      "title": "Motor City Is Burning",
+      "note": "A blues cover turned into local reporting — the band watched their own city burn a year earlier. Listen for how the crowd responds to the Detroit references."
+    },
+    {
+      "title": "Starship",
+      "note": "The band collides with free jazz. Listen for the moment structure disappears entirely — is it still a song?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "41 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "Oct 30–31, 1968, Grande Ballroom, Detroit"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#30"
+    },
+    {
+      "label": "Rolling Stone Rank",
+      "value": "Among the greatest live albums ever"
+    }
+  ],
+  "discussionQuestions": [
+    "The MC5 believed rock music could cause a revolution. Was that naive, or did music like this actually change anything?",
+    "This album was banned from a major store for one word. Who should decide what music young people can buy — stores, parents, labels, or nobody?",
+    "The crowd noise is mixed as loud as the band. How does hearing an audience change the way you experience a recording?",
+    "Punk historians call this the first punk album even though it predates punk by seven years. Can a genre exist before it has a name?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "david-bowie-low",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Low",
+      "artist": "David Bowie",
+      "year": 1977,
+      "teaser": "Next week: Bowie flees fame and addiction to Berlin and makes half an album of songs, half an album of instrumental landscapes.",
+      "listenForQuestion": "What can music without words say that lyrics can't?"
+    },
+    "homeworkAlbum": {
+      "title": "The Stooges",
+      "artist": "The Stooges",
+      "year": 1969,
+      "reason": "The MC5's Ann Arbor sibling band, signed the same weekend — the other half of proto-punk's origin story.",
+      "studentTask": "Listen to 'I Wanna Be Your Dog' and compare its minimalism to the MC5's maximalism. Which approach feels more dangerous?"
+    }
+  },
+  "week": 180
+},
+{
+  "id": "david-bowie-low",
+  "weekNumber": 181,
+  "title": "Low",
+  "artist": "David Bowie",
+  "year": 1977,
+  "label": "RCA",
+  "producer": "David Bowie, Tony Visconti",
+  "artworkKey": "david-bowie-low",
+  "genres": [
+    "Art Rock",
+    "Electronic",
+    "Ambient"
+  ],
+  "theme": "An album split in two: one side of fractured pop songs, one side of wordless electronic landscapes — recovery turned into sound.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "January 14, 1977",
+  "originalLabel": "RCA",
+  "artistCountry": "United Kingdom",
+  "artistScene": "Art Rock · Electronic · Berlin Era",
+  "artistYearsActive": "1962 – 2016",
+  "artistOverview": "By 1976 David Bowie was the biggest and most burned-out star in rock, fleeing Los Angeles and cocaine addiction for Berlin. Working with Brian Eno and producer Tony Visconti, he made three albums there that traded stardom for experimentation. Low is the first and most radical — half its running time has no singing at all.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "David Bowie",
+      "role": "Vocals, Keyboards, Saxophone",
+      "years": "1962–2016",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Brian Eno",
+      "role": "Synthesizers, Treatments",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Carlos Alomar",
+      "role": "Guitar",
+      "years": "1974–1987",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "George Murray",
+      "role": "Bass",
+      "years": "1976–1980",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dennis Davis",
+      "role": "Drums",
+      "years": "1974–1980",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Tony Visconti",
+      "role": "Producer, Harmonized Drum Sound",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Kraftwerk",
+        "note": "The German electronic pioneers Bowie was obsessed with — he name-checks them constantly in this era.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Neu!",
+        "note": "The motorik krautrock pulse underneath side one's songs.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Brian Eno",
+        "note": "Eno's ambient ideas shaped side two's wordless landscapes.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Joy Division",
+        "note": "Originally named Warsaw — after this album's track 'Warszawa.'",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Radiohead",
+        "note": "Kid A's split between songs and textures follows Low's blueprint.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Nine Inch Nails",
+        "note": "Trent Reznor has called Low a foundational record for making emotion out of electronics.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Iggy Pop",
+        "note": "Bowie co-wrote and played on Iggy's The Idiot in the same Berlin period."
+      },
+      {
+        "artist": "Kraftwerk",
+        "note": "Trans-Europe Express came out two months after Low — the conversation went both ways."
+      },
+      {
+        "artist": "Brian Eno",
+        "note": "His solo ambient records are side two's closest relatives."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Art Rock / Electronic",
+    "mood": "Anxious, icy, healing, strangely hopeful",
+    "mainSounds": "Gated harmonized drums, analog synthesizers, fragmented vocals, treated guitars",
+    "productionStyle": "Visconti's pitch-shifted snare sound was so new other producers called the studio to ask how it was done",
+    "energy": "Side one twitches with nervous energy; side two slows to a glacial, meditative pace",
+    "keyIdea": "An artist at rock bottom doesn't write about recovery — he makes the sound of it."
+  },
+  "icebreaker": {
+    "question": "When you're going through something hard, do you want music with words that name the feeling, or music without words that just sounds like it?",
+    "activity": "In pairs: share one instrumental piece (game soundtrack, film score, lo-fi beats) that carries real emotion for you. (2 min)"
+  },
+  "beforeYouListen": [
+    "Bowie moved to Berlin in 1976 to escape fame and addiction — this is the first of three 'Berlin Trilogy' albums.",
+    "Side one is short, jittery pop songs; side two is four long instrumentals. It was designed to feel like two different records.",
+    "RCA hated it — one executive reportedly offered to buy Bowie a house in Philadelphia if he'd record soul music instead.",
+    "The drum sound on this album — huge, gated, pitch-dropped — was brand new in 1977 and got copied for a decade."
+  ],
+  "importance": [
+    "Redefined what a superstar was allowed to do at the peak of fame — retreat, experiment, go half-instrumental.",
+    "The Berlin Trilogy (Low, 'Heroes', Lodger) became the template for every 'difficult reinvention' album since.",
+    "Directly inspired the naming and sound of Joy Division and much of post-punk.",
+    "Philip Glass composed a full symphony (the 'Low' Symphony, 1992) from its themes."
+  ],
+  "historicalContext": "Recorded mostly in France and Berlin in late 1976, when Berlin was still a divided Cold War city — cheap, walled-in, and full of artists. Punk was exploding in London while Bowie, who had helped inspire it, was quietly building its aftermath: the electronic, atmospheric music that would become post-punk and new wave.",
+  "bandDiscography": [
+    {
+      "title": "Station to Station",
+      "artist": "David Bowie",
+      "year": 1976,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Low",
+      "artist": "David Bowie",
+      "year": 1977,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "\"Heroes\"",
+      "artist": "David Bowie",
+      "year": 1977,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Lodger",
+      "artist": "David Bowie",
+      "year": 1979,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Scary Monsters (and Super Creeps)",
+      "artist": "David Bowie",
+      "year": 1980,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "Addiction recovery is the album's backstory — worth framing carefully but nothing explicit in the music.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "The title and cover are a pun: Bowie in profile = 'low profile.'",
+    "'Sound and Vision' was a UK #3 hit despite the vocal not entering until halfway through the song.",
+    "'Warszawa' has lyrics in an invented language — Bowie wanted the sound of Eastern Europe, not the words.",
+    "The 33⅓ book on Low was written by Hugo Wilcken (2005)."
+  ],
+  "tracklist": [
+    {
+      "title": "Speed of Life",
+      "displayTitle": "Speed of Life",
+      "duration": "2:46",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "An instrumental OPENER — announcing immediately that words are optional here."
+    },
+    {
+      "title": "Breaking Glass",
+      "displayTitle": "Breaking Glass",
+      "duration": "1:51",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A whole song in under two minutes — fragments on purpose."
+    },
+    {
+      "title": "What in the World",
+      "displayTitle": "What in the World",
+      "duration": "2:23",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Sound and Vision",
+      "displayTitle": "Sound and Vision",
+      "duration": "3:03",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "UK #3. The vocal doesn't arrive until 1:30 — radical for a single."
+    },
+    {
+      "title": "Always Crashing in the Same Car",
+      "displayTitle": "Always Crashing in the Same Car",
+      "duration": "3:29",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A metaphor for repeating your own mistakes — the album's emotional thesis."
+    },
+    {
+      "title": "Be My Wife",
+      "displayTitle": "Be My Wife",
+      "duration": "2:55",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "A New Career in a New Town",
+      "displayTitle": "A New Career in a New Town",
+      "duration": "2:51",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Instrumental whose title says everything — the bridge between the album's two halves."
+    },
+    {
+      "title": "Warszawa",
+      "displayTitle": "Warszawa",
+      "duration": "6:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Side two begins. Joy Division took their first name from this track."
+    },
+    {
+      "title": "Art Decade",
+      "displayTitle": "Art Decade",
+      "duration": "3:43",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Weeping Wall",
+      "displayTitle": "Weeping Wall",
+      "duration": "3:26",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Bowie plays every instrument — about the Berlin Wall."
+    },
+    {
+      "title": "Subterraneans",
+      "displayTitle": "Subterraneans",
+      "duration": "5:39",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Saxophone fragments from Bowie's past drift through — memory as music."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Sound and Vision",
+      "note": "A hit single that makes you wait ninety seconds for the singer. Listen to how the synth and guitar carry the hook until the voice finally drops in — why does the waiting work?"
+    },
+    {
+      "title": "Warszawa",
+      "note": "Six minutes, invented language, no beat. Listen for how it creates a sense of place — gray, cold, vast — using only texture."
+    },
+    {
+      "title": "Always Crashing in the Same Car",
+      "note": "The lyric is one image: driving in circles, hitting the same wall. Listen for how the woozy guitar makes the words feel true."
+    },
+    {
+      "title": "Speed of Life",
+      "note": "Opening an album with an instrumental was a statement. What does this track 'say' with no words at all?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "38 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1976, Château d'Hérouville, France & Hansa, Berlin"
+    },
+    {
+      "label": "Chart Peak (UK)",
+      "value": "#2"
+    },
+    {
+      "label": "Rolling Stone Rank",
+      "value": "#206 / 500 Greatest Albums (2023)"
+    }
+  ],
+  "discussionQuestions": [
+    "Half this album has no words. Can instrumental music tell a story as clearly as lyrics can, or does the listener invent the story?",
+    "Bowie made this at the peak of his fame, knowing it might not sell. When is it worth risking an audience you already have?",
+    "Joy Division, Radiohead, and Nine Inch Nails all point back to this record. What makes an album more influential than popular?",
+    "The album's structure — jittery songs, then calm instrumentals — mirrors recovery from a crisis. Do you hear that arc when you listen?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "guns-n-roses-use-your-illusion-i-and-ii",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Use Your Illusion I & II",
+      "artist": "Guns N' Roses",
+      "year": 1991,
+      "teaser": "Next week: the biggest band in the world releases two albums on the same day — rock excess at its absolute peak.",
+      "listenForQuestion": "When does ambition become too much — and who gets to decide?"
+    },
+    "homeworkAlbum": {
+      "title": "Trans-Europe Express",
+      "artist": "Kraftwerk",
+      "year": 1977,
+      "reason": "The German electronic album Bowie was obsessed with while making Low — it even name-checks him.",
+      "studentTask": "Listen to the title track and note two sounds Bowie borrowed for Low's side two."
+    }
+  },
+  "week": 181
+},
+{
+  "id": "guns-n-roses-use-your-illusion-i-and-ii",
+  "weekNumber": 182,
+  "title": "Use Your Illusion I & II",
+  "artist": "Guns N' Roses",
+  "year": 1991,
+  "label": "Geffen",
+  "producer": "Mike Clink, Guns N' Roses",
+  "artworkKey": "guns-n-roses-use-your-illusion-i-and-ii",
+  "genres": [
+    "Hard Rock",
+    "Glam Metal",
+    "Rock"
+  ],
+  "theme": "Two albums, 30 songs, released the same midnight — the most extravagant bet in rock history, made by a band already falling apart.",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "September 17, 1991",
+  "originalLabel": "Geffen",
+  "artistCountry": "United States (Los Angeles, California)",
+  "artistScene": "Hard Rock · Sunset Strip · Arena Rock",
+  "artistYearsActive": "1985 – present",
+  "artistOverview": "After Appetite for Destruction became the best-selling debut in US history, Guns N' Roses spent four years making its follow-up — and released it as two separate double-length albums on the same day. Stores opened at midnight; both records entered the chart at #1 and #2. It was rock's last unchallenged blockbuster moment before Nirvana changed everything one week later.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Axl Rose",
+      "role": "Vocals, Piano",
+      "years": "1985–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Slash",
+      "role": "Lead Guitar",
+      "years": "1985–1996, 2016–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Izzy Stradlin",
+      "role": "Rhythm Guitar",
+      "years": "1985–1991",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Duff McKagan",
+      "role": "Bass",
+      "years": "1985–1997, 2016–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Matt Sorum",
+      "role": "Drums",
+      "years": "1990–1997",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dizzy Reed",
+      "role": "Keyboards",
+      "years": "1990–present",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Aerosmith",
+        "note": "The swagger-and-blues blueprint GN'R updated for the late '80s.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Queen",
+        "note": "November Rain and Estranged chase Bohemian Rhapsody-scale drama.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Elton John",
+        "note": "Axl's piano epics are open Elton homages — he inducted Elton into the Hall of Fame.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Buckcherry",
+        "note": "A generation of hard rock bands built on the GN'R template.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Avenged Sevenfold",
+        "note": "Modern arena metal that inherited the epic-ballad-plus-riffs formula.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Greta Van Fleet",
+        "note": "The ongoing revival of maximalist classic rock.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Metallica",
+        "note": "Their Black Album came out one month earlier — 1991's other giant."
+      },
+      {
+        "artist": "Aerosmith",
+        "note": "The elder statesmen GN'R toured with and imitated."
+      },
+      {
+        "artist": "Skid Row",
+        "note": "Sunset Strip peers riding the same wave."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Hard Rock / Arena Rock",
+    "mood": "Grandiose, angry, sentimental, sprawling",
+    "mainSounds": "Slash's singing lead guitar, Axl's multi-octave scream, pianos, orchestras, sirens — everything",
+    "productionStyle": "Maximalist: 30 songs, guest orchestras, nine-minute videos, no editing instinct whatsoever",
+    "energy": "Whiplash — punk-length rippers sit next to ten-minute piano epics",
+    "keyIdea": "What happens when a band gets so big that nobody can tell them 'no' anymore."
+  },
+  "icebreaker": {
+    "question": "Is 'too long' a real criticism of an album, movie, or game — or does more always equal more?",
+    "activity": "In pairs: pick an album or movie you love that everyone says is too long. Defend the length. (2 min)"
+  },
+  "beforeYouListen": [
+    "Both albums were released simultaneously at midnight on September 17, 1991 — stores stayed open and fans bought both.",
+    "They debuted at #1 and #2 on the Billboard chart, a feat never done before.",
+    "Nirvana's Nevermind came out SEVEN DAYS later and made all of this feel instantly old-fashioned.",
+    "We'll focus on the highlights — the full set is 30 songs and over two and a half hours."
+  ],
+  "importance": [
+    "The peak of rock maximalism — the biggest, longest, most expensive statement the genre ever made at once.",
+    "The videos for November Rain and Estranged were the most expensive ever filmed at the time.",
+    "Its release week is a historical hinge: seven days later, Nevermind arrived and the era ended.",
+    "Debuting at #1 and #2 simultaneously remains unique in chart history."
+  ],
+  "historicalContext": "September 1991 was the most consequential month in modern rock: Metallica's Black Album in August, Use Your Illusion on the 17th, Nirvana's Nevermind on the 24th. GN'R represented the old order at maximum scale — within a year, grunge made this kind of excess feel like ancient history.",
+  "bandDiscography": [
+    {
+      "title": "Appetite for Destruction",
+      "artist": "Guns N' Roses",
+      "year": 1987,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "G N' R Lies",
+      "artist": "Guns N' Roses",
+      "year": 1988,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Use Your Illusion I",
+      "artist": "Guns N' Roses",
+      "year": 1991,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Use Your Illusion II",
+      "artist": "Guns N' Roses",
+      "year": 1991,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Spaghetti Incident?",
+      "artist": "Guns N' Roses",
+      "year": 1993,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Chinese Democracy",
+      "artist": "Guns N' Roses",
+      "year": 2008,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "strong",
+    "themes": "Multiple tracks contain strong profanity, violence, and misogynistic language. This session uses a curated selection (November Rain, Civil War, Live and Let Die, Estranged, You Could Be Mine); do not play the full albums unscreened.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "No official clean versions of most tracks.",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "November Rain was the first video from before YouTube's founding to reach one billion views.",
+    "'Civil War' opens with a Cool Hand Luke quote and was the last song Izzy Stradlin recorded before quitting.",
+    "'You Could Be Mine' was the theme of Terminator 2, released the same summer.",
+    "The 33⅓ book on Use Your Illusion I & II was written by Eric Weisbard (2007)."
+  ],
+  "tracklist": [
+    {
+      "title": "Live and Let Die",
+      "displayTitle": "Live and Let Die",
+      "duration": "3:04",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Paul McCartney/Wings cover — Bond theme turned arena rock."
+    },
+    {
+      "title": "Don't Cry (Original)",
+      "displayTitle": "Don't Cry (Original)",
+      "duration": "4:44",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Released with different lyrics on each album — same song, two versions."
+    },
+    {
+      "title": "November Rain",
+      "displayTitle": "November Rain",
+      "duration": "8:57",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Nine minutes, full orchestra, the most expensive video ever made at the time. US #3."
+    },
+    {
+      "title": "The Garden",
+      "displayTitle": "The Garden",
+      "duration": "5:22",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Alice Cooper guest vocal."
+    },
+    {
+      "title": "Dead Horse",
+      "displayTitle": "Dead Horse",
+      "duration": "4:17",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Coma",
+      "displayTitle": "Coma",
+      "duration": "10:13",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Ten minutes with defibrillator sound effects — excess as art."
+    },
+    {
+      "title": "Civil War",
+      "displayTitle": "Civil War",
+      "duration": "7:42",
+      "single": true,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The band's most serious political statement — one mild profanity; screen before playing in full."
+    },
+    {
+      "title": "14 Years",
+      "displayTitle": "14 Years",
+      "duration": "4:21",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Izzy Stradlin lead vocal — the band's Stones side."
+    },
+    {
+      "title": "Yesterdays",
+      "displayTitle": "Yesterdays",
+      "duration": "3:16",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "displayTitle": "Knockin' on Heaven's Door",
+      "duration": "5:36",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Bob Dylan cover — compare with the 1973 original."
+    },
+    {
+      "title": "You Could Be Mine",
+      "displayTitle": "You Could Be Mine",
+      "duration": "5:43",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Terminator 2 theme — the band at their fastest."
+    },
+    {
+      "title": "Estranged",
+      "displayTitle": "Estranged",
+      "duration": "9:23",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The other nine-minute epic — its video featured Axl swimming with dolphins for reasons no one can explain."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "November Rain",
+      "note": "The last of the great maximalist power ballads. Listen for how it keeps topping itself — piano, then strings, then TWO guitar solos, then a completely new song bolted on at the end."
+    },
+    {
+      "title": "Civil War",
+      "note": "The band's conscience. Listen for the whistled melody and the quote that opens it — how does a party band earn the right to be serious?"
+    },
+    {
+      "title": "You Could Be Mine",
+      "note": "The lean, mean version of GN'R. Compare its 5:43 of momentum to November Rain's 8:57 of drama — same band, opposite instincts."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "76 min + 76 min (selections used in class)"
+    },
+    {
+      "label": "Recorded",
+      "value": "1990–91, A&M and Record Plant, Los Angeles"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#1 and #2 simultaneously"
+    },
+    {
+      "label": "Combined Sales",
+      "value": "35+ million worldwide"
+    }
+  ],
+  "discussionQuestions": [
+    "Nobody could tell this band 'no.' Find one moment on these albums that a good editor would have cut — and one that only exists because no editor was allowed near it.",
+    "Nevermind came out one week later and made this sound instantly dated. Why do cultural moments flip that fast?",
+    "Is releasing two albums at once generous to fans or just overwhelming? What would this release look like in the streaming era?",
+    "November Rain's video cost a fortune and made no literal sense. Does a music video need to explain its song?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "the-byrds-the-notorious-byrd-brothers",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "The Notorious Byrd Brothers",
+      "artist": "The Byrds",
+      "year": 1968,
+      "teaser": "Next week: a band literally falling apart mid-recording makes its most seamless, beautiful album.",
+      "listenForQuestion": "Can you hear conflict in music that sounds perfectly calm?"
+    },
+    "homeworkAlbum": {
+      "title": "Nevermind",
+      "artist": "Nirvana",
+      "year": 1991,
+      "reason": "Released seven days after Use Your Illusion — the album that ended the era we just studied. It's already in our library from Week 7.",
+      "studentTask": "Listen to 'Smells Like Teen Spirit' right after 'November Rain' and write one sentence on why 1991 audiences switched."
+    }
+  },
+  "week": 182
+},
+{
+  "id": "the-byrds-the-notorious-byrd-brothers",
+  "weekNumber": 183,
+  "title": "The Notorious Byrd Brothers",
+  "artist": "The Byrds",
+  "year": 1968,
+  "label": "Columbia",
+  "producer": "Gary Usher",
+  "artworkKey": "the-byrds-the-notorious-byrd-brothers",
+  "genres": [
+    "Psychedelic Rock",
+    "Folk Rock",
+    "Country Rock"
+  ],
+  "theme": "A band fired half its members while recording — and somehow produced its smoothest, most futuristic album.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "January 15, 1968",
+  "originalLabel": "Columbia",
+  "artistCountry": "United States (Los Angeles, California)",
+  "artistScene": "Folk Rock · Psychedelia · Proto-Country Rock",
+  "artistYearsActive": "1964 – 1973",
+  "artistOverview": "The Byrds invented folk-rock by electrifying Bob Dylan, then spent the rest of the 1960s inventing new genres almost annually. By this fifth album the band was disintegrating — David Crosby was fired mid-sessions, drummer Michael Clarke quit — yet the record they left behind flows like the work of a single mind.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Roger McGuinn",
+      "role": "Guitar, Vocals",
+      "years": "1964–1973",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Chris Hillman",
+      "role": "Bass, Vocals",
+      "years": "1964–1968",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "David Crosby",
+      "role": "Guitar, Vocals (fired mid-album)",
+      "years": "1964–1967",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Michael Clarke",
+      "role": "Drums",
+      "years": "1964–1967",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Bob Dylan",
+        "note": "The Byrds built their career on electrifying Dylan — 'Goin' Back' extends that instinct to Goffin/King.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Beatles",
+        "note": "The studio-as-instrument approach of Sgt. Pepper, answered from California.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Carole King",
+        "note": "Two Goffin/King songs anchor the album's gentleness.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Tom Petty",
+        "note": "Petty's entire jangle came from McGuinn's 12-string.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "R.E.M.",
+        "note": "The chiming-guitar blueprint for 1980s college rock.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Flying Burrito Brothers",
+        "note": "Hillman left the Byrds to co-found them — country-rock's next step.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Buffalo Springfield",
+        "note": "LA peers also splintering into new bands in 1968."
+      },
+      {
+        "artist": "The Beach Boys",
+        "note": "The other California band pushing studio experimentation."
+      },
+      {
+        "artist": "Crosby, Stills & Nash",
+        "note": "Where the fired Crosby landed next."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Psychedelic Folk Rock",
+    "mood": "Serene, wistful, quietly experimental",
+    "mainSounds": "12-string Rickenbacker, pedal steel, Moog synthesizer, seamless crossfades between songs",
+    "productionStyle": "Songs blend into each other with phasing and crossfades — one continuous 28-minute flow",
+    "energy": "Gentle and gliding — the turbulence is all beneath the surface",
+    "keyIdea": "The calmest-sounding album of 1968 was made by a band at war with itself."
+  },
+  "icebreaker": {
+    "question": "Have you ever done your best work with people you weren't getting along with? Why does that happen?",
+    "activity": "In pairs: name a group project that worked despite friction. What held it together? (2 min)"
+  },
+  "beforeYouListen": [
+    "David Crosby was fired halfway through recording — the famous cover shows the three remaining Byrds and a horse, which fans joked was Crosby's replacement.",
+    "At 28 minutes this is one of the shortest albums we'll hear all year.",
+    "It uses one of the first Moog synthesizers on a rock record.",
+    "Songs flow into each other without gaps — listen for the seams that aren't there."
+  ],
+  "importance": [
+    "A pioneering use of the studio to unify an album — crossfades, phasing, and sequencing as art.",
+    "One of the first rock albums to feature a Moog synthesizer.",
+    "'Wasn't Born to Follow' became a counterculture anthem via the film Easy Rider.",
+    "The bridge between the Byrds' folk-rock past and the country-rock future they invented next."
+  ],
+  "historicalContext": "Recorded in late 1967 as psychedelia peaked and the Summer of Love curdled. The Vietnam draft haunts 'Draft Morning' — written by Crosby, finished without him after his firing. Within a year, the remaining Byrds would pivot to pure country and change American rock again.",
+  "bandDiscography": [
+    {
+      "title": "Mr. Tambourine Man",
+      "artist": "The Byrds",
+      "year": 1965,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Turn! Turn! Turn!",
+      "artist": "The Byrds",
+      "year": 1965,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Fifth Dimension",
+      "artist": "The Byrds",
+      "year": 1966,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Younger Than Yesterday",
+      "artist": "The Byrds",
+      "year": 1967,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Notorious Byrd Brothers",
+      "artist": "The Byrds",
+      "year": 1968,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Sweetheart of the Rodeo",
+      "artist": "The Byrds",
+      "year": 1968,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "'Artificial Energy' alludes to amphetamines and 'Draft Morning' to the Vietnam draft — both are discussable historical context.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "The album cover's horse became rock's most famous inside joke about a fired bandmate (the band denied it — mostly).",
+    "'Goin' Back' and 'Wasn't Born to Follow' are both Goffin/King songs — the Brill Building meets psychedelia.",
+    "'Draft Morning' was Crosby's song, finished by the band after firing him — he was furious.",
+    "The 33⅓ book on The Notorious Byrd Brothers was written by Ric Menck (2007)."
+  ],
+  "tracklist": [
+    {
+      "title": "Artificial Energy",
+      "displayTitle": "Artificial Energy",
+      "duration": "2:18",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Horn-driven opener about amphetamines — brighter than its subject."
+    },
+    {
+      "title": "Goin' Back",
+      "displayTitle": "Goin' Back",
+      "duration": "3:26",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Goffin/King song about holding onto childhood — US #89."
+    },
+    {
+      "title": "Natural Harmony",
+      "displayTitle": "Natural Harmony",
+      "duration": "2:11",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Draft Morning",
+      "displayTitle": "Draft Morning",
+      "duration": "2:42",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A draftee's morning routine, with battle sounds mid-song — quiet anti-war statement."
+    },
+    {
+      "title": "Wasn't Born to Follow",
+      "displayTitle": "Wasn't Born to Follow",
+      "duration": "2:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Featured in Easy Rider (1969) — the album's most famous track."
+    },
+    {
+      "title": "Get to You",
+      "displayTitle": "Get to You",
+      "duration": "2:39",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Change Is Now",
+      "displayTitle": "Change Is Now",
+      "duration": "3:21",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The album's thesis statement in a title."
+    },
+    {
+      "title": "Old John Robertson",
+      "displayTitle": "Old John Robertson",
+      "duration": "1:49",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Country fiddle meets string quartet — the future arriving early."
+    },
+    {
+      "title": "Tribal Gathering",
+      "displayTitle": "Tribal Gathering",
+      "duration": "2:03",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Jazz 5/4 section — Crosby's fingerprints."
+    },
+    {
+      "title": "Dolphin's Smile",
+      "displayTitle": "Dolphin's Smile",
+      "duration": "2:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Space Odyssey",
+      "displayTitle": "Space Odyssey",
+      "duration": "3:52",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Moog-driven closer inspired by the Arthur C. Clarke story that became 2001."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Wasn't Born to Follow",
+      "note": "Two minutes of jangling certainty. Listen for the phased middle section — the sound of 1968 deciding what freedom sounds like."
+    },
+    {
+      "title": "Draft Morning",
+      "note": "The gentlest anti-war song of its era. Listen for the battlefield sounds that interrupt the calm — and how the calm returns anyway."
+    },
+    {
+      "title": "Goin' Back",
+      "note": "A song about refusing to grow up, sung by a band growing apart. Listen for the pedal steel — country music sneaking into psychedelia."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "28 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "Jun–Dec 1967, Columbia Studios, Hollywood"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#47 (UK #12)"
+    },
+    {
+      "label": "Rolling Stone Rank",
+      "value": "#171 / 500 Greatest Albums (2003 list)"
+    }
+  ],
+  "discussionQuestions": [
+    "This serene album was made by a band firing its members. Does knowing the backstory change how the music sounds to you?",
+    "At 28 minutes, it's shorter than many EPs today. Is there a 'right' length for an album?",
+    "The songs crossfade into one another — you can't easily pull out one track. How does that change how you listen, compared to a playlist?",
+    "The Byrds reinvented their sound almost every album. Is constant reinvention braver or riskier than consistency?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "celine-dion-lets-talk-about-love",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Let's Talk About Love",
+      "artist": "Celine Dion",
+      "year": 1997,
+      "teaser": "Next week: the most critically mocked blockbuster of the '90s — and the famous book that asked whether the critics were simply wrong.",
+      "listenForQuestion": "Why do we call some music a 'guilty' pleasure — who decides the guilt?"
+    },
+    "homeworkAlbum": {
+      "title": "Sweetheart of the Rodeo",
+      "artist": "The Byrds",
+      "year": 1968,
+      "reason": "The very next Byrds album — the one where they went full country and invented country-rock.",
+      "studentTask": "Listen to 'Hickory Wind' and note one way it grows out of this week's 'Old John Robertson.'"
+    }
+  },
+  "week": 183
+},
+{
+  "id": "celine-dion-lets-talk-about-love",
+  "weekNumber": 184,
+  "title": "Let's Talk About Love",
+  "artist": "Celine Dion",
+  "year": 1997,
+  "label": "Epic / 550 Music",
+  "producer": "David Foster, Walter Afanasieff, Ric Wake, others",
+  "artworkKey": "celine-dion-lets-talk-about-love",
+  "genres": [
+    "Pop",
+    "Adult Contemporary"
+  ],
+  "theme": "The album critics loved to hate and 31 million people bought — this week is really about taste itself: who decides what's good?",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "November 14, 1997",
+  "originalLabel": "Epic / 550 Music",
+  "artistCountry": "Canada (Charlemagne, Quebec)",
+  "artistScene": "Pop · Adult Contemporary · Power Ballad",
+  "artistYearsActive": "1981 – present",
+  "artistOverview": "Celine Dion grew up the youngest of fourteen children in small-town Quebec and became the best-selling Canadian artist in history. By 1997 she was a global phenomenon critics dismissed as schmaltz — which is exactly why the 33⅓ book about this album became the series' most famous: it asks whether the critics, not Celine, had the problem.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Celine Dion",
+      "role": "Vocals",
+      "years": "1981–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "David Foster",
+      "role": "Producer",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Walter Afanasieff",
+      "role": "Producer",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Barbra Streisand",
+        "note": "The template for the technically flawless pop diva — they duet on this album.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Whitney Houston",
+        "note": "The vocal-powerhouse ballad tradition Dion inherited.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Bee Gees",
+        "note": "Wrote the title track and sing on it.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Adele",
+        "note": "The direct heir to the big-voice, big-feelings global ballad.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Ariana Grande",
+        "note": "Has repeatedly cited and imitated Dion's technique since childhood.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Lady Gaga",
+        "note": "The theatrical torch-song tradition runs through Dion.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Whitney Houston",
+        "note": "Her chart rival in the diva-ballad era."
+      },
+      {
+        "artist": "Mariah Carey",
+        "note": "The third pillar of '90s vocal-diva pop."
+      },
+      {
+        "artist": "Shania Twain",
+        "note": "Fellow Canadian selling tens of millions in the same years."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Pop / Adult Contemporary",
+    "mood": "Grand, earnest, romantic, unembarrassed",
+    "mainSounds": "That voice, pianos, orchestras, gospel choirs, immaculate late-'90s studio polish",
+    "productionStyle": "Multiple A-list producers, recorded across four countries, zero rough edges anywhere",
+    "energy": "Builds from intimate verses to skyscraper choruses, over and over — the power-ballad engine",
+    "keyIdea": "Millions of people find real meaning in music critics call corny. The 33⅓ book asks: what if sincerity is the point, not the flaw?"
+  },
+  "icebreaker": {
+    "question": "Name something you genuinely love that you'd hesitate to admit loving. Why the hesitation — and whose judgment are you afraid of?",
+    "activity": "In pairs: each person defends one so-called 'guilty pleasure' with a straight face for 30 seconds. No irony allowed. (2 min)"
+  },
+  "beforeYouListen": [
+    "This album sold over 31 million copies — one of the best-selling albums ever — while receiving some of the harshest reviews of the decade.",
+    "The 33⅓ book about it, Carl Wilson's 'Let's Talk About Love: A Journey to the End of Taste,' became the most famous book in the whole series — it's about why we sneer at other people's favorite music.",
+    "'My Heart Will Go On' from Titanic is here — the best-selling single by a female artist in history at the time.",
+    "Guests include the Bee Gees, Barbra Streisand, and Luciano Pavarotti — the album is a summit meeting of 'uncool' greatness."
+  ],
+  "importance": [
+    "One of the best-selling albums of all time (31+ million copies).",
+    "'My Heart Will Go On' won the Oscar, four Grammys, and became a generational touchstone.",
+    "Carl Wilson's 33⅓ book about it changed music criticism — it's assigned in college courses about taste and class.",
+    "A perfect case study in the gap between critical and popular judgment."
+  ],
+  "historicalContext": "Released at the end of 1997, weeks before Titanic became the biggest film ever. While critics championed lo-fi indie and electronica, the mass audience embraced this — the divide between 'critic taste' and 'popular taste' was never wider, which is exactly what makes this album worth studying.",
+  "bandDiscography": [
+    {
+      "title": "The Colour of My Love",
+      "artist": "Celine Dion",
+      "year": 1993,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "D'eux",
+      "artist": "Celine Dion",
+      "year": 1995,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Falling into You",
+      "artist": "Celine Dion",
+      "year": 1996,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Let's Talk About Love",
+      "artist": "Celine Dion",
+      "year": 1997,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "These Are Special Times",
+      "artist": "Celine Dion",
+      "year": 1998,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "A New Day Has Come",
+      "artist": "Celine Dion",
+      "year": 2002,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Celine recorded the 'My Heart Will Go On' demo in one take — that demo vocal is the released version.",
+    "She initially didn't want to record the song at all; her manager-husband René talked her into it.",
+    "The Pavarotti duet 'I Hate You Then I Love You' pairs pop's biggest voice with opera's.",
+    "The 33⅓ book was written by Carl Wilson (2007) — later expanded into a full edition with essays by Nick Hornby and others."
+  ],
+  "tracklist": [
+    {
+      "title": "The Reason",
+      "displayTitle": "The Reason",
+      "duration": "5:01",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Co-written by Carole King, produced by George Martin — the Beatles' producer's late-career work."
+    },
+    {
+      "title": "Immortality",
+      "displayTitle": "Immortality",
+      "duration": "4:11",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Written by and featuring the Bee Gees."
+    },
+    {
+      "title": "Treat Her Like a Lady",
+      "displayTitle": "Treat Her Like a Lady",
+      "duration": "4:04",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Reggae-pop with Diana King — the album's most surprising left turn."
+    },
+    {
+      "title": "Why Oh Why",
+      "displayTitle": "Why Oh Why",
+      "duration": "4:56",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Love Is on the Way",
+      "displayTitle": "Love Is on the Way",
+      "duration": "4:26",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Tell Him",
+      "displayTitle": "Tell Him",
+      "duration": "4:51",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Duet with Barbra Streisand — two generations of the same tradition."
+    },
+    {
+      "title": "Amar Haciendo el Amor",
+      "displayTitle": "Amar Haciendo el Amor",
+      "duration": "3:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Spanish-language track — Dion sings in five languages across her career."
+    },
+    {
+      "title": "When I Need You",
+      "displayTitle": "When I Need You",
+      "duration": "4:13",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Leo Sayer cover."
+    },
+    {
+      "title": "Miles to Go (Before I Sleep)",
+      "displayTitle": "Miles to Go (Before I Sleep)",
+      "duration": "4:49",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Title borrows from the Robert Frost poem."
+    },
+    {
+      "title": "Us",
+      "displayTitle": "Us",
+      "duration": "5:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Just a Little Bit of Love",
+      "displayTitle": "Just a Little Bit of Love",
+      "duration": "4:15",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "My Heart Will Go On",
+      "displayTitle": "My Heart Will Go On",
+      "duration": "4:40",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The Titanic theme. US #1, Oscar winner, one of the best-selling singles ever."
+    },
+    {
+      "title": "Where Is the Love",
+      "displayTitle": "Where Is the Love",
+      "duration": "4:17",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Be the Man",
+      "displayTitle": "Be the Man",
+      "duration": "4:36",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "I Hate You Then I Love You",
+      "displayTitle": "I Hate You Then I Love You",
+      "duration": "4:03",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Duet with Luciano Pavarotti."
+    },
+    {
+      "title": "Let's Talk About Love",
+      "displayTitle": "Let's Talk About Love",
+      "duration": "5:12",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Title track co-written by the Bee Gees."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "My Heart Will Go On",
+      "note": "You've heard it a thousand times — now actually listen. The tin whistle intro, the key change, the held final note: every device is engineered for maximum feeling. Is engineering emotion cheating, or craft?"
+    },
+    {
+      "title": "Tell Him",
+      "note": "Streisand and Dion trading verses is a masterclass in two schools of technique. Listen for who holds back and who pushes — and when."
+    },
+    {
+      "title": "The Reason",
+      "note": "Carole King wrote it, George Martin produced it. Listen for the craftsmanship underneath the gloss — this is the Brill Building tradition, thirty years on."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "72 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1997 — London, New York, Los Angeles"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#1"
+    },
+    {
+      "label": "Sales",
+      "value": "31+ million worldwide"
+    }
+  ],
+  "discussionQuestions": [
+    "Critics savaged this album; 31 million people bought it. When critics and the public disagree this hard, who's wrong?",
+    "Carl Wilson's book argues we use music taste to signal what kind of person we are. What does your playlist 'say' about you — and is that fair?",
+    "Is there a difference between a song being manipulative and a song being effective? Where's the line?",
+    "Would you judge this album differently if it were sung by a critically cool artist? Be honest."
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "tom-waits-swordfishtrombones",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Swordfishtrombones",
+      "artist": "Tom Waits",
+      "year": 1983,
+      "teaser": "Next week: a barroom crooner torches his own career and rebuilds it out of junkyard percussion and carnival organs.",
+      "listenForQuestion": "What does it cost an artist to completely change their sound?"
+    },
+    "homeworkAlbum": {
+      "title": "Falling into You",
+      "artist": "Celine Dion",
+      "year": 1996,
+      "reason": "The album right before this one — same formula, same scale, same critical shrug.",
+      "studentTask": "Listen to 'It's All Coming Back to Me Now' and decide: is this song ridiculous, magnificent, or both at once?"
+    }
+  },
+  "week": 184
+},
+{
+  "id": "tom-waits-swordfishtrombones",
+  "weekNumber": 185,
+  "title": "Swordfishtrombones",
+  "artist": "Tom Waits",
+  "year": 1983,
+  "label": "Island",
+  "producer": "Tom Waits",
+  "artworkKey": "tom-waits-swordfishtrombones",
+  "genres": [
+    "Experimental Rock",
+    "Blues",
+    "Avant-Garde"
+  ],
+  "theme": "A successful artist burns down his own formula — trading piano ballads for junkyard clatter — and finds his real voice at 33.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "September 1, 1983",
+  "originalLabel": "Island",
+  "artistCountry": "United States (Pomona, California)",
+  "artistScene": "Avant-Blues · Junkyard Orchestra · Beat Poetry",
+  "artistYearsActive": "1972 – present",
+  "artistOverview": "Through the 1970s Tom Waits was a gravel-voiced barroom balladeer with a reliable formula. Then he married playwright Kathleen Brennan, fired his producer, and rebuilt his music from scratch — marimbas, bagpipes, brake drums, shouted sea-shanty vocals. Swordfishtrombones is the pivot: the moment an artist chose strangeness over safety and won.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Tom Waits",
+      "role": "Vocals, Piano, Organ, Songwriter",
+      "years": "1972–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Kathleen Brennan",
+      "role": "Creative Partner, Co-writer (uncredited here, essential everywhere)",
+      "years": "1980–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Victor Feldman",
+      "role": "Percussion, Marimba",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Larry Taylor",
+      "role": "Bass",
+      "years": "session",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Captain Beefheart",
+        "note": "The permission slip for clattering, broken-sounding blues.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Harry Partch",
+        "note": "The composer who built his own instruments — Waits borrowed the junkyard-orchestra idea.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Kurt Weill",
+        "note": "German theater songs — the carnival-cabaret flavor throughout.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Nick Cave & The Bad Seeds",
+        "note": "The literary junkyard-gospel template.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "PJ Harvey",
+        "note": "Has repeatedly cited Waits' reinvention as the model for hers.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Gorillaz",
+        "note": "Damon Albarn's percussion-forward character songs owe this record plenty.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Captain Beefheart",
+        "note": "The wilder ancestor — we studied Trout Mask Replica earlier."
+      },
+      {
+        "artist": "Nick Cave & The Bad Seeds",
+        "note": "Murder Ballads is in our library — same swampy theater."
+      },
+      {
+        "artist": "Leonard Cohen",
+        "note": "Fellow gravel-voiced poet, straighter musical path."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Experimental Blues / Avant-Rock",
+    "mood": "Carnival-dark, funny, haunted, humid",
+    "mainSounds": "Marimba, pump organ, brake drums, baritone horn, Waits' six different voices",
+    "productionStyle": "Self-produced for the first time — recorded close and dry, like the band is in your kitchen",
+    "energy": "Lurching and theatrical — every song is a different little play",
+    "keyIdea": "Reinvention isn't changing your clothes — it's changing your instruments, your voice, and your whole idea of pretty."
+  },
+  "icebreaker": {
+    "question": "If you had a talent people already paid you for, would you risk it all to try something completely different? What would make it worth it?",
+    "activity": "In pairs: name an artist (music, film, sports, anything) who successfully reinvented themselves. What did they keep? (2 min)"
+  },
+  "beforeYouListen": [
+    "Waits' record label rejected this album — he left Asylum for Island Records to release it.",
+    "His new wife Kathleen Brennan introduced him to Captain Beefheart's music and told him his old formula was boring — he agrees she saved his career.",
+    "Instruments on this record include brake drums, a glass harmonica, and a Chamberlin — listen for sounds you can't name.",
+    "This begins a trilogy (with Rain Dogs and Franks Wild Years) that critics rank among the great reinventions in music."
+  ],
+  "importance": [
+    "One of the most celebrated artistic reinventions in popular music history.",
+    "Proved 'difficult' music could sustain a major career — Waits never went back and never flopped.",
+    "Its junkyard-percussion aesthetic echoes through Nick Cave, PJ Harvey, and countless indie artists.",
+    "A songwriting masterclass: character studies compressed into two-minute scenes."
+  ],
+  "historicalContext": "Released in 1983, the year of Thriller and synth-pop gloss — and this record sounds like it was carved out of a shipwreck on purpose. While MTV polished everything, Waits went the other way, betting that texture, character, and strangeness would outlast fashion. He was right.",
+  "bandDiscography": [
+    {
+      "title": "Closing Time",
+      "artist": "Tom Waits",
+      "year": 1973,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Heart of Saturday Night",
+      "artist": "Tom Waits",
+      "year": 1974,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Small Change",
+      "artist": "Tom Waits",
+      "year": 1976,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Heartattack and Vine",
+      "artist": "Tom Waits",
+      "year": 1980,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Swordfishtrombones",
+      "artist": "Tom Waits",
+      "year": 1983,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Rain Dogs",
+      "artist": "Tom Waits",
+      "year": 1985,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Franks Wild Years",
+      "artist": "Tom Waits",
+      "year": 1987,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "mild",
+    "themes": "'Frank's Wild Years' deadpans about burning down a house; barroom imagery throughout — nothing graphic.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Waits' label boss reportedly asked him to make it 'more normal'; Waits changed labels instead.",
+    "'In the Neighborhood' got a black-and-white parade video — Waits as a tuba-led funeral marshal.",
+    "The title is a made-up compound word — Waits liked how instruments sound when you weld their names together.",
+    "The 33⅓ book on Swordfishtrombones was written by David Smay (2008)."
+  ],
+  "tracklist": [
+    {
+      "title": "Underground",
+      "displayTitle": "Underground",
+      "duration": "1:58",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Stomping opener about a world beneath the floorboards — later used in the movie Robots."
+    },
+    {
+      "title": "Shore Leave",
+      "displayTitle": "Shore Leave",
+      "duration": "4:12",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A sailor's homesick postcard — listen for the marimba and distant thunder."
+    },
+    {
+      "title": "Dave the Butcher",
+      "displayTitle": "Dave the Butcher",
+      "duration": "2:18",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Instrumental carnival nightmare on pump organ."
+    },
+    {
+      "title": "Johnsburg, Illinois",
+      "displayTitle": "Johnsburg, Illinois",
+      "duration": "1:30",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A 90-second love song for Kathleen — the old Waits, kept as proof he still could."
+    },
+    {
+      "title": "16 Shells from a Thirty-Ought-Six",
+      "displayTitle": "16 Shells from a Thirty-Ought-Six",
+      "duration": "4:30",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Percussion made of brake drums — the new sound at full strength."
+    },
+    {
+      "title": "Town with No Cheer",
+      "displayTitle": "Town with No Cheer",
+      "duration": "4:22",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "An Australian town loses its only bar — bagpipes included."
+    },
+    {
+      "title": "In the Neighborhood",
+      "displayTitle": "In the Neighborhood",
+      "duration": "3:04",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Brass-band waltz about an ordinary street — the album's warmest moment."
+    },
+    {
+      "title": "Just Another Sucker on the Vine",
+      "displayTitle": "Just Another Sucker on the Vine",
+      "duration": "1:42",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Instrumental — Fellini-movie music."
+    },
+    {
+      "title": "Frank's Wild Years",
+      "displayTitle": "Frank's Wild Years",
+      "duration": "1:50",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Spoken-word noir over cocktail organ — grew into an entire album and stage play."
+    },
+    {
+      "title": "Swordfishtrombone",
+      "displayTitle": "Swordfishtrombone",
+      "duration": "3:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Down, Down, Down",
+      "displayTitle": "Down, Down, Down",
+      "duration": "2:10",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Soldier's Things",
+      "displayTitle": "Soldier's Things",
+      "duration": "3:15",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A dead soldier's belongings sold at a yard sale — one of the great quiet anti-war songs."
+    },
+    {
+      "title": "Gin Soaked Boy",
+      "displayTitle": "Gin Soaked Boy",
+      "duration": "2:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Trouble's Braids",
+      "displayTitle": "Trouble's Braids",
+      "duration": "1:18",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Rainbirds",
+      "displayTitle": "Rainbirds",
+      "duration": "3:05",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Gentle instrumental closer — the storm passes."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "16 Shells from a Thirty-Ought-Six",
+      "note": "The new Waits in one track. Listen to the percussion — those are literal pieces of cars. Why does 'wrong' equipment sound so right?"
+    },
+    {
+      "title": "Soldier's Things",
+      "note": "A yard sale as a eulogy. Listen for what the objects tell you that the narrator won't say out loud."
+    },
+    {
+      "title": "Frank's Wild Years",
+      "note": "A two-minute short story, deadpan over lounge organ. Where's the line between song and storytelling?"
+    },
+    {
+      "title": "Johnsburg, Illinois",
+      "note": "Ninety seconds of the old, pretty Waits — placed here on purpose. Why keep one traditional ballad on a revolution of an album?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "42 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1982–83, Sunset Sound, Hollywood"
+    },
+    {
+      "label": "Chart Peak (UK)",
+      "value": "#62 (US #167)"
+    },
+    {
+      "label": "Rolling Stone Rank",
+      "value": "#374 / 500 Greatest Albums (2020 list)"
+    }
+  ],
+  "discussionQuestions": [
+    "Waits says his wife told him his old music had become a costume. How do you know when a style you're good at has become a trap?",
+    "This album charted far lower than his older work but is now considered his breakthrough. How should we measure whether a risk 'worked'?",
+    "The instruments here are deliberately 'wrong' — brake drums, pump organs, bagpipes. When does wrong become a style?",
+    "Compare this reinvention with Bowie's Low from two weeks ago. What do successful reinventions have in common?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "throbbing-gristle-20-jazz-funk-greats",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "20 Jazz Funk Greats",
+      "artist": "Throbbing Gristle",
+      "year": 1979,
+      "teaser": "Next week: the band that invented 'industrial music' releases its most approachable album — which is still one of the strangest records ever made.",
+      "listenForQuestion": "Can music be interesting even when it refuses to be enjoyable?"
+    },
+    "homeworkAlbum": {
+      "title": "Rain Dogs",
+      "artist": "Tom Waits",
+      "year": 1985,
+      "reason": "The next album in Waits' reinvention trilogy — the one most critics call his masterpiece.",
+      "studentTask": "Listen to 'Time' and 'Singapore' — one gentle, one chaotic — and note which side of Swordfishtrombones each grew from."
+    }
+  },
+  "week": 185
+},
+{
+  "id": "throbbing-gristle-20-jazz-funk-greats",
+  "weekNumber": 186,
+  "title": "20 Jazz Funk Greats",
+  "artist": "Throbbing Gristle",
+  "year": 1979,
+  "label": "Industrial Records",
+  "producer": "Throbbing Gristle",
+  "artworkKey": "throbbing-gristle-20-jazz-funk-greats",
+  "genres": [
+    "Industrial",
+    "Electronic",
+    "Experimental"
+  ],
+  "theme": "The inventors of industrial music make a fake easy-listening album — a study in irony, provocation, and the outer limits of what counts as music.",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "December 1979",
+  "originalLabel": "Industrial Records",
+  "artistCountry": "United Kingdom (London)",
+  "artistScene": "Industrial · Electronic · Performance Art",
+  "artistYearsActive": "1975 – 1981, reunions later",
+  "artistOverview": "Throbbing Gristle emerged from the confrontational performance-art group COUM Transmissions and coined the term 'industrial music' with their own label, Industrial Records. Their work was deliberately abrasive and provocative — this, their third album, wrapped that provocation in a deadpan parody of easy-listening records, down to its cheerful title and pastoral cover photo taken at a cliff notorious as a suicide spot.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Genesis P-Orridge",
+      "role": "Vocals, Bass, Violin",
+      "years": "1975–1981",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Cosey Fanni Tutti",
+      "role": "Guitar, Cornet",
+      "years": "1975–1981",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Peter Christopherson",
+      "role": "Tapes, Electronics",
+      "years": "1975–1981",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Chris Carter",
+      "role": "Synthesizers, Rhythm Programming",
+      "years": "1975–1981",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Kraftwerk",
+        "note": "The machine-rhythm foundation, twisted toward unease.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "William S. Burroughs",
+        "note": "The cut-up method and transgressive stance came from the Beat author, a personal contact of the band.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Martin Denny",
+        "note": "The exotica bandleader this album ironically imitates — 'Exotica' is a direct nod.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Nine Inch Nails",
+        "note": "All industrial music descends from TG's label and name.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Aphex Twin",
+        "note": "The uneasy ambient-electronic lineage runs through this record.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Depeche Mode",
+        "note": "Dark electronic pop owes TG's synth textures more than it admits.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Cabaret Voltaire",
+        "note": "Sheffield contemporaries on the same industrial frontier."
+      },
+      {
+        "artist": "Suicide",
+        "note": "New York's parallel two-man confrontation unit."
+      },
+      {
+        "artist": "Chris & Cosey",
+        "note": "Half of TG, continuing the electronic thread after the split."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Industrial / Experimental Electronic",
+    "mood": "Uneasy, ironic, seductive, cold",
+    "mainSounds": "Analog synths, drum machines, treated cornet, whispered vocals, tape effects",
+    "productionStyle": "Self-recorded at their own 'Death Factory' studio on gear they modified themselves",
+    "energy": "Restrained and simmering — the menace is in what's held back",
+    "keyIdea": "An album can be a concept prank: the title, cover, and muzak-parody surface are all part of the artwork."
+  },
+  "icebreaker": {
+    "question": "Can something be art specifically BECAUSE it makes you uncomfortable? Where do you personally draw the line?",
+    "activity": "In pairs: name one piece of art, film, or music that unsettled you but stuck with you. Why did it stick? (2 min)"
+  },
+  "beforeYouListen": [
+    "The title and cover parody cheap easy-listening compilations — there is no jazz and no funk here.",
+    "The cover was shot at Beachy Head, a cliff infamous in Britain — the pretty picture is the album's darkest joke.",
+    "Throbbing Gristle coined the term 'industrial music' — their label was literally called Industrial Records.",
+    "We're listening to selected tracks — several songs on this album deal with genuinely disturbing subject matter, and that's part of what we'll discuss."
+  ],
+  "importance": [
+    "Named and founded an entire genre — industrial — whose descendants fill stadiums.",
+    "Pioneered the idea of the album as total concept: title, artwork, and packaging as one ironic artwork.",
+    "'Hot on the Heels of Love' anticipated techno and electroclash by two decades.",
+    "A cornerstone text for debates about art, provocation, and taste."
+  ],
+  "historicalContext": "By 1979 punk had become a formula, and Throbbing Gristle considered themselves past it — they were performance artists using the record industry as their medium. Thatcher's Britain, Cold War dread, and cheap synthesizers converged into music about surveillance, control, and desire that pop wouldn't touch.",
+  "bandDiscography": [
+    {
+      "title": "The Second Annual Report",
+      "artist": "Throbbing Gristle",
+      "year": 1977,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "D.o.A: The Third and Final Report",
+      "artist": "Throbbing Gristle",
+      "year": 1978,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "20 Jazz Funk Greats",
+      "artist": "Throbbing Gristle",
+      "year": 1979,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Heathen Earth",
+      "artist": "Throbbing Gristle",
+      "year": 1980,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "mild",
+    "themes": "Significant: 'Persuasion' portrays a coercive, predatory narrator; the band's wider catalog and history include extreme transgressive content. Pre-screen everything; recommend teaching from 'Hot on the Heels of Love,' 'Walkabout,' 'Exotica,' and the title track only.",
+    "artworkConcern": "Cover location (Beachy Head) has suicide associations — worth knowing before discussing the irony.",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "The band pressed the album on their own label with fake 'greatest hits' packaging to confuse record shops.",
+    "Chris Carter built or modified most of the electronics — the 'Gristleizer' effect unit is now manufactured commercially.",
+    "The pastoral cover photo included a hidden joke: early pressings had a car visible mid-fall past the cliff (an urban legend the band encouraged).",
+    "The 33⅓ book on 20 Jazz Funk Greats was written by Drew Daniel of Matmos (2008)."
+  ],
+  "tracklist": [
+    {
+      "title": "20 Jazz Funk Greats",
+      "displayTitle": "20 Jazz Funk Greats",
+      "duration": "2:47",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The deadpan lounge parody that opens the prank."
+    },
+    {
+      "title": "Beachy Head",
+      "displayTitle": "Beachy Head",
+      "duration": "3:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Ambient dread named for the cover location — pre-screen the discussion, not the track."
+    },
+    {
+      "title": "Still Walking",
+      "displayTitle": "Still Walking",
+      "duration": "2:39",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Tanith",
+      "displayTitle": "Tanith",
+      "duration": "2:16",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Convincing People",
+      "displayTitle": "Convincing People",
+      "duration": "4:38",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "About propaganda and persuasion — pairs well with media-literacy discussion."
+    },
+    {
+      "title": "Exotica",
+      "displayTitle": "Exotica",
+      "duration": "2:52",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Direct nod to Martin Denny's 1957 album of the same name."
+    },
+    {
+      "title": "Hot on the Heels of Love",
+      "displayTitle": "Hot on the Heels of Love",
+      "duration": "4:21",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Proto-techno — the album's most influential track and safest highlight."
+    },
+    {
+      "title": "Persuasion",
+      "displayTitle": "Persuasion",
+      "duration": "6:34",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Predatory-narrator character study — recommend keeping hidden from student view; discuss its existence rather than playing it."
+    },
+    {
+      "title": "Walkabout",
+      "displayTitle": "Walkabout",
+      "duration": "3:05",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Bright synth travelogue — genuinely pretty, no irony detectable."
+    },
+    {
+      "title": "What a Day",
+      "displayTitle": "What a Day",
+      "duration": "4:36",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Six Six Sixties",
+      "displayTitle": "Six Six Sixties",
+      "duration": "2:02",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Hot on the Heels of Love",
+      "note": "Made in 1979, sounds like 1999. Listen for the drum machine and whispered vocal — this is techno before techno had a name."
+    },
+    {
+      "title": "20 Jazz Funk Greats",
+      "note": "The title track IS the joke: cocktail music played by people who mean it as a trap. When you know the context, can you still hear it innocently?"
+    },
+    {
+      "title": "Walkabout",
+      "note": "The curveball — a genuinely lovely synth miniature with no apparent irony. Or is its loveliness the deepest irony on the album?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "40 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1979, Industrial Records studio ('The Death Factory'), London"
+    },
+    {
+      "label": "Chart Peak",
+      "value": "Did not chart"
+    },
+    {
+      "label": "Legacy",
+      "value": "Pitchfork: one of the greatest albums of the 1970s"
+    }
+  ],
+  "discussionQuestions": [
+    "The album's title, cover, and sound are all a coordinated prank. Is deception a legitimate artistic tool?",
+    "Throbbing Gristle wanted to disturb people on purpose. Is there a difference between provocative art and shock for its own sake — and how do you tell?",
+    "'Hot on the Heels of Love' predicted dance music's future. Why do fringe experiments so often become the mainstream twenty years later?",
+    "This album never charted, but its genre named a movement. What's the difference between influence and success?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "slayer-reign-in-blood",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Reign in Blood",
+      "artist": "Slayer",
+      "year": 1986,
+      "teaser": "Next week: 29 minutes of the fastest, most extreme metal ever recorded — and the questions it raises about art and horror.",
+      "listenForQuestion": "Where is the line between depicting evil and endorsing it?"
+    },
+    "homeworkAlbum": {
+      "title": "Trans-Europe Express",
+      "artist": "Kraftwerk",
+      "year": 1977,
+      "reason": "The clean, utopian side of machine music — the exact opposite emotional pole from Throbbing Gristle's dread.",
+      "studentTask": "Listen to 'Europe Endless' and write one sentence on how the same tools (synths, drum machines) create opposite feelings."
+    }
+  },
+  "week": 186
+},
+{
+  "id": "slayer-reign-in-blood",
+  "weekNumber": 187,
+  "title": "Reign in Blood",
+  "artist": "Slayer",
+  "year": 1986,
+  "label": "Def Jam",
+  "producer": "Rick Rubin",
+  "artworkKey": "slayer-reign-in-blood",
+  "genres": [
+    "Thrash Metal",
+    "Metal"
+  ],
+  "theme": "29 minutes at the edge of human speed — the album that defined extremity in music, and the hardest test of the question 'is depicting evil the same as endorsing it?'",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "October 7, 1986",
+  "originalLabel": "Def Jam",
+  "artistCountry": "United States (Huntington Park, California)",
+  "artistScene": "Thrash Metal · Extreme Metal",
+  "artistYearsActive": "1981 – 2019",
+  "artistOverview": "Slayer were the fastest and darkest of thrash metal's 'Big Four' (with Metallica, Megadeth, and Anthrax). Produced by Rick Rubin — fresh from LL Cool J and the Beastie Boys — Reign in Blood stripped their sound to a dry, brutal sprint. Its lyrics explore atrocity and horror as subject matter, which made it both canonized and condemned from the day it appeared.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Tom Araya",
+      "role": "Vocals, Bass",
+      "years": "1981–2019",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Kerry King",
+      "role": "Guitar",
+      "years": "1981–2019",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jeff Hanneman",
+      "role": "Guitar",
+      "years": "1981–2013",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dave Lombardo",
+      "role": "Drums",
+      "years": "1981–1992, later returns",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Judas Priest",
+        "note": "The twin-guitar metal vocabulary, doubled in speed.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Venom",
+        "note": "The dark-imagery blueprint Slayer made virtuosic.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Dead Kennedys",
+        "note": "Hardcore punk's velocity — Hanneman was the band's punk fan.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Metallica",
+        "note": "Peers pushed to stay heavy — the arms race defined thrash.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Pantera",
+        "note": "Groove metal built on Slayer's rhythmic brutality.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Slipknot",
+        "note": "Modern extreme-adjacent metal cites Reign in Blood as scripture.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Metallica",
+        "note": "The Black Album is in our library — compare restraint versus extremity."
+      },
+      {
+        "artist": "Megadeth",
+        "note": "Technical thrash rival."
+      },
+      {
+        "artist": "Anthrax",
+        "note": "The East Coast corner of the Big Four."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Thrash Metal",
+    "mood": "Relentless, terrifying, exhilarating",
+    "mainSounds": "Downpicked riffs at 200+ BPM, atonal dive-bomb solos, Lombardo's double-kick drums, dry production with zero reverb",
+    "productionStyle": "Rick Rubin removed all echo and mud — every note lands like a punch in a small room",
+    "energy": "Maximum, sustained — 29 minutes with no ballad, no intro, no mercy",
+    "keyIdea": "Extremity as craft: the album is horrifying on purpose, and technically flawless about it."
+  },
+  "icebreaker": {
+    "question": "Horror movies, true crime, violent games, dark music: why are we drawn to art about terrible things?",
+    "activity": "In pairs: name something dark you enjoy and what you actually get out of it — thrill, safety, understanding? (2 min)"
+  },
+  "beforeYouListen": [
+    "The whole album is 29 minutes — shorter than most sitcom episodes — and contains ten songs.",
+    "Opener 'Angel of Death' describes the crimes of Nazi doctor Josef Mengele in graphic detail; the band always maintained it documents evil rather than celebrates it. Columbia refused to distribute the album over it.",
+    "Producer Rick Rubin was simultaneously producing rap for Def Jam — this was the label's first metal release.",
+    "We will discuss selected tracks; several are too graphic for class listening, and that boundary is part of this week's lesson."
+  ],
+  "importance": [
+    "Universally cited as the greatest extreme metal album — the ceiling every heavier band aims at.",
+    "Rick Rubin's bone-dry production reset how metal records sound.",
+    "Its distribution controversy is a key case study in music censorship debates.",
+    "Proved that 'unlistenable' extremity could be canonized: it appears on mainstream all-time lists."
+  ],
+  "historicalContext": "1986 was thrash metal's peak year — Metallica's Master of Puppets and Megadeth's Peace Sells arrived within months. The PMRC Senate hearings on explicit music had just happened in 1985, making Slayer's subject matter a lightning rod in a national argument about lyrics, stickers, and youth.",
+  "bandDiscography": [
+    {
+      "title": "Show No Mercy",
+      "artist": "Slayer",
+      "year": 1983,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Hell Awaits",
+      "artist": "Slayer",
+      "year": 1985,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Reign in Blood",
+      "artist": "Slayer",
+      "year": 1986,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "South of Heaven",
+      "artist": "Slayer",
+      "year": 1988,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Seasons in the Abyss",
+      "artist": "Slayer",
+      "year": 1990,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "strong",
+    "themes": "Graphic violence, atrocity, death, and occult imagery throughout — 'Angel of Death' addresses Holocaust crimes explicitly. Recommend discussing the album with short, teacher-chosen excerpts ('Raining Blood' intro, 'Angel of Death' opening scream) rather than full playthrough. Frame with the documentation-vs-endorsement debate.",
+    "artworkConcern": "Cover painting contains demonic imagery.",
+    "cleanVersionAvailable": "No.",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "At 29 minutes, fans joke the CD was the first album you could play twice in an hour.",
+    "Dave Lombardo's double-bass drumming here is a standard audition piece for metal drummers.",
+    "'Raining Blood' has been covered by Tori Amos — as a slow piano piece — proof of how composition survives arrangement.",
+    "The 33⅓ book on Reign in Blood was written by D.X. Ferris (2008)."
+  ],
+  "tracklist": [
+    {
+      "title": "Angel of Death",
+      "displayTitle": "Angel of Death",
+      "duration": "4:51",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Graphic historical atrocity content — discuss context; play only the opening if at all."
+    },
+    {
+      "title": "Piece by Piece",
+      "displayTitle": "Piece by Piece",
+      "duration": "2:02",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Graphic — keep hidden for class purposes."
+    },
+    {
+      "title": "Necrophobic",
+      "displayTitle": "Necrophobic",
+      "duration": "1:40",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "The fastest song on the album — 248 BPM. Graphic lyrics; discuss the tempo, not the text."
+    },
+    {
+      "title": "Altar of Sacrifice",
+      "displayTitle": "Altar of Sacrifice",
+      "duration": "2:50",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Jesus Saves",
+      "displayTitle": "Jesus Saves",
+      "duration": "2:54",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Critique of hypocrisy — heavy but discussable."
+    },
+    {
+      "title": "Criminally Insane",
+      "displayTitle": "Criminally Insane",
+      "duration": "2:23",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Reborn",
+      "displayTitle": "Reborn",
+      "duration": "2:12",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Epidemic",
+      "displayTitle": "Epidemic",
+      "duration": "2:23",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Postmortem",
+      "displayTitle": "Postmortem",
+      "duration": "3:27",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Flows directly into Raining Blood — the great side-two transition in metal."
+    },
+    {
+      "title": "Raining Blood",
+      "displayTitle": "Raining Blood",
+      "duration": "4:14",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The iconic intro — rain, toms, THAT riff. The safest excerpt for class listening."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Raining Blood",
+      "note": "The intro is metal's most famous 40 seconds: rain sounds, tribal toms, then the riff drops like a guillotine. Listen for how tension is built with almost nothing."
+    },
+    {
+      "title": "Angel of Death",
+      "note": "We'll discuss rather than play most of it. The question it forces: the lyrics describe historical evil without commentary — is that documentation, exploitation, or both?"
+    },
+    {
+      "title": "Postmortem",
+      "note": "Listen to the final minute, where the tempo suddenly doubles and the song dissolves into 'Raining Blood' — sequencing as violence."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "29 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1986, Hit City West, Los Angeles"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#94"
+    },
+    {
+      "label": "Rolling Stone Rank",
+      "value": "#67 / 100 Greatest Metal Albums"
+    }
+  ],
+  "discussionQuestions": [
+    "Slayer says 'Angel of Death' documents evil without endorsing it. Critics say depiction without judgment IS a stance. Who's right?",
+    "Columbia refused to release this album; it became a classic anyway. Does refusing to distribute art ever work?",
+    "The album is 29 minutes of maximum intensity. Is brevity part of why it works? Could you sustain this for 60 minutes?",
+    "Tori Amos covered 'Raining Blood' on solo piano. What survives of a song when you strip away its genre?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "richard-and-linda-thompson-shoot-out-the-lights",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Shoot Out the Lights",
+      "artist": "Richard and Linda Thompson",
+      "year": 1982,
+      "teaser": "Next week: a married couple records an album about a collapsing marriage — then their marriage collapses on the tour.",
+      "listenForQuestion": "Can you hear the difference between acted emotion and the real thing?"
+    },
+    "homeworkAlbum": {
+      "title": "Metallica",
+      "artist": "Metallica",
+      "year": 1991,
+      "reason": "Thrash's other pole: where Slayer chose extremity, Metallica chose restraint — and sold 30 million records.",
+      "studentTask": "Listen to 'Enter Sandman' and note two production choices that make it radio-friendly where Slayer refused."
+    }
+  },
+  "week": 187
+},
+{
+  "id": "richard-and-linda-thompson-shoot-out-the-lights",
+  "weekNumber": 188,
+  "title": "Shoot Out the Lights",
+  "artist": "Richard and Linda Thompson",
+  "year": 1982,
+  "label": "Hannibal",
+  "producer": "Joe Boyd",
+  "artworkKey": "richard-and-linda-thompson-shoot-out-the-lights",
+  "genres": [
+    "Folk Rock",
+    "British Folk"
+  ],
+  "theme": "A married duo sings about love falling apart — and then it does, in real time, on the tour. Where's the line between art and life?",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "March 1982",
+  "originalLabel": "Hannibal",
+  "artistCountry": "United Kingdom",
+  "artistScene": "British Folk Rock · Singer-Songwriter",
+  "artistYearsActive": "1972 – 1982 (as a duo)",
+  "artistOverview": "Richard Thompson co-founded Fairport Convention and became Britain's most respected folk-rock guitarist; Linda Thompson was one of its finest voices. As a married duo they made six albums, ending with this one — recorded as the marriage strained, released as it broke, and toured in open hostility. Critics routinely rank it among the greatest breakup albums ever made.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Richard Thompson",
+      "role": "Guitar, Vocals, Songwriter",
+      "years": "1967–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Linda Thompson",
+      "role": "Vocals",
+      "years": "1972–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Simon Nicol",
+      "role": "Rhythm Guitar",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dave Pegg",
+      "role": "Bass",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dave Mattacks",
+      "role": "Drums",
+      "years": "session",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Fairport Convention",
+        "note": "Richard's first band invented British folk rock — this is its darkest flowering.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Sandy Denny",
+        "note": "The Fairport voice whose phrasing shaped Linda's approach.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Bob Dylan",
+        "note": "Blood on the Tracks made the divorce album a form; this is Britain's answer.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Decemberists",
+        "note": "Literary folk-rock in the Thompson tradition.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Bon Iver",
+        "note": "The heartbreak-album-as-document lineage.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Fleet Foxes",
+        "note": "Modern folk that studies Richard's guitar voicings.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Fleetwood Mac",
+        "note": "Rumours is in our library — the other great band-breaking-up-on-tape album."
+      },
+      {
+        "artist": "Fairport Convention",
+        "note": "The family tree this duo grew from."
+      },
+      {
+        "artist": "John Martyn",
+        "note": "Fellow British folk innovator working the same emotional terrain."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "British Folk Rock",
+    "mood": "Wintry, tense, resigned, fierce",
+    "mainSounds": "Richard's angular Stratocaster, Linda's clear devastating alto, sparse rhythm section",
+    "productionStyle": "Joe Boyd recorded it fast and dry — no gloss to hide behind",
+    "energy": "Simmering — even the up-tempo songs feel like arguments held at low volume",
+    "keyIdea": "The most devastating breakup songs are the calm ones."
+  },
+  "icebreaker": {
+    "question": "When artists turn their real pain into work, do we as listeners become witnesses — or intruders?",
+    "activity": "In pairs: name a song you're pretty sure is about the artist's real life. Does knowing that make it better or worse? (2 min)"
+  },
+  "beforeYouListen": [
+    "Richard and Linda Thompson were married for a decade; this album was shelved for a year and released just as the marriage ended.",
+    "The tour that followed is legendary for its onstage tension — audiences watched a divorce happen with guitars.",
+    "The songs were written BEFORE the split, which makes their prophecy eerier.",
+    "Rolling Stone later placed this among its greatest albums of the 1980s — it sold almost nothing at the time."
+  ],
+  "importance": [
+    "A benchmark for the breakup album, alongside Blood on the Tracks and Rumours.",
+    "Contains some of Richard Thompson's most acclaimed guitar work — 'the solo' in the title track is studied note-for-note.",
+    "A model of how folk tradition and rock electricity fuse without diluting either.",
+    "Its commercial failure and critical canonization make it the textbook 'cult classic.'"
+  ],
+  "historicalContext": "Recorded in 1981 Britain — post-punk ruled the press, synthesizers ruled the charts, and an acoustic-leaning folk-rock duo was deeply unfashionable. The album was rescued by a tiny independent label after a bigger deal collapsed, which is partly why its reputation had to grow by word of mouth.",
+  "bandDiscography": [
+    {
+      "title": "I Want to See the Bright Lights Tonight",
+      "artist": "Richard and Linda Thompson",
+      "year": 1974,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Hokey Pokey",
+      "artist": "Richard and Linda Thompson",
+      "year": 1975,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Pour Down Like Silver",
+      "artist": "Richard and Linda Thompson",
+      "year": 1975,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "First Light",
+      "artist": "Richard and Linda Thompson",
+      "year": 1978,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Shoot Out the Lights",
+      "artist": "Richard and Linda Thompson",
+      "year": 1982,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "Divorce, jealousy, and emotional violence as metaphor ('Shoot Out the Lights') — mature but classroom-appropriate.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "The album was first recorded with Gerry Rafferty producing; Richard scrapped those sessions as too polished.",
+    "Linda was pregnant during the final sessions and developed a stress-related vocal condition on the tour.",
+    "'Wall of Death' is about carnival rides — and is also obviously not about carnival rides.",
+    "The 33⅓ book on Shoot Out the Lights was written by Hayden Childs (2008)."
+  ],
+  "tracklist": [
+    {
+      "title": "Don't Renege on Our Love",
+      "displayTitle": "Don't Renege on Our Love",
+      "duration": "4:15",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A plea disguised as a demand — Richard sings it to no one in particular."
+    },
+    {
+      "title": "Walking on a Wire",
+      "displayTitle": "Walking on a Wire",
+      "duration": "5:23",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Linda's showcase — the album's emotional center."
+    },
+    {
+      "title": "Man in Need",
+      "displayTitle": "Man in Need",
+      "duration": "3:32",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Jaunty music, desperate lyric — the album's signature trick."
+    },
+    {
+      "title": "Just the Motion",
+      "displayTitle": "Just the Motion",
+      "duration": "5:32",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A lullaby about numbness — seasick calm."
+    },
+    {
+      "title": "Shoot Out the Lights",
+      "displayTitle": "Shoot Out the Lights",
+      "duration": "5:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The famous guitar solo — jagged, unresolved, widely considered among the greatest ever recorded."
+    },
+    {
+      "title": "Back Street Slide",
+      "displayTitle": "Back Street Slide",
+      "duration": "4:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Did She Jump or Was She Pushed?",
+      "displayTitle": "Did She Jump or Was She Pushed?",
+      "duration": "4:46",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Linda sings a murder-mystery metaphor for the end of a relationship."
+    },
+    {
+      "title": "Wall of Death",
+      "displayTitle": "Wall of Death",
+      "duration": "3:45",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Closing statement: choose the dangerous ride, every time. Covered by R.E.M. and many others."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Shoot Out the Lights",
+      "note": "Listen to the guitar solo — it doesn't 'sing,' it stabs and hesitates and refuses to resolve. That refusal is the marriage."
+    },
+    {
+      "title": "Walking on a Wire",
+      "note": "Linda sings her own situation, written by the husband she's leaving. Listen for where her voice almost breaks — is that craft or documentary?"
+    },
+    {
+      "title": "Wall of Death",
+      "note": "The finale reframes everything: love as a fairground ride you choose knowing the risk. Why end THIS album on defiance instead of grief?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "37 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "November 1981, Olympic Studios, London"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#106"
+    },
+    {
+      "label": "Rolling Stone Rank",
+      "value": "#332 / 500 Greatest Albums (2020 list)"
+    }
+  ],
+  "discussionQuestions": [
+    "These breakup songs were written before the breakup. Do artists sometimes know things in their work before they know them in life?",
+    "Compare this with Rumours (Week 17): two bands recording their own collapse. Which approach moves you more — Fleetwood Mac's gloss or the Thompsons' starkness?",
+    "Is it ethical to enjoy art made from someone's real suffering? Does the artist's consent settle the question?",
+    "'Wall of Death' argues the risky ride is the only one worth taking. Applied to relationships, is that wisdom or recklessness?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "the-afghan-whigs-gentlemen",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Gentlemen",
+      "artist": "The Afghan Whigs",
+      "year": 1993,
+      "teaser": "Next week: a grunge-era band writes the most unflinching self-indictment in rock — an album where the narrator is the villain.",
+      "listenForQuestion": "Can a song criticize its own singer?"
+    },
+    "homeworkAlbum": {
+      "title": "Blood on the Tracks",
+      "artist": "Bob Dylan",
+      "year": 1975,
+      "reason": "The father of all divorce albums — already in our library from Week 19.",
+      "studentTask": "Re-listen to 'If You See Her, Say Hello' and compare its warmth to the Thompsons' chill. Which hurts more?"
+    }
+  },
+  "week": 188
+},
+{
+  "id": "the-afghan-whigs-gentlemen",
+  "weekNumber": 189,
+  "title": "Gentlemen",
+  "artist": "The Afghan Whigs",
+  "year": 1993,
+  "label": "Elektra",
+  "producer": "Greg Dulli",
+  "artworkKey": "the-afghan-whigs-gentlemen",
+  "genres": [
+    "Alternative Rock",
+    "Soul",
+    "Grunge Era"
+  ],
+  "theme": "An album-length confession where the singer plays the villain of his own story — soul music's swagger turned into self-indictment.",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "October 5, 1993",
+  "originalLabel": "Elektra",
+  "artistCountry": "United States (Cincinnati, Ohio)",
+  "artistScene": "Alternative Rock · Soul-Influenced Grunge Era",
+  "artistYearsActive": "1986 – 2001, 2011 – present",
+  "artistOverview": "The Afghan Whigs came up through Sub Pop alongside the grunge bands but never fit: they loved Motown and Stax as much as distortion. Gentlemen, their major-label breakthrough, is a concept album about a toxic relationship told from inside the toxicity — frontman Greg Dulli cast himself as the problem and refused to ask for sympathy.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Greg Dulli",
+      "role": "Vocals, Guitar",
+      "years": "1986–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Rick McCollum",
+      "role": "Lead Guitar",
+      "years": "1986–2001",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "John Curley",
+      "role": "Bass",
+      "years": "1986–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Steve Earle",
+      "role": "Drums",
+      "years": "1986–1994",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Marvin Gaye",
+        "note": "The Whigs covered him constantly — soul phrasing under rock guitars.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Replacements",
+        "note": "Ragged midwestern rock honesty — Let It Be is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Prince",
+        "note": "The falsetto moves and the willingness to be both seducer and sinner.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The National",
+        "note": "Fellow Cincinnati-bred baritone self-examination — Boxer is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Interpol",
+        "note": "Dark-suited rock drama in the Whigs' lineage.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Manchester Orchestra",
+        "note": "Confessional loud-quiet intensity.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Nirvana",
+        "note": "In Utero came out two weeks earlier — the era's other self-lacerating major-label album."
+      },
+      {
+        "artist": "Smashing Pumpkins",
+        "note": "Chart peers with opposite instincts: grandeur versus grime."
+      },
+      {
+        "artist": "Twilight Singers",
+        "note": "Dulli's next band — the story continues."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Alternative Rock / Soul",
+    "mood": "Nocturnal, guilty, seductive, corrosive",
+    "mainSounds": "Interlocking guitars that swing more than they crunch, Dulli's frayed croon, R&B basslines",
+    "productionStyle": "Recorded at Memphis's Ardent Studios — the soul history in the walls is audible",
+    "energy": "Prowling mid-tempo menace with explosive peaks",
+    "keyIdea": "Rock stardom usually flatters the singer; this album cross-examines him."
+  },
+  "icebreaker": {
+    "question": "In songs, movies, and shows, we usually root for the narrator. What happens when the narrator tells you straight up not to trust him?",
+    "activity": "In pairs: name an unreliable or unlikeable narrator (song, book, film) that you still couldn't look away from. Why? (2 min)"
+  },
+  "beforeYouListen": [
+    "This is a concept album tracking one failing relationship from inside the head of its worst participant.",
+    "The band recorded at Ardent in Memphis, where Stax soul classics were cut — on purpose.",
+    "The cover photo (a man and woman on a bed, turned away) stages the whole album in one image.",
+    "Several tracks contain strong language — we'll use selected songs in class."
+  ],
+  "importance": [
+    "A landmark of unreliable-narrator songwriting — rock that interrogates masculinity instead of flexing it.",
+    "Brought soul and R&B swing into the grunge era's guitar vocabulary.",
+    "Critically canonized as one of the great albums of the 1990s despite modest sales.",
+    "Direct ancestor of the confessional indie rock of the 2000s."
+  ],
+  "historicalContext": "October 1993: grunge ruled, and self-loathing was suddenly marketable. But where grunge blamed the world, Gentlemen blamed the mirror. Its unsparing view of a manipulative relationship reads differently — and gets discussed more seriously — in the post-#MeToo era than it did on release.",
+  "bandDiscography": [
+    {
+      "title": "Up in It",
+      "artist": "The Afghan Whigs",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Congregation",
+      "artist": "The Afghan Whigs",
+      "year": 1992,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Gentlemen",
+      "artist": "The Afghan Whigs",
+      "year": 1993,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Black Love",
+      "artist": "The Afghan Whigs",
+      "year": 1996,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "1965",
+      "artist": "The Afghan Whigs",
+      "year": 1998,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "moderate",
+    "themes": "Toxic relationships, manipulation, self-destruction — the album's subject IS emotional harm, examined critically. Strong language on several tracks; recommend 'Gentlemen,' 'Debonair,' and 'Fountain and Fairfax' as class excerpts after screening.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "No.",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "Drummer Steve Earle is not the country singer Steve Earle — a permanent source of confusion.",
+    "'My Curse' is sung by guest Marcy Mays because Dulli said he couldn't face singing it himself.",
+    "The band appeared on Beavis and Butt-Head, who approved — the era's strangest seal of quality.",
+    "The 33⅓ book on Gentlemen was written by Bob Gendron (2008)."
+  ],
+  "tracklist": [
+    {
+      "title": "If I Were Going",
+      "displayTitle": "If I Were Going",
+      "duration": "4:14",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Slow-burn overture — the argument starts mid-sentence."
+    },
+    {
+      "title": "Gentlemen",
+      "displayTitle": "Gentlemen",
+      "duration": "3:53",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The title track states the thesis: the word 'gentlemen' as accusation."
+    },
+    {
+      "title": "Be Sweet",
+      "displayTitle": "Be Sweet",
+      "duration": "3:29",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Opens with the album's most quoted, most damning line — screen before class use."
+    },
+    {
+      "title": "Debonair",
+      "displayTitle": "Debonair",
+      "duration": "4:16",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The single — self-disgust you can dance to."
+    },
+    {
+      "title": "When We Two Parted",
+      "displayTitle": "When We Two Parted",
+      "duration": "5:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Title borrowed from Lord Byron's poem — the literary tell."
+    },
+    {
+      "title": "Fountain and Fairfax",
+      "displayTitle": "Fountain and Fairfax",
+      "duration": "4:19",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Named for an LA intersection — addiction as geography."
+    },
+    {
+      "title": "What Jail Is Like",
+      "displayTitle": "What Jail Is Like",
+      "duration": "3:31",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "My Curse",
+      "displayTitle": "My Curse",
+      "duration": "4:22",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Sung by Marcy Mays of Scrawl — the victim's voice finally speaks."
+    },
+    {
+      "title": "Now You Know",
+      "displayTitle": "Now You Know",
+      "duration": "4:03",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "I Keep Coming Back",
+      "displayTitle": "I Keep Coming Back",
+      "duration": "3:47",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Tyrone Davis soul cover — the source code revealed."
+    },
+    {
+      "title": "Brother Woodrow / Closing Prayer",
+      "displayTitle": "Brother Woodrow / Closing Prayer",
+      "duration": "5:16",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Instrumental comedown with cello — no absolution offered."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Gentlemen",
+      "note": "Listen to how the word 'gentlemen' curdles with each repetition — the title is sarcastic, and the groove makes you complicit."
+    },
+    {
+      "title": "My Curse",
+      "note": "Dulli hands the mic to a woman to sing the other side. Why does that single decision change the ethics of the whole album?"
+    },
+    {
+      "title": "Debonair",
+      "note": "A chorus that soars while the lyric sinks. Track the contradiction — this is the album's method in miniature."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "46 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1993, Ardent Studios, Memphis"
+    },
+    {
+      "label": "Chart Peak (US Heat)",
+      "value": "#4 (Billboard Heatseekers)"
+    },
+    {
+      "label": "Legacy",
+      "value": "Pitchfork/Rolling Stone '90s canon fixture"
+    }
+  ],
+  "discussionQuestions": [
+    "The narrator of this album is deliberately unlikeable. What's the artistic value of refusing to make yourself look good?",
+    "'My Curse' gives the other person's perspective, sung by a guest. Does one track of the victim's voice balance ten tracks of the villain's?",
+    "The music is seductive — grooves, hooks, falsetto — while the words are poison. Is the seduction part of the point?",
+    "Thirty years later, we talk about toxic relationships with vocabulary this album lacked. Does art like this age into being MORE useful, or less?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "the-flying-burrito-brothers-the-gilded-palace-of-sin",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "The Gilded Palace of Sin",
+      "artist": "The Flying Burrito Brothers",
+      "year": 1969,
+      "teaser": "Next week: two ex-Byrds in rhinestone suits invent country-rock and predict the next fifty years of Americana.",
+      "listenForQuestion": "What happens when rock kids take country music seriously?"
+    },
+    "homeworkAlbum": {
+      "title": "What's Going On",
+      "artist": "Marvin Gaye",
+      "year": 1971,
+      "reason": "The soul tradition the Whigs worshipped — already in our library from Week 16.",
+      "studentTask": "Re-listen to 'Inner City Blues' and find the swing the Whigs borrowed for 'Debonair.'"
+    }
+  },
+  "week": 189
+},
+{
+  "id": "the-flying-burrito-brothers-the-gilded-palace-of-sin",
+  "weekNumber": 190,
+  "title": "The Gilded Palace of Sin",
+  "artist": "The Flying Burrito Brothers",
+  "year": 1969,
+  "label": "A&M",
+  "producer": "Larry Marks, Henry Lewy",
+  "artworkKey": "the-flying-burrito-brothers-the-gilded-palace-of-sin",
+  "genres": [
+    "Country Rock",
+    "Americana"
+  ],
+  "theme": "Rhinestone suits with marijuana leaves embroidered on them: the moment hippies and honky-tonk shook hands and invented Americana.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "February 6, 1969",
+  "originalLabel": "A&M",
+  "artistCountry": "United States (Los Angeles, California)",
+  "artistScene": "Country Rock · Cosmic American Music",
+  "artistYearsActive": "1968 – 1972 (classic era)",
+  "artistOverview": "Gram Parsons and Chris Hillman left the Byrds and formed the Flying Burrito Brothers to pursue what Parsons called 'Cosmic American Music' — country played with rock attitude and soul sincerity. Parsons died at 26 in 1973, but this debut became scripture for every alt-country and Americana artist since, from Emmylou Harris to Wilco.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Gram Parsons",
+      "role": "Vocals, Guitar, Piano",
+      "years": "1968–1970",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Chris Hillman",
+      "role": "Vocals, Guitar, Mandolin",
+      "years": "1968–1971",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Sneaky Pete Kleinow",
+      "role": "Pedal Steel Guitar",
+      "years": "1968–1971",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Chris Ethridge",
+      "role": "Bass, Piano",
+      "years": "1968–1969",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Buck Owens",
+        "note": "The Bakersfield twang underneath everything.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "George Jones",
+        "note": "Parsons' vocal hero — the cry in the voice.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Byrds",
+        "note": "Parsons and Hillman's previous band had just gone country on Sweetheart of the Rodeo.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Eagles",
+        "note": "Took this exact sound to the bank — Bernie Leadon was a later Burrito.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Wilco",
+        "note": "Alt-country's founding bands treated this album as a bible — Yankee Hotel Foxtrot is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Emmylou Harris",
+        "note": "Parsons' duet partner became the keeper of his Cosmic American flame.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "The Byrds",
+        "note": "The mothership — Notorious Byrd Brothers is two weeks back in our schedule."
+      },
+      {
+        "artist": "Poco",
+        "note": "Fellow 1969 country-rock pioneers."
+      },
+      {
+        "artist": "The Rolling Stones",
+        "note": "Parsons taught Keith Richards country — hear 'Wild Horses' for the receipt."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Country Rock",
+    "mood": "Bittersweet, mischievous, sincere, homesick",
+    "mainSounds": "Sneaky Pete's pedal steel run through fuzz pedals, two-part harmonies, honky-tonk piano",
+    "productionStyle": "Nashville instrumentation, LA studio experimentation — steel guitar through rock amplifiers",
+    "energy": "Relaxed lope with heartbreak underneath",
+    "keyIdea": "Taking an 'uncool' genre seriously can be the most radical move available."
+  },
+  "icebreaker": {
+    "question": "What's a style of music people your age dismiss automatically? What would it take to hear it fresh?",
+    "activity": "In pairs: each person plays 20 seconds of a country song they actually like — or explains why they can't find one. (2 min)"
+  },
+  "beforeYouListen": [
+    "The band wore custom 'Nudie suits' — rhinestone country outfits embroidered with pills, poppies, and marijuana leaves: country's clothes, the counterculture's symbols.",
+    "In 1969, rock fans considered country music the enemy's music — politically and culturally. This album ignored that line.",
+    "'Sneaky Pete' Kleinow plays pedal steel through fuzz boxes — listen for a country instrument making psychedelic noises.",
+    "Two soul covers (from Aretha Franklin's and James Carr's repertoires) sit beside the country originals — the 'Cosmic American' recipe."
+  ],
+  "importance": [
+    "Effectively the founding document of country-rock and everything now called Americana.",
+    "Gram Parsons' songwriting here ('Hot Burrito #1') is cited by Elvis Costello, Keith Richards, and Ryan Adams as perfect.",
+    "Made the pedal steel guitar a rock instrument.",
+    "Its commercial failure (#164) versus its towering influence is the classic cult-album story."
+  ],
+  "historicalContext": "Released weeks after Nixon's inauguration, when American culture was split in two and music genres were tribal uniforms. Country meant conservative; rock meant counterculture. An LA band in drug-embroidered cowboy suits singing sincere honky-tonk scrambled every code — almost nobody bought it, and almost everybody who did started a band.",
+  "bandDiscography": [
+    {
+      "title": "The Gilded Palace of Sin",
+      "artist": "The Flying Burrito Brothers",
+      "year": 1969,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Burrito Deluxe",
+      "artist": "The Flying Burrito Brothers",
+      "year": 1970,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Flying Burrito Bros",
+      "artist": "The Flying Burrito Brothers",
+      "year": 1971,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "Temptation and sin as country-gospel metaphors; the suits' drug imagery is discussable context.",
+    "artworkConcern": "Cover shows the Nudie suits with their embroidery — benign at classroom distance.",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Gram Parsons came from a wealthy, tragic Florida family and used a trust fund to bankroll his vision.",
+    "The Rolling Stones' country songs ('Wild Horses,' 'Dead Flowers') come directly from Keith Richards' friendship with Parsons.",
+    "'Sin City' predicts televangelist scandals and LA earthquakes — country apocalypse in two-part harmony.",
+    "The 33⅓ book on The Gilded Palace of Sin was written by Bob Proehl (2008)."
+  ],
+  "tracklist": [
+    {
+      "title": "Christine's Tune",
+      "displayTitle": "Christine's Tune",
+      "duration": "3:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Also known as 'Devil in Disguise' — fuzz-steel showcase."
+    },
+    {
+      "title": "Sin City",
+      "displayTitle": "Sin City",
+      "duration": "4:09",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The masterpiece — LA as Babylon, sung like a hymn."
+    },
+    {
+      "title": "Do Right Woman",
+      "displayTitle": "Do Right Woman",
+      "duration": "3:58",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Aretha Franklin cover — soul sung as country, proving the genres are cousins."
+    },
+    {
+      "title": "Dark End of the Street",
+      "displayTitle": "Dark End of the Street",
+      "duration": "3:55",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "James Carr's soul classic — cheating-song tradition crossing genre lines."
+    },
+    {
+      "title": "My Uncle",
+      "displayTitle": "My Uncle",
+      "duration": "2:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A draft-dodging song in jaunty country form — 1969 in one joke."
+    },
+    {
+      "title": "Wheels",
+      "displayTitle": "Wheels",
+      "duration": "3:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Juanita",
+      "displayTitle": "Juanita",
+      "duration": "2:31",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Hot Burrito #1",
+      "displayTitle": "Hot Burrito #1",
+      "duration": "3:40",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Terrible title, perfect song — Elvis Costello covers it as 'I'm Your Toy.'"
+    },
+    {
+      "title": "Hot Burrito #2",
+      "displayTitle": "Hot Burrito #2",
+      "duration": "3:19",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Do You Know How It Feels",
+      "displayTitle": "Do You Know How It Feels",
+      "duration": "2:09",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Hippie Boy",
+      "displayTitle": "Hippie Boy",
+      "duration": "4:53",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Spoken-word country sermon closing with 'Peace in the Valley' — half sincere, half wink."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Sin City",
+      "note": "Listen to the harmony singing — pure Louvin Brothers church harmony, applied to a lyric about corruption and earthquakes. Old form, new fear."
+    },
+    {
+      "title": "Hot Burrito #1",
+      "note": "Parsons' voice cracks on purpose. Listen for the moment sincerity overrides technique — that crack founded a whole genre's aesthetic."
+    },
+    {
+      "title": "Do Right Woman",
+      "note": "An Aretha song with pedal steel. What survives the genre transplant, and what changes?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "37 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1968–69, A&M Studios, Los Angeles"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#164"
+    },
+    {
+      "label": "Rolling Stone Rank",
+      "value": "#462 / 500 Greatest Albums (2020 list)"
+    }
+  ],
+  "discussionQuestions": [
+    "In 1969, playing country as a rock band was a political statement. Can choosing a genre still be political today?",
+    "The band dressed in country's flashiest clothes while breaking its cultural rules. When is imitation tribute and when is it costume?",
+    "This flopped, then founded a genre. The Eagles smoothed the same sound and sold 100 million records. Who won?",
+    "Parsons called it 'Cosmic American Music' — refusing the term 'country-rock.' Do genre names help us hear, or stop us from hearing?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "madness-one-step-beyond",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "One Step Beyond...",
+      "artist": "Madness",
+      "year": 1979,
+      "teaser": "Next week: seven lads from Camden Town turn Jamaican ska into British music-hall comedy — and become the UK's biggest singles band of the '80s.",
+      "listenForQuestion": "Why does the second wave of a style sometimes travel further than the first?"
+    },
+    "homeworkAlbum": {
+      "title": "Sweetheart of the Rodeo",
+      "artist": "The Byrds",
+      "year": 1968,
+      "reason": "The album Parsons made with the Byrds months before this one — the first shot of the country-rock revolution.",
+      "studentTask": "Listen to 'You Ain't Goin' Nowhere' and 'Sin City' back to back: which sounds more like it means it?"
+    }
+  },
+  "week": 190
+},
+{
+  "id": "madness-one-step-beyond",
+  "weekNumber": 191,
+  "title": "One Step Beyond...",
+  "artist": "Madness",
+  "year": 1979,
+  "label": "Stiff",
+  "producer": "Clive Langer, Alan Winstanley",
+  "artworkKey": "madness-one-step-beyond",
+  "genres": [
+    "Ska",
+    "2 Tone",
+    "Pop"
+  ],
+  "theme": "Jamaican ska, filtered through North London teenagers, becomes the happiest sound of a very unhappy Britain.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "October 19, 1979",
+  "originalLabel": "Stiff",
+  "artistCountry": "United Kingdom (Camden Town, London)",
+  "artistScene": "2 Tone Ska · New Wave · Music Hall",
+  "artistYearsActive": "1976 – present",
+  "artistOverview": "Madness formed as teenagers in Camden Town, worshipping Jamaican ska pioneer Prince Buster (their name is one of his song titles). Their debut arrived at the peak of Britain's 2 Tone movement — multiracial bands using Jamaican music to answer a racially tense era. Madness added music-hall comedy and London storytelling, and went on to spend more weeks on the UK singles chart in the 1980s than any other act.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Suggs",
+      "role": "Lead Vocals",
+      "years": "1976–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Mike Barson",
+      "role": "Keyboards",
+      "years": "1976–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Chris Foreman",
+      "role": "Guitar",
+      "years": "1976–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Lee Thompson",
+      "role": "Saxophone",
+      "years": "1976–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Mark Bedford",
+      "role": "Bass",
+      "years": "1977–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dan Woodgate",
+      "role": "Drums",
+      "years": "1977–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Chas Smash",
+      "role": "Vocals, Trumpet, Dancing",
+      "years": "1977–2014",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Prince Buster",
+        "note": "The Jamaican ska king — the band is named after his song, and 'One Step Beyond' is his composition.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Kinks",
+        "note": "London character-song storytelling — Village Green is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Ian Dury",
+        "note": "Stiff Records labelmate whose cockney wit set the tone.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "No Doubt",
+        "note": "American third-wave ska starts with 2 Tone records like this.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Mighty Mighty Bosstones",
+        "note": "Ska-core's debt to the nutty sound.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Amy Winehouse",
+        "note": "Camden's later star covered Madness and shared their London romanticism.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "The Specials",
+        "note": "2 Tone's political conscience — the movement's other pillar."
+      },
+      {
+        "artist": "The Selecter",
+        "note": "2 Tone's third front."
+      },
+      {
+        "artist": "The Beat",
+        "note": "Birmingham's entry in the ska revival."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Ska / 2 Tone",
+    "mood": "Manic, cheeky, warm, nostalgic",
+    "mainSounds": "Offbeat piano and guitar skank, honking saxophone, pub-singalong vocals",
+    "productionStyle": "Fast, live-sounding takes — fourteen songs in thirty-five minutes",
+    "energy": "Nonstop bounce — 'the nutty sound' was a marketing term and an accurate one",
+    "keyIdea": "Borrowed music becomes local when you fill it with your own streets, jokes, and neighbors."
+  },
+  "icebreaker": {
+    "question": "When artists borrow a style from another culture, what's the difference between tribute, theft, and conversation?",
+    "activity": "In pairs: name a song you love that borrows from another culture's music. Does it credit its source? (2 min)"
+  },
+  "beforeYouListen": [
+    "The title track is a cover of Jamaican ska legend Prince Buster — the band paid tribute to their source constantly.",
+    "The 2 Tone movement (The Specials, The Selecter, Madness) used multiracial bands and Jamaican rhythms as a direct answer to late-'70s British racism.",
+    "Fourteen songs, thirty-five minutes — ska doesn't linger.",
+    "Listen for the music-hall piano and saxophone — British seaside comedy grafted onto Kingston rhythm."
+  ],
+  "importance": [
+    "A cornerstone of the 2 Tone ska revival — one of British pop's great multicultural moments.",
+    "Launched the UK's most reliable singles machine: Madness charted more weeks in the '80s than anyone.",
+    "Its 'nutty' visual style (conga-line dancing, matching suits) helped define early music video.",
+    "Carried Jamaican ska to audiences worldwide, crediting its sources by name."
+  ],
+  "historicalContext": "Autumn 1979: Thatcher newly elected, the National Front marching, unemployment climbing. The 2 Tone bands — racially integrated, dancing to Jamaican beats in London and Coventry — offered a pointed, joyful counterimage. Madness were the movement's clowns, which made them its most popular ambassadors.",
+  "bandDiscography": [
+    {
+      "title": "One Step Beyond...",
+      "artist": "Madness",
+      "year": 1979,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Absolutely",
+      "artist": "Madness",
+      "year": 1980,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "7",
+      "artist": "Madness",
+      "year": 1981,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Rise & Fall",
+      "artist": "Madness",
+      "year": 1982,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Keep Moving",
+      "artist": "Madness",
+      "year": 1984,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "'Land of Hope and Glory' depicts a youth detention center; 'Razor Blade Alley' alludes to adult subject matter obliquely — both fine with light framing.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "The band's name comes from a Prince Buster song; their first single was literally titled 'The Prince' in his honor.",
+    "The famous 'nutty train' conga-line on the cover became one of pop's most imitated images.",
+    "'Night Boat to Cairo' still closes every Madness concert with the crowd doing the sand-dance.",
+    "The 33⅓ book on One Step Beyond... was written by Terry Edwards (2009)."
+  ],
+  "tracklist": [
+    {
+      "title": "One Step Beyond",
+      "displayTitle": "One Step Beyond",
+      "duration": "2:18",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Prince Buster cover — UK #7. The spoken intro is one of pop's great openings."
+    },
+    {
+      "title": "My Girl",
+      "displayTitle": "My Girl",
+      "duration": "2:44",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "UK #3 — Barson's melancholy piano pop beneath the bounce."
+    },
+    {
+      "title": "Night Boat to Cairo",
+      "displayTitle": "Night Boat to Cairo",
+      "duration": "3:31",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The eternal set-closer — sax fanfare and all."
+    },
+    {
+      "title": "Believe Me",
+      "displayTitle": "Believe Me",
+      "duration": "2:28",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Land of Hope and Glory",
+      "displayTitle": "Land of Hope and Glory",
+      "duration": "2:57",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Borstal (youth detention) morning routine set to ska — the album's sharpest edge."
+    },
+    {
+      "title": "The Prince",
+      "displayTitle": "The Prince",
+      "duration": "3:18",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Their debut single — a thank-you letter to Prince Buster. UK #16."
+    },
+    {
+      "title": "Tarzan's Nuts",
+      "displayTitle": "Tarzan's Nuts",
+      "duration": "2:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "TV-theme instrumental silliness."
+    },
+    {
+      "title": "In the Middle of the Night",
+      "displayTitle": "In the Middle of the Night",
+      "duration": "3:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Comic tale of a newsagent with a secret — pure music hall."
+    },
+    {
+      "title": "Bed and Breakfast Man",
+      "displayTitle": "Bed and Breakfast Man",
+      "duration": "2:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Razor Blade Alley",
+      "displayTitle": "Razor Blade Alley",
+      "duration": "2:42",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Jazz-noir shadow — screen the lyric if concerned; it's oblique."
+    },
+    {
+      "title": "Swan Lake",
+      "displayTitle": "Swan Lake",
+      "duration": "2:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Tchaikovsky as ska instrumental — the whole aesthetic in one gag."
+    },
+    {
+      "title": "Rockin' in Ab",
+      "displayTitle": "Rockin' in Ab",
+      "duration": "2:29",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Mummy's Boy",
+      "displayTitle": "Mummy's Boy",
+      "duration": "2:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Madness",
+      "displayTitle": "Madness",
+      "duration": "2:41",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Another Prince Buster cover — the band singing their own name via their hero's song."
+    },
+    {
+      "title": "Chipmunks Are Go!",
+      "displayTitle": "Chipmunks Are Go!",
+      "duration": "0:52",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "52 seconds of chant — the joke goodbye."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "One Step Beyond",
+      "note": "An instrumental with one spoken intro that everyone on Earth can quote. Listen for how the sax carries what a chorus normally would."
+    },
+    {
+      "title": "My Girl",
+      "note": "Under the bounce, a genuinely sad song about not understanding your girlfriend. The 2 Tone trick: dance now, feel it later."
+    },
+    {
+      "title": "Swan Lake",
+      "note": "Tchaikovsky on offbeat guitar. Funny, yes — but listen for how naturally the melody takes to ska. Why does it work?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "35 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1979, TW Studios, London"
+    },
+    {
+      "label": "Chart Peak (UK)",
+      "value": "#2 (78 weeks on chart)"
+    },
+    {
+      "label": "Legacy",
+      "value": "2 Tone cornerstone; UK's top-charting '80s singles act"
+    }
+  ],
+  "discussionQuestions": [
+    "Madness named themselves after their Jamaican hero and covered him twice on this album. What does honest crediting look like in music today?",
+    "The 2 Tone movement answered racism with integrated bands and dance music. Can joy be a form of protest?",
+    "Fourteen songs in 35 minutes versus the nine-minute epics we heard from Guns N' Roses. What does song length say about a band's respect for the listener?",
+    "British ska took a Jamaican sound and made it about London. When music migrates, who owns the result?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "israel-kamakawiwoole-facing-future",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Facing Future",
+      "artist": "Israel Kamakawiwoʻole",
+      "year": 1993,
+      "teaser": "Next week: a 700-pound Hawaiian man with a ukulele records the most beloved medley of the century — and the best-selling Hawaiian album ever.",
+      "listenForQuestion": "How can the simplest arrangement carry the biggest feeling?"
+    },
+    "homeworkAlbum": {
+      "title": "The Specials",
+      "artist": "The Specials",
+      "year": 1979,
+      "reason": "2 Tone's political flagship, released the same month — the serious sibling of Madness's comedy.",
+      "studentTask": "Listen to 'A Message to You Rudy' and compare its mood to 'One Step Beyond.' Same beat, different mission — what changes?"
+    }
+  },
+  "week": 191
+},
+{
+  "id": "israel-kamakawiwoole-facing-future",
+  "weekNumber": 192,
+  "title": "Facing Future",
+  "artist": "Israel Kamakawiwoʻole",
+  "year": 1993,
+  "label": "Mountain Apple Company",
+  "producer": "Jon de Mello",
+  "artworkKey": "israel-kamakawiwoole-facing-future",
+  "genres": [
+    "Hawaiian",
+    "Folk",
+    "World"
+  ],
+  "theme": "One man, one ukulele, one take at 3 a.m. — how the best-selling Hawaiian album ever became a quiet argument for Hawaiian identity.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "November 1993",
+  "originalLabel": "Mountain Apple Company",
+  "artistCountry": "United States (Honolulu, Hawaiʻi)",
+  "artistScene": "Hawaiian Music · Slack-Key Tradition · Contemporary Island",
+  "artistYearsActive": "1976 – 1997",
+  "artistOverview": "Israel 'IZ' Kamakawiwoʻole grew up in Honolulu steeped in traditional Hawaiian music, co-founding the Makaha Sons of Niʻihau before going solo. A gentle giant — his weight would eventually take his life at 38 — he sang for Hawaiian sovereignty and pride. Facing Future became the first Hawaiian album certified platinum, mostly on the strength of a medley recorded spontaneously in the middle of the night.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Israel Kamakawiwoʻole",
+      "role": "Vocals, ʻUkulele",
+      "years": "1976–1997",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jon de Mello",
+      "role": "Producer",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Gabby Pahinui",
+        "note": "The father of the Hawaiian slack-key renaissance IZ grew up inside.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Makaha Sons of Niihau",
+        "note": "His own first group — the traditional harmony foundation.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Louis Armstrong",
+        "note": "'What a Wonderful World' is half of the famous medley — Armstrong's warmth is the model.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Jack Johnson",
+        "note": "Hawaii's later star carries IZ's gentle delivery worldwide.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Twenty One Pilots",
+        "note": "One of countless acts to cover 'Over the Rainbow' in IZ's arrangement, not Garland's.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Kolohe Kai",
+        "note": "Contemporary island reggae stands on Facing Future's commercial breakthrough.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Gabby Pahinui",
+        "note": "The tradition's towering elder."
+      },
+      {
+        "artist": "Keali'i Reichel",
+        "note": "The other 1990s Hawaiian crossover voice."
+      },
+      {
+        "artist": "Bob Marley",
+        "note": "Island voice as political voice — Exodus is in our library."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Hawaiian / Folk",
+    "mood": "Tender, proud, mournful, serene",
+    "mainSounds": "ʻUkulele, IZ's floating falsetto-to-baritone voice, occasional island-reggae rhythm section",
+    "productionStyle": "Intimate and unfussy — the famous medley is one unedited take with a single mic",
+    "energy": "Gentle throughout, but listen for the political steel in the Hawaiian-language songs",
+    "keyIdea": "A voice and four strings can outsell orchestras — if the singer means every word."
+  },
+  "icebreaker": {
+    "question": "Why do stripped-down versions of songs — acoustic, unplugged, one-take — often hit harder than the polished originals?",
+    "activity": "In pairs: name an acoustic/live version you prefer to the studio original. What does the rough version have? (2 min)"
+  },
+  "beforeYouListen": [
+    "IZ called the studio at 3 a.m. in 1988 and recorded the 'Over the Rainbow/What a Wonderful World' medley in one take. It sat unused for five years before this album.",
+    "He begins the medley with the wrong opening chords and changes some lyrics — nobody has ever wanted it fixed.",
+    "'Hawaiʻi '78' imagines the last king and queen of Hawaiʻi seeing what became of their islands — the album opens and closes with it.",
+    "This is the best-selling Hawaiian album in history and made the ʻukulele a global instrument again."
+  ],
+  "importance": [
+    "First Hawaiian album certified platinum in the US.",
+    "The medley became one of the most licensed recordings ever — films, TV, weddings, memorials worldwide.",
+    "Brought the Hawaiian sovereignty movement's voice to a global audience, gently.",
+    "Singlehandedly drove the 2000s ʻukulele revival."
+  ],
+  "historicalContext": "1993 was the centennial of the overthrow of the Hawaiian Kingdom — the year the US Congress formally apologized for it. Hawaiian language and culture were in active revival after near-erasure. Facing Future's title is the point: honoring what was taken while carrying it forward.",
+  "bandDiscography": [
+    {
+      "title": "Ka ʻAnoʻi",
+      "artist": "Israel Kamakawiwoʻole",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Facing Future",
+      "artist": "Israel Kamakawiwoʻole",
+      "year": 1993,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "E Ala Ē",
+      "artist": "Israel Kamakawiwoʻole",
+      "year": 1995,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "N Dis Life",
+      "artist": "Israel Kamakawiwoʻole",
+      "year": 1996,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "Colonization and loss of homeland, treated with dignity — excellent cross-curricular material with history classes.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "When IZ died in 1997 at age 38, his coffin lay in state at Hawaiʻi's Capitol — an honor previously reserved for governors.",
+    "Ten thousand people attended as his ashes were scattered at Mākua Beach; trucks lined the highway sounding their horns.",
+    "The medley's engineer set up the mic in 15 minutes; the take lasted one pass.",
+    "The 33⅓ book on Facing Future was written by Dan Kois (2009)."
+  ],
+  "tracklist": [
+    {
+      "title": "Hawaiʻi '78 Introduction",
+      "displayTitle": "Hawaiʻi '78 Introduction",
+      "duration": "4:15",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The question that frames the album: what would the monarchs think?"
+    },
+    {
+      "title": "Ka Huila Wai",
+      "displayTitle": "Ka Huila Wai",
+      "duration": "3:07",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Traditional — the waterwheel song."
+    },
+    {
+      "title": "ʻAmaʻama",
+      "displayTitle": "ʻAmaʻama",
+      "duration": "2:32",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Panini Pua Kea",
+      "displayTitle": "Panini Pua Kea",
+      "duration": "2:57",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Take Me Home Country Road",
+      "displayTitle": "Take Me Home Country Road",
+      "duration": "4:45",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "John Denver relocated to the islands — 'West Virginia' becomes 'West Makaha.'"
+    },
+    {
+      "title": "Kaulana Kawaihae",
+      "displayTitle": "Kaulana Kawaihae",
+      "duration": "3:22",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Wai O Ke Aniani",
+      "displayTitle": "Wai O Ke Aniani",
+      "duration": "3:26",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Maui Hawaiian Supʻpa Man",
+      "displayTitle": "Maui Hawaiian Supʻpa Man",
+      "duration": "3:29",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The demigod Māui as superhero — mythology kept alive by making it fun."
+    },
+    {
+      "title": "Kuhio Bay",
+      "displayTitle": "Kuhio Bay",
+      "duration": "3:03",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Somewhere Over the Rainbow / What a Wonderful World",
+      "displayTitle": "Somewhere Over the Rainbow / What a Wonderful World",
+      "duration": "5:06",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "THE track — one take, 3 a.m., 1988. Judy Garland meets Louis Armstrong on four strings."
+    },
+    {
+      "title": "La ʻElima",
+      "displayTitle": "La ʻElima",
+      "duration": "3:23",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Kamalani",
+      "displayTitle": "Kamalani",
+      "duration": "3:05",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "White Sandy Beach of Hawaiʻi",
+      "displayTitle": "White Sandy Beach of Hawaiʻi",
+      "duration": "2:39",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Hawaiʻi '78",
+      "displayTitle": "Hawaiʻi '78",
+      "duration": "4:30",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The full version closes the circle — the album's true thesis statement."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Somewhere Over the Rainbow / What a Wonderful World",
+      "note": "You know it from a hundred movies — now listen as a musician. He changes chords, drops verses, floats above the beat. Why do the 'mistakes' make it better?"
+    },
+    {
+      "title": "Hawaiʻi '78",
+      "note": "The album's political heart: what would Hawaiʻi's last monarchs think of highways and hotels on sacred land? Listen for how gently he asks the hardest question."
+    },
+    {
+      "title": "Maui Hawaiian Supʻpa Man",
+      "note": "Mythology as pop song. Listen for how humor carries tradition to kids who might tune out a lecture."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "50 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1988–1993, Honolulu"
+    },
+    {
+      "label": "Certification",
+      "value": "Platinum (first ever for a Hawaiian album)"
+    },
+    {
+      "label": "Legacy",
+      "value": "Best-selling Hawaiian album of all time"
+    }
+  ],
+  "discussionQuestions": [
+    "The famous medley 'gets the songs wrong' — chords and lyrics both. Why has no one ever wanted a corrected version?",
+    "IZ sang about sovereignty in a voice with no anger in it. Is gentleness a more effective protest than rage? When?",
+    "This album is everywhere — ads, films, funerals. Does mass licensing honor a song or wear it out?",
+    "What responsibilities do listeners have when they love music rooted in a culture and struggle they don't share?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "van-dyke-parks-song-cycle",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Song Cycle",
+      "artist": "Van Dyke Parks",
+      "year": 1967,
+      "teaser": "Next week: the Beach Boys' lyricist makes the most expensive, most confusing, most American debut album of the 1960s.",
+      "listenForQuestion": "Can a pop album work like classical music — themes, movements, quotations?"
+    },
+    "homeworkAlbum": {
+      "title": "Legend",
+      "artist": "Bob Marley & The Wailers",
+      "year": 1984,
+      "reason": "Another island voice who carried his people's story worldwide — Exodus is already in our library from an earlier week.",
+      "studentTask": "Listen to 'Redemption Song' and 'Hawaiʻi '78' back to back: two acoustic anthems of sovereignty. Note one shared choice."
+    }
+  },
+  "week": 192
+},
+{
+  "id": "van-dyke-parks-song-cycle",
+  "weekNumber": 193,
+  "title": "Song Cycle",
+  "artist": "Van Dyke Parks",
+  "year": 1967,
+  "label": "Warner Bros.",
+  "producer": "Lenny Waronker",
+  "artworkKey": "van-dyke-parks-song-cycle",
+  "genres": [
+    "Baroque Pop",
+    "Americana",
+    "Experimental"
+  ],
+  "theme": "The most ambitious flop of 1967: a pop album built like classical music, stuffed with ragtime, bluegrass, and Hollywood strings — America remixing itself.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "November 1967",
+  "originalLabel": "Warner Bros.",
+  "artistCountry": "United States (Mississippi-born, Los Angeles-based)",
+  "artistScene": "Baroque Pop · Studio Auteur · American Songbook",
+  "artistYearsActive": "1963 – present",
+  "artistOverview": "Van Dyke Parks was the wunderkind lyricist of the Beach Boys' doomed Smile project — the man who wrote 'over and over, the crow cries uncover the cornfield.' His own debut cost a fortune, sold almost nothing, and compressed two centuries of American music (Stephen Foster, ragtime, gospel, bluegrass, film scores) into a psychedelic orchestra. Warner Bros. famously ran ads admitting they'd lost money on it.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Van Dyke Parks",
+      "role": "Vocals, Keyboards, Arrangements",
+      "years": "1963–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Lenny Waronker",
+      "role": "Producer",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Charles Ives",
+        "note": "The classical composer who collaged American hymns and marches — Parks' true model.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Stephen Foster",
+        "note": "19th-century American song — quoted and argued with throughout.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Beach Boys",
+        "note": "Parks co-wrote Smile with Brian Wilson; this album continues that project's ambitions solo.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Joanna Newsom",
+        "note": "Parks arranged her album Ys — her sprawling orchestral folk is Song Cycle's direct heir.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Sufjan Stevens",
+        "note": "Illinois (in our library) is a Song Cycle grandchild: Americana as orchestral collage.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Rufus Wainwright",
+        "note": "The operatic-pop lineage.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "The Beach Boys",
+        "note": "Smile — the sibling project; Pet Sounds is in our library."
+      },
+      {
+        "artist": "Harry Nilsson",
+        "note": "Fellow LA studio auteur of the era."
+      },
+      {
+        "artist": "Randy Newman",
+        "note": "'Vine Street,' the opener, is a Newman song — they came up together."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Baroque Pop / Experimental Americana",
+    "mood": "Whimsical, dense, nostalgic, dizzying",
+    "mainSounds": "Full orchestra, ragtime piano, banjos, harpsichords, tape edits, Parks' reedy voice buried in the mix",
+    "productionStyle": "Eight-track studio maximalism — among the most expensive albums ever made at the time",
+    "energy": "Constantly shifting — a song rarely stays the same for eight bars",
+    "keyIdea": "An album can be a library of American music with all the books open at once."
+  },
+  "icebreaker": {
+    "question": "If you had unlimited budget and total freedom for one creative project, would the result be your best work — or your most self-indulgent?",
+    "activity": "In pairs: does great art need limits? Argue one side each for 45 seconds. (2 min)"
+  },
+  "beforeYouListen": [
+    "Parks wrote the lyrics for the Beach Boys' legendary lost album Smile — which we'll study next week; this is his own version of those ideas.",
+    "The album quotes Stephen Foster, 'Nearer My God to Thee,' and bluegrass standards — a scavenger hunt of American music.",
+    "Warner Bros. ran a famous ad: 'We lost $35,509 on this album' — then offered to send buyers a second copy free to give a friend.",
+    "Don't try to follow the lyrics on first listen — follow the arrangements as they morph."
+  ],
+  "importance": [
+    "A founding document of the 'studio auteur' idea — the arranger-composer as star.",
+    "Keeps two centuries of American vernacular music in circulation inside a psychedelic frame.",
+    "Its commercial failure and critical rediscovery made it the archetypal 'cult classic' before the term existed.",
+    "Parks' arranging lineage runs from Smile through Joanna Newsom's Ys to modern orchestral indie."
+  ],
+  "historicalContext": "1967, Los Angeles: Sgt. Pepper had legitimized studio ambition, and Warner Bros. was betting on genius auteurs. While San Francisco played acid rock, Parks looked backward — to ragtime, parlor songs, and Hollywood — insisting the American past was stranger than any trip.",
+  "bandDiscography": [
+    {
+      "title": "Song Cycle",
+      "artist": "Van Dyke Parks",
+      "year": 1967,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Discover America",
+      "artist": "Van Dyke Parks",
+      "year": 1972,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Clang of the Yankee Reaper",
+      "artist": "Van Dyke Parks",
+      "year": 1975,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Jump!",
+      "artist": "Van Dyke Parks",
+      "year": 1984,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Orange Crate Art",
+      "artist": "Van Dyke Parks & Brian Wilson",
+      "year": 1995,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "The Warner 'we lost money' ad campaign is studied in marketing classes — losing became the selling point.",
+    "Parks played the piano intro heard on the Byrds' 'Eight Miles High' sessions era and keyboards for dozens of LA classics.",
+    "He later arranged for U2, Joanna Newsom, and Skrillex — the longest strange career in pop.",
+    "The 33⅓ book on Song Cycle was written by Richard Henderson (2010)."
+  ],
+  "tracklist": [
+    {
+      "title": "Vine Street",
+      "displayTitle": "Vine Street",
+      "duration": "3:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Written by Randy Newman — begins with a fake 'audition tape' of bluegrass before the orchestra swallows it."
+    },
+    {
+      "title": "Palm Desert",
+      "displayTitle": "Palm Desert",
+      "duration": "2:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Widow's Walk",
+      "displayTitle": "Widow's Walk",
+      "duration": "2:17",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Laurel Canyon Blvd.",
+      "displayTitle": "Laurel Canyon Blvd.",
+      "duration": "0:41",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "41-second miniature — the album thinks in fragments."
+    },
+    {
+      "title": "The All Golden",
+      "displayTitle": "The All Golden",
+      "duration": "3:49",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The centerpiece — Parks' friends considered it the proof of concept."
+    },
+    {
+      "title": "Van Dyke Parks",
+      "displayTitle": "Van Dyke Parks",
+      "duration": "1:39",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A track named after himself, marked '(Public Domain)' — the album's driest joke."
+    },
+    {
+      "title": "Public Domain",
+      "displayTitle": "Public Domain",
+      "duration": "2:29",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Donovan's Colours",
+      "displayTitle": "Donovan's Colours",
+      "duration": "3:12",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Donovan's folk song rebuilt as ragtime player-piano fantasia — the album's most approachable three minutes."
+    },
+    {
+      "title": "The Attic",
+      "displayTitle": "The Attic",
+      "duration": "2:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Laurel Canyon Blvd. (Reprise)",
+      "displayTitle": "Laurel Canyon Blvd. (Reprise)",
+      "duration": "1:11",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "By the People",
+      "displayTitle": "By the People",
+      "duration": "5:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The big civic statement — gospel and orchestra negotiating democracy."
+    },
+    {
+      "title": "Pot Pourri",
+      "displayTitle": "Pot Pourri",
+      "duration": "1:03",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "One minute of goodbye — 'Nearer My God to Thee' drifts past."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Donovan's Colours",
+      "note": "Start here: a simple folk tune passed through player-pianos and tape tricks. Count how many different 'eras' of American music you hear in three minutes."
+    },
+    {
+      "title": "The All Golden",
+      "note": "The thesis track. Listen for how bluegrass fiddle, Hollywood strings, and gospel piano coexist — collage as composition."
+    },
+    {
+      "title": "By the People",
+      "note": "The most serious stretch — America addressed directly. Does the orchestral grandeur support the sentiment or overwhelm it?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "32 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1967, Sunset Sound & Western, Hollywood"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "Did not chart"
+    },
+    {
+      "label": "Legacy",
+      "value": "Perennial critics' cult classic; Uncut/Mojo canon"
+    }
+  ],
+  "discussionQuestions": [
+    "Warner advertised how much money they LOST on this album. What was that ad really selling?",
+    "Parks quotes 19th-century songs the way rappers sample records. What's the difference between quotation, sampling, and theft across eras?",
+    "This album demands multiple listens to parse. Is difficulty a flaw, a feature, or a filter for who the art is 'for'?",
+    "Compare with Sufjan Stevens' Illinois from our library: same orchestral Americana ambition, 38 years apart. What changed, what didn't?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "ween-chocolate-and-cheese",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Chocolate and Cheese",
+      "artist": "Ween",
+      "year": 1994,
+      "teaser": "Next week: two New Jersey brothers-in-weirdness prove they can play EVERY genre — sincerely, hilariously, and sometimes both at once.",
+      "listenForQuestion": "When a band imitates a style perfectly, is it parody or mastery?"
+    },
+    "homeworkAlbum": {
+      "title": "Smile Sessions highlights",
+      "artist": "The Beach Boys",
+      "year": 1967,
+      "reason": "The legendary project Parks wrote lyrics for — and next week's 33⅓ sibling; we cover Smile in two weeks.",
+      "studentTask": "Listen to 'Heroes and Villains' and spot one lyric that sounds like Song Cycle."
+    }
+  },
+  "week": 193
+},
+{
+  "id": "ween-chocolate-and-cheese",
+  "weekNumber": 194,
+  "title": "Chocolate and Cheese",
+  "artist": "Ween",
+  "year": 1994,
+  "label": "Elektra",
+  "producer": "Andrew Weiss",
+  "artworkKey": "ween-chocolate-and-cheese",
+  "genres": [
+    "Alternative Rock",
+    "Experimental",
+    "Genre Pastiche"
+  ],
+  "theme": "Two friends who can play anything — soul, country, Tejano, prog — raise the question: if the imitation is flawless and the feeling is real, is it still a joke?",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "September 27, 1994",
+  "originalLabel": "Elektra",
+  "artistCountry": "United States (New Hope, Pennsylvania)",
+  "artistScene": "Alternative · Genre Chameleons · Cult Heroes",
+  "artistYearsActive": "1984 – present",
+  "artistOverview": "Dean and Gene Ween (Mickey Melchiondo and Aaron Freeman) met in an eighth-grade typing class and spent a decade recording absurdist four-track tapes. Chocolate and Cheese was their first real-studio album: a jukebox of perfect genre forgeries — Philly soul, spaghetti-western, funk, lounge — played with such skill that the joke keeps collapsing into sincerity.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Gene Ween",
+      "role": "Vocals, Guitar",
+      "years": "1984–2012, 2015–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dean Ween",
+      "role": "Guitar, Vocals",
+      "years": "1984–2012, 2015–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Claude Coleman Jr.",
+      "role": "Drums",
+      "years": "1994–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Andrew Weiss",
+      "role": "Bass, Producer",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Frank Zappa",
+        "note": "The patron saint of virtuosic musical comedy.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Prince",
+        "note": "The falsetto funk moves are studied Prince — Sign 'O' the Times is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Beatles",
+        "note": "The White Album's genre-hopping anything-goes structure — also in our library.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Tenacious D",
+        "note": "Comedy rock played with real chops.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Mac DeMarco",
+        "note": "The lo-fi jokester-sincerity blend.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Fruit Bats",
+        "note": "One of many indie bands formed by Ween obsessives.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Frank Zappa",
+        "note": "The obvious ancestor."
+      },
+      {
+        "artist": "They Might Be Giants",
+        "note": "Fellow smart-alecks — Flood arrives in three weeks."
+      },
+      {
+        "artist": "Primus",
+        "note": "'90s weird-rock tourmates."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Genre Pastiche / Alternative",
+    "mood": "Absurd, sincere, unsettling, joyful — often in the same song",
+    "mainSounds": "Whatever the genre being imitated requires, executed with disturbing accuracy",
+    "productionStyle": "First real studio budget after years of four-track — every style gets its correct sonic costume",
+    "energy": "Wildly variable by design — sequencing as whiplash",
+    "keyIdea": "Mastery of a style and mockery of a style can be the same performance."
+  },
+  "icebreaker": {
+    "question": "Think of a parody you love (song, video, meme). At what point does a great parody become the thing it's parodying?",
+    "activity": "In pairs: name one 'joke' song that you unironically love. Why does it hold up? (2 min)"
+  },
+  "beforeYouListen": [
+    "Ween are two childhood friends who claim allegiance to a demon-god named Boognish — none of it is explained, ever.",
+    "Every track imitates a different genre with unsettling accuracy — count the styles as we go.",
+    "'A Tear for Eddie' is a sincere instrumental tribute to funk guitarist Eddie Hazel of Funkadelic (Maggot Brain is in our library).",
+    "Several tracks are crude or dark — we're using a classroom selection; that selection process is itself worth discussing."
+  ],
+  "importance": [
+    "A cult landmark of genre pastiche — the '90s answer to Zappa and the White Album.",
+    "'Voodoo Lady' and 'Roses Are Free' became jam-scene standards (Phish covers Ween constantly).",
+    "Proof that 'joke bands' can outlast scenes: Ween sell out amphitheaters three decades on.",
+    "A gateway record for thinking about sincerity, irony, and craft."
+  ],
+  "historicalContext": "1994: grunge sincerity ruled MTV, and irony was the alternative-nation's second language. Ween belonged to neither camp — too silly for the serious, too skilled for novelty. Elektra bet major-label money on them anyway, catching the last era when labels funded true weirdness.",
+  "bandDiscography": [
+    {
+      "title": "GodWeenSatan: The Oneness",
+      "artist": "Ween",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Pod",
+      "artist": "Ween",
+      "year": 1991,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Pure Guava",
+      "artist": "Ween",
+      "year": 1992,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Chocolate and Cheese",
+      "artist": "Ween",
+      "year": 1994,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "12 Golden Country Greats",
+      "artist": "Ween",
+      "year": 1996,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Mollusk",
+      "artist": "Ween",
+      "year": 1997,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "White Pepper",
+      "artist": "Ween",
+      "year": 2000,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "strong",
+    "themes": "Several tracks contain crude humor, profanity, or dark subjects ('Spinal Meningitis' is sung from a dying child's view; 'The HIV Song' is a two-line provocation). Recommend the classroom set: 'Voodoo Lady,' 'A Tear for Eddie,' 'Freedom of '76,' 'Roses Are Free,' 'Buenas Tardes Amigo.' Screen everything else.",
+    "artworkConcern": "Cover is a close-up of a belt-buckle waist — suggestive but printable.",
+    "cleanVersionAvailable": "No.",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "'Freedom of '76' is a Philly-soul falsetto tribute so accurate that Philadelphia radio played it straight.",
+    "Phish has covered 'Roses Are Free' for decades — a bridge to next month's A Live One.",
+    "The album is dedicated to John Candy, who died that year.",
+    "The 33⅓ book on Chocolate and Cheese was written by Hank Shteamer (2011)."
+  ],
+  "tracklist": [
+    {
+      "title": "Take Me Away",
+      "displayTitle": "Take Me Away",
+      "duration": "2:56",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Vegas swing opener."
+    },
+    {
+      "title": "Spinal Meningitis (Got Me Down)",
+      "displayTitle": "Spinal Meningitis (Got Me Down)",
+      "duration": "3:15",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Dark subject sung childlike — powerful but keep hidden for class; discuss rather than play."
+    },
+    {
+      "title": "Freedom of '76",
+      "displayTitle": "Freedom of '76",
+      "duration": "2:46",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Philly soul falsetto, played straight — Spike Jonze directed the video."
+    },
+    {
+      "title": "I Can't Put My Finger on It",
+      "displayTitle": "I Can't Put My Finger on It",
+      "duration": "2:52",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "A Tear for Eddie",
+      "displayTitle": "A Tear for Eddie",
+      "duration": "4:51",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Instrumental elegy for Funkadelic's Eddie Hazel — zero irony detected."
+    },
+    {
+      "title": "Roses Are Free",
+      "displayTitle": "Roses Are Free",
+      "duration": "4:26",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Synth-pop nonsense anthem — Phish made it a jam classic."
+    },
+    {
+      "title": "Baby Bitch",
+      "displayTitle": "Baby Bitch",
+      "duration": "3:00",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Gorgeous folk-pop with profane title/lyric — the sincerity-inside-crudeness paradox; teacher's call."
+    },
+    {
+      "title": "Mister, Would You Please Help My Pony?",
+      "displayTitle": "Mister, Would You Please Help My Pony?",
+      "duration": "3:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Drifter in the Dark",
+      "displayTitle": "Drifter in the Dark",
+      "duration": "2:53",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Sons-of-the-Pioneers cowboy harmony."
+    },
+    {
+      "title": "Voodoo Lady",
+      "displayTitle": "Voodoo Lady",
+      "duration": "3:57",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The funk workout — safest crowd-pleaser on the record."
+    },
+    {
+      "title": "Joppa Road",
+      "displayTitle": "Joppa Road",
+      "duration": "2:43",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Candi",
+      "displayTitle": "Candi",
+      "duration": "3:37",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Woozy and suggestive — skip for class."
+    },
+    {
+      "title": "Buenas Tardes Amigo",
+      "displayTitle": "Buenas Tardes Amigo",
+      "duration": "7:06",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Seven-minute spaghetti-western revenge ballad with a twist ending — the album's storytelling peak."
+    },
+    {
+      "title": "The HIV Song",
+      "displayTitle": "The HIV Song",
+      "duration": "2:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Carnival music, two spoken words — pure provocation; discuss its existence, don't play."
+    },
+    {
+      "title": "What Deaner Was Talkin' About",
+      "displayTitle": "What Deaner Was Talkin' About",
+      "duration": "2:02",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Jangle-pop gem hiding near the end."
+    },
+    {
+      "title": "Don't Shit Where You Eat",
+      "displayTitle": "Don't S*** Where You Eat",
+      "duration": "3:26",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Gentle closer with unprintable title — displayTitle censored."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Buenas Tardes Amigo",
+      "note": "A seven-minute Morricone western with a twist ending. Forget it's Ween — does it work purely as a story-song? That's the whole question of this band."
+    },
+    {
+      "title": "A Tear for Eddie",
+      "note": "An instrumental tribute to a real guitarist, played with love. Listen for any trace of a joke. You won't find one — so why do we assume one?"
+    },
+    {
+      "title": "Freedom of '76",
+      "note": "Falsetto soul so accurate radio played it straight. If listeners can't tell it's pastiche, is it pastiche?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "55 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1994, Chapel Studios, New Jersey"
+    },
+    {
+      "label": "Chart Peak (US Heat)",
+      "value": "#9 (Billboard Heatseekers)"
+    },
+    {
+      "label": "Legacy",
+      "value": "Cult canon; Phish-covered; 30 years of sold-out tours"
+    }
+  ],
+  "discussionQuestions": [
+    "Pick one track: is it parody, tribute, or both? Defend your reading with a specific musical detail.",
+    "Ween can play any genre perfectly. Does that skill make their jokes more respectful or more cutting than a sloppy parody would be?",
+    "Some of this album is genuinely offensive on purpose. What's the difference between transgressive art and just being edgy? Who decides?",
+    "The class only heard a curated selection today. Is a curated version of an album still the album?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "serge-gainsbourg-histoire-de-melody-nelson",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Histoire de Melody Nelson",
+      "artist": "Serge Gainsbourg",
+      "year": 1971,
+      "teaser": "Next week: France's most notorious songwriter makes a 28-minute orchestral-funk concept album that half a century of hip-hop and pop has been sampling ever since.",
+      "listenForQuestion": "Can we study art whose story we find troubling — and should we?"
+    },
+    "homeworkAlbum": {
+      "title": "Maggot Brain",
+      "artist": "Funkadelic",
+      "year": 1971,
+      "reason": "Eddie Hazel's masterpiece — the album 'A Tear for Eddie' mourns; it's in our library.",
+      "studentTask": "Listen to the title track's guitar solo and describe in one sentence what Ween was crying about."
+    }
+  },
+  "week": 194
+},
+{
+  "id": "serge-gainsbourg-histoire-de-melody-nelson",
+  "weekNumber": 195,
+  "title": "Histoire de Melody Nelson",
+  "artist": "Serge Gainsbourg",
+  "year": 1971,
+  "label": "Philips",
+  "producer": "Jean-Claude Desmarty",
+  "artworkKey": "serge-gainsbourg-histoire-de-melody-nelson",
+  "genres": [
+    "French Pop",
+    "Orchestral Funk",
+    "Concept Album"
+  ],
+  "theme": "28 minutes of bass, strings, and spoken French that pop music has been borrowing from for fifty years — and a story that demands we talk about art versus artist.",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "March 24, 1971",
+  "originalLabel": "Philips",
+  "artistCountry": "France (Paris)",
+  "artistScene": "Chanson · Orchestral Pop · Provocateur",
+  "artistYearsActive": "1957 – 1991",
+  "artistOverview": "Serge Gainsbourg was France's great pop provocateur — a chain-smoking songwriter who moved through jazz, yé-yé, reggae, and funk, scandalizing France roughly once a decade. Melody Nelson, his short concept album with arranger Jean-Claude Vannier, fuses a live funk rhythm section with a 70-piece orchestra. Its sound conquered the world slowly; its storyline — an older man's obsession with a teenage girl — is exactly the kind of thing this class exists to examine critically rather than ignore.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Serge Gainsbourg",
+      "role": "Vocals, Songwriter",
+      "years": "1957–1991",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jean-Claude Vannier",
+      "role": "Arranger, Co-composer",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Herbie Flowers",
+      "role": "Bass",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Vic Flick",
+      "role": "Guitar",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jane Birkin",
+      "role": "Cover Model, Vocals ('Melody')",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Boris Vian",
+        "note": "The French tradition of literary song provocation.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Miles Davis",
+        "note": "Orchestral jazz moodiness — Bitches Brew territory, one year later.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Rolling Stones",
+        "note": "The rock swagger Gainsbourg translated into French.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Beck",
+        "note": "Sea Change and 'Paper Tiger' openly recreate Vannier's string arrangements.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Portishead",
+        "note": "Trip-hop's cinematic bass-and-strings formula starts here — Dummy is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "De La Soul",
+        "note": "One of many hip-hop acts to sample the album's basslines.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Air",
+        "note": "French electronic duo who treat this album as a national monument."
+      },
+      {
+        "artist": "Jean-Claude Vannier",
+        "note": "The arranger's own L'enfant assassin des mouches is the instrumental sibling."
+      },
+      {
+        "artist": "Scott Walker",
+        "note": "The other great orchestral-pop baritone of the era."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Orchestral Funk / French Concept Pop",
+    "mood": "Nocturnal, cinematic, obsessive, luxurious",
+    "mainSounds": "Herbie Flowers' round rubbery bass, 70-piece string orchestra, spoken-word French vocals, wah guitar",
+    "productionStyle": "London rhythm section + Paris orchestra — the groove recorded first, strings draped over it",
+    "energy": "Slow-burning — two long bookend tracks around five miniatures",
+    "keyIdea": "Speaking instead of singing over enormous orchestration created a new pop language — sampled ever since."
+  },
+  "icebreaker": {
+    "question": "When a work of art is influential and beautiful but its story or its maker troubles us, what should a listener do — skip it, excuse it, or study it?",
+    "activity": "In pairs: name one artist or work you've wrestled with this way. What did you decide, and why? (2 min)"
+  },
+  "beforeYouListen": [
+    "The album is 28 minutes long and tells one story: the narrator hits a teenage girl's bicycle with his Rolls-Royce and becomes obsessed with her — a storyline we will discuss critically, not skate past.",
+    "Bassist Herbie Flowers also played the famous bassline on Lou Reed's 'Walk on the Wild Side' — listen for the family resemblance.",
+    "It flopped in 1971 France; Beck, Portishead, Air, and dozens of hip-hop producers later made it canon.",
+    "We'll focus on the SOUND — the bass-plus-orchestra blueprint — and on the ethical questions, separately and clearly."
+  ],
+  "importance": [
+    "One of the most sampled and imitated orchestral-pop records ever made.",
+    "Created the spoken-word-over-groove template trip-hop built a genre on.",
+    "Jean-Claude Vannier's arrangements are studied in composition courses.",
+    "A central case study in the art-versus-artist debate, taught as such."
+  ],
+  "historicalContext": "1971 France: Gainsbourg was already a scandal-generating national figure. Concept albums were ascendant worldwide, but nothing sounded like this — London session funk under Parisian strings. The album's uncomfortable subject matter drew little comment in 1971 France; that the conversation has changed so completely is itself a lesson in how cultures move.",
+  "bandDiscography": [
+    {
+      "title": "Initials B.B.",
+      "artist": "Serge Gainsbourg",
+      "year": 1968,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Jane Birkin / Serge Gainsbourg",
+      "artist": "Serge Gainsbourg",
+      "year": 1969,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Histoire de Melody Nelson",
+      "artist": "Serge Gainsbourg",
+      "year": 1971,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Vu de l'extérieur",
+      "artist": "Serge Gainsbourg",
+      "year": 1973,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "L'homme à tête de chou",
+      "artist": "Serge Gainsbourg",
+      "year": 1976,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Aux armes et cætera",
+      "artist": "Serge Gainsbourg",
+      "year": 1979,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "mild",
+    "themes": "MAJOR: the narrative concerns an adult's obsession with a minor — inappropriate to romanticize and essential to name plainly. Teach as a critical-listening and media-ethics session: the sound's influence versus the story's problem. French lyrics mean most students won't parse the text in real time; provide framing, not translation of the suggestive passages.",
+    "artworkConcern": "Original cover features Jane Birkin styled as the young 'Melody' — use a discography thumbnail rather than projecting full-screen.",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "The album is 27:53 long — shorter than one episode of anything.",
+    "Beck hired Vannier's engineer-era approach for Sea Change; the Melody Nelson strings are quoted almost verbatim on 'Paper Tiger.'",
+    "Herbie Flowers' bassline on 'Melody' is among the most sampled French recordings ever.",
+    "The 33⅓ book on Histoire de Melody Nelson was written by Darran Anderson (2013)."
+  ],
+  "tracklist": [
+    {
+      "title": "Melody",
+      "displayTitle": "Melody",
+      "duration": "7:32",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The famous one — bass and strings for seven minutes. Play the first 90 seconds for the blueprint."
+    },
+    {
+      "title": "Ballade de Melody Nelson",
+      "displayTitle": "Ballade de Melody Nelson",
+      "duration": "2:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The most-sampled two minutes on the album."
+    },
+    {
+      "title": "Valse de Melody",
+      "displayTitle": "Valse de Melody",
+      "duration": "1:32",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Ah! Melody",
+      "displayTitle": "Ah! Melody",
+      "duration": "1:47",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "L'hôtel particulier",
+      "displayTitle": "L'hôtel particulier",
+      "duration": "4:05",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "The narrative's most explicit chapter — keep hidden; acknowledge in discussion."
+    },
+    {
+      "title": "En Melody",
+      "displayTitle": "En Melody",
+      "duration": "3:56",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Violin freak-out over the funk — Vannier unchained."
+    },
+    {
+      "title": "Cargo culte",
+      "displayTitle": "Cargo culte",
+      "duration": "7:37",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The orchestral finale — grief rendered as a wall of strings and choir."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Melody",
+      "note": "Listen to the bass first — round, patient, melodic. Then notice the strings answering it. Fifty years of trip-hop, indie, and film scores are borrowing this exact conversation."
+    },
+    {
+      "title": "Cargo culte",
+      "note": "The seven-minute ending: choir, strings, and a spoken confession. How does the arrangement tell you how the story ends before you understand a word?"
+    },
+    {
+      "title": "Ballade de Melody Nelson",
+      "note": "Two minutes producers have looted for decades. Count the elements — there are maybe five. Why is less easier to sample than more?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "28 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1970–71, Marble Arch Studios London & Studio des Dames Paris"
+    },
+    {
+      "label": "Chart Peak (France)",
+      "value": "Initial commercial failure"
+    },
+    {
+      "label": "Legacy",
+      "value": "Pitchfork 100 Best Albums of the 1970s; sampled across hip-hop and trip-hop"
+    }
+  ],
+  "discussionQuestions": [
+    "We studied this album's sound while criticizing its story. Is that separation honest, or convenient? Where do you land?",
+    "The album barely sold in 1971 and is canon now. What has to change in the world for a record to get 'discovered'?",
+    "Spoken word over music: compare Gainsbourg's delivery to rap. What's similar, what's completely different?",
+    "France in 1971 shrugged at this storyline; today it's the first thing discussed. What does that shift tell us about how culture judges art over time?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "they-might-be-giants-flood",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Flood",
+      "artist": "They Might Be Giants",
+      "year": 1990,
+      "teaser": "Next week: two accordion-wielding Brooklyn nerds make the smartest, funniest pop album of 1990 — and accidentally soundtrack a generation's childhood.",
+      "listenForQuestion": "Can a song be a joke and a masterpiece at the same time?"
+    },
+    "homeworkAlbum": {
+      "title": "Dummy",
+      "artist": "Portishead",
+      "year": 1994,
+      "reason": "Trip-hop's masterpiece — built directly on the Melody Nelson blueprint; it's in our library.",
+      "studentTask": "Listen to 'Glory Box' and identify two elements borrowed from what we heard today."
+    }
+  },
+  "week": 195
+},
+{
+  "id": "they-might-be-giants-flood",
+  "weekNumber": 196,
+  "title": "Flood",
+  "artist": "They Might Be Giants",
+  "year": 1990,
+  "label": "Elektra",
+  "producer": "Clive Langer, Alan Winstanley, TMBG",
+  "artworkKey": "they-might-be-giants-flood",
+  "genres": [
+    "Alternative Rock",
+    "Geek Rock",
+    "Pop"
+  ],
+  "theme": "Nineteen songs about birdhouses, presidents, and nightlights — proof that 'clever' and 'catchy' aren't opposites, and that weird kids win eventually.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "January 5, 1990",
+  "originalLabel": "Elektra",
+  "artistCountry": "United States (Brooklyn, New York)",
+  "artistScene": "Geek Rock · College Radio · Dial-A-Song",
+  "artistYearsActive": "1982 – present",
+  "artistOverview": "John Flansburgh and John Linnell built an audience with Dial-A-Song — an answering machine in Brooklyn that played a new song to anyone who called. Flood, their major-label debut, turned accordion-driven absurdism into platinum sales. Decades later they remain the patron saints of every smart, strange kid with a keyboard and a joke that's secretly serious.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "John Linnell",
+      "role": "Vocals, Accordion, Keyboards",
+      "years": "1982–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "John Flansburgh",
+      "role": "Vocals, Guitar",
+      "years": "1982–present",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "XTC",
+        "note": "Angular British pop-smarts — the melodic standard TMBG chased.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Residents",
+        "note": "Art-weirdness as a band identity.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Tin Pan Alley songwriters",
+        "note": "The old craft of the 2-minute novelty song, modernized.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Decemberists",
+        "note": "Vocabulary-first indie owes TMBG its permission slip.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Weird Al Yankovic",
+        "note": "Peers and mutual admirers in the smart-funny lane.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Bo Burnham",
+        "note": "The comedy-song-with-real-craft tradition continues.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Ween",
+        "note": "Last month's genre chameleons — the other great '90s weird duo."
+      },
+      {
+        "artist": "Camper Van Beethoven",
+        "note": "College-radio absurdists of the same era."
+      },
+      {
+        "artist": "Barenaked Ladies",
+        "note": "The friendlier commercial cousin."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Alternative / Geek Rock",
+    "mood": "Manic, whimsical, secretly melancholy",
+    "mainSounds": "Accordion, drum machines, horns, two nasal Brooklyn voices in harmony",
+    "productionStyle": "Half slick London production (Langer/Winstanley), half home-studio sampler experiments",
+    "energy": "Nineteen songs in 43 minutes — nothing overstays",
+    "keyIdea": "A joke delivered with perfect craft stops being a joke and becomes a song you cry to at 30."
+  },
+  "icebreaker": {
+    "question": "What's a song, show, or game you loved as a kid that turned out to be much smarter than you realized?",
+    "activity": "In pairs: hum or describe a theme song you've never forgotten. Why did it stick? (2 min)"
+  },
+  "beforeYouListen": [
+    "Before streaming, TMBG ran 'Dial-A-Song' — call a Brooklyn phone number, hear a new song on an answering machine. If it broke, the tape kept playing anyway.",
+    "'Istanbul (Not Constantinople)' is a cover of a 1953 novelty song — TMBG made it theirs so completely most people don't know.",
+    "'Birdhouse in Your Soul' is sung from the point of view of a nightlight. It reached the UK Top 10.",
+    "Tiny Toon Adventures animated two of these songs, introducing TMBG to millions of kids — maybe including your teachers."
+  ],
+  "importance": [
+    "Platinum-selling proof that college-radio weirdness could scale without dumbing down.",
+    "'Birdhouse in Your Soul' is regularly cited among the best-written pop songs of its era.",
+    "Dial-A-Song pioneered direct-to-fan distribution a generation before Bandcamp.",
+    "The founding document of 'geek rock' — the lineage that leads to nerd-culture pop today."
+  ],
+  "historicalContext": "January 1990: hair metal was dying, grunge hadn't landed, and college radio was the R&D lab of American pop. Flood arrived exactly in the gap — too weird for MTV's mainstream, too catchy to ignore, and perfectly timed for the alternative decade about to begin.",
+  "bandDiscography": [
+    {
+      "title": "They Might Be Giants",
+      "artist": "They Might Be Giants",
+      "year": 1986,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Lincoln",
+      "artist": "They Might Be Giants",
+      "year": 1988,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Flood",
+      "artist": "They Might Be Giants",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Apollo 18",
+      "artist": "They Might Be Giants",
+      "year": 1992,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "John Henry",
+      "artist": "They Might Be Giants",
+      "year": 1994,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Factory Showroom",
+      "artist": "They Might Be Giants",
+      "year": 1996,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "'Your Racist Friend' addresses racism directly (against it) — a good discussion hook, not a concern.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "'Istanbul (Not Constantinople)' was written in 1953 — exactly 500 years after Constantinople fell.",
+    "'Particle Man' has been analyzed in physics classes and philosophy papers; the band says it's about nothing.",
+    "TMBG later won Grammys for children's albums — the Flood-to-kids pipeline was real.",
+    "The 33⅓ book on Flood was written by S. Alexander Reed and Philip Sandifer (2014)."
+  ],
+  "tracklist": [
+    {
+      "title": "Theme from Flood",
+      "displayTitle": "Theme from Flood",
+      "duration": "0:28",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A 28-second self-introducing theme song — why doesn't every album do this?"
+    },
+    {
+      "title": "Birdhouse in Your Soul",
+      "displayTitle": "Birdhouse in Your Soul",
+      "duration": "3:20",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "UK #6. A nightlight's love song with a key change count that defies belief."
+    },
+    {
+      "title": "Lucky Ball & Chain",
+      "displayTitle": "Lucky Ball & Chain",
+      "duration": "2:51",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Istanbul (Not Constantinople)",
+      "displayTitle": "Istanbul (Not Constantinople)",
+      "duration": "2:36",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "1953 novelty cover, opened with a violin cadenza. History class in 2:36."
+    },
+    {
+      "title": "Dead",
+      "displayTitle": "Dead",
+      "duration": "2:58",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Piano waltz about reincarnation as groceries — the secret melancholy shows."
+    },
+    {
+      "title": "Your Racist Friend",
+      "displayTitle": "Your Racist Friend",
+      "duration": "2:54",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Direct anti-racist statement — 'this is where the party ends.'"
+    },
+    {
+      "title": "Particle Man",
+      "displayTitle": "Particle Man",
+      "duration": "1:59",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Two minutes; animated by Tiny Toons; debated by physicists."
+    },
+    {
+      "title": "Twisting",
+      "displayTitle": "Twisting",
+      "duration": "1:56",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "We Want a Rock",
+      "displayTitle": "We Want a Rock",
+      "duration": "2:47",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Prosthetic foreheads for everyone."
+    },
+    {
+      "title": "Someone Keeps Moving My Chair",
+      "displayTitle": "Someone Keeps Moving My Chair",
+      "duration": "2:23",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Hearing Aid",
+      "displayTitle": "Hearing Aid",
+      "duration": "3:25",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Minimum Wage",
+      "displayTitle": "Minimum Wage",
+      "duration": "0:47",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "47 seconds: a shout, a whipcrack, and cowboy music. Economics curriculum complete."
+    },
+    {
+      "title": "Letterbox",
+      "displayTitle": "Letterbox",
+      "duration": "1:25",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Whistling in the Dark",
+      "displayTitle": "Whistling in the Dark",
+      "duration": "3:25",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Oompah philosophy: be who you are, even badly."
+    },
+    {
+      "title": "Hot Cha",
+      "displayTitle": "Hot Cha",
+      "duration": "1:33",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Women & Men",
+      "displayTitle": "Women & Men",
+      "duration": "1:45",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Sapphire Bullets of Pure Love",
+      "displayTitle": "Sapphire Bullets of Pure Love",
+      "duration": "1:38",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "They Might Be Giants",
+      "displayTitle": "They Might Be Giants",
+      "duration": "3:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The band's self-titled song on their third album — mythology as pop."
+    },
+    {
+      "title": "Road Movie to Berlin",
+      "displayTitle": "Road Movie to Berlin",
+      "duration": "3:14",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Birdhouse in Your Soul",
+      "note": "Sung by a nightlight, packed with more chord changes than most bands' careers. Try to count the sections — then explain why it still feels effortless."
+    },
+    {
+      "title": "Istanbul (Not Constantinople)",
+      "note": "A 1953 novelty made new. Compare what TMBG keep and what they replace — this is how covers become ownership."
+    },
+    {
+      "title": "Dead",
+      "note": "The saddest song ever disguised as a joke about buying groceries as a bag of them. Where exactly does the funny stop?"
+    },
+    {
+      "title": "Your Racist Friend",
+      "note": "The one with no irony at all. Why does a joke band going sincere for one track land harder than a serious band's whole album?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "43 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1989, Skyline (NYC) & AIR (London)"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#75 (Platinum)"
+    },
+    {
+      "label": "Legacy",
+      "value": "Geek-rock cornerstone; 'Birdhouse' in songwriting canons"
+    }
+  ],
+  "discussionQuestions": [
+    "TMBG write funny songs with total craft. Why does culture rank 'funny' below 'serious' in music — and should it?",
+    "Dial-A-Song was DIY distribution in 1985. Map it onto today: what's the modern equivalent, and what got lost?",
+    "Nineteen tracks under four minutes each. Defend or attack: brevity is the highest songwriting discipline.",
+    "'Your Racist Friend' names a real social situation. Is calling out friends more effective in a song than in person? Why does it feel different?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "andrew-w-k-i-get-wet",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "I Get Wet",
+      "artist": "Andrew W.K.",
+      "year": 2001,
+      "teaser": "Next week: twelve songs about partying, recorded like a wall of concrete — and a surprisingly deep philosophy underneath the world's dumbest-sounding album.",
+      "listenForQuestion": "Can total commitment turn a simple idea into art?"
+    },
+    "homeworkAlbum": {
+      "title": "Lincoln",
+      "artist": "They Might Be Giants",
+      "year": 1988,
+      "reason": "The indie album right before the major-label leap — same brains, smaller budget.",
+      "studentTask": "Listen to 'Ana Ng' and note one production difference from Flood."
+    }
+  },
+  "week": 196
+},
+{
+  "id": "andrew-w-k-i-get-wet",
+  "weekNumber": 197,
+  "title": "I Get Wet",
+  "artist": "Andrew W.K.",
+  "year": 2001,
+  "label": "Island",
+  "producer": "Andrew W.K.",
+  "artworkKey": "andrew-w-k-i-get-wet",
+  "genres": [
+    "Party Rock",
+    "Hard Rock",
+    "Pop Metal"
+  ],
+  "theme": "Every song is about partying. Every track is mixed to maximum. Is it the dumbest album ever or a work of outsider-art genius? (The 33⅓ book says: both.)",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "November 13, 2001",
+  "originalLabel": "Island",
+  "artistCountry": "United States (Ann Arbor, Michigan)",
+  "artistScene": "Party Rock · Positive Hardcore Philosophy",
+  "artistYearsActive": "1998 – present",
+  "artistOverview": "Andrew Wilkes-Krier trained as a classical pianist before deciding his life's mission was 'partying' — by which he means something closer to radical joy as a discipline. I Get Wet stacks dozens of guitar and keyboard tracks into a solid wall, every chorus a chant, every tempo a sprint. Critics couldn't decide if it was idiotic or brilliant; twenty years on, he gives motivational lectures at universities.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Andrew W.K.",
+      "role": "Vocals, Keyboards, Most Instruments",
+      "years": "1998–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jimmy Coup",
+      "role": "Guitar",
+      "years": "touring",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Donald Tardy",
+      "role": "Drums",
+      "years": "2001–2005",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Meat Loaf",
+        "note": "Wagnerian rock maximalism with zero shame.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "AC/DC",
+        "note": "One idea, executed forever — Highway to Hell is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "ABBA",
+        "note": "He cites their stacked, gleaming choruses as a production model — Gold is in our library.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Turbowolf",
+        "note": "A generation of maximalist party-rock bands.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "100 gecs",
+        "note": "Everything-at-maximum production philosophy, one generation later.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Machine Gun Kelly",
+        "note": "Pop-punk revival acts borrow the full-commitment persona.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "AC/DC",
+        "note": "The single-mindedness ancestor."
+      },
+      {
+        "artist": "The Darkness",
+        "note": "Fellow early-2000s maximum-rock true believers."
+      },
+      {
+        "artist": "LMFAO",
+        "note": "Party-as-entire-identity, EDM division."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Party Rock / Pop Metal",
+    "mood": "Euphoric, relentless, absurd, weirdly wholesome",
+    "mainSounds": "Dozens of layered guitars and pianos playing in unison, gang vocals, four-on-the-floor drums",
+    "productionStyle": "Deliberately crushed and maximal — every element as loud as every other, a solid slab",
+    "energy": "Maximum from second one and never once lower",
+    "keyIdea": "Commitment is a style: push one simple idea hard enough and it becomes transcendent (or insufferable — class vote)."
+  },
+  "icebreaker": {
+    "question": "Think of something 'objectively dumb' that brings you real joy. Why does it work — and why do we apologize for those things?",
+    "activity": "In pairs: 30 seconds each — hype up something you love with ZERO irony. Full commitment. (2 min)"
+  },
+  "beforeYouListen": [
+    "Andrew W.K. is a classically trained pianist who chose to write only about partying — he calls it a philosophy of total joy.",
+    "The production stacks so many guitar/keyboard layers that no single instrument is identifiable — a wall of pure texture.",
+    "The album cover (his face with a nosebleed) was banned from some UK ads.",
+    "He later became a motivational speaker and wrote an advice column praised for its sincerity and depth."
+  ],
+  "importance": [
+    "A cult classic of production maximalism studied by engineers as an extreme case.",
+    "The 33⅓ book on it is a fan favorite for tackling irony, sincerity, and 'guilty pleasure' head-on.",
+    "Predicted the everything-at-once loudness aesthetic that hyperpop later embraced.",
+    "Its afterlife (lectures, advice columns) reframed the album as outsider philosophy."
+  ],
+  "historicalContext": "Released two months after 9/11, when American culture was raw and earnestness suddenly outranked irony. A man in dirty white clothes screaming 'party hard' with zero winking was either exactly wrong or exactly right for the moment — sales said modest, history says right.",
+  "bandDiscography": [
+    {
+      "title": "I Get Wet",
+      "artist": "Andrew W.K.",
+      "year": 2001,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Wolf",
+      "artist": "Andrew W.K.",
+      "year": 2003,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Close Calls with Brick Walls",
+      "artist": "Andrew W.K.",
+      "year": 2006,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "You're Not Alone",
+      "artist": "Andrew W.K.",
+      "year": 2018,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "God Is Partying",
+      "artist": "Andrew W.K.",
+      "year": 2021,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "mild",
+    "themes": "'Party Til You Puke' is exactly what it says; 'party' is deliberately undefined — a good discussion point. 'She Is Beautiful' is chaste. Nothing graphic anywhere; the title's suggestion is never cashed in.",
+    "artworkConcern": "Cover shows a nosebleed (real blood, self-inflicted for the shoot) — mildly gross, historically notable.",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Dave Grohl was an early champion; the metal press put him on covers before the album even dropped in the US.",
+    "Drummer Donald Tardy came from death-metal band Obituary — the secret engine under the pop.",
+    "Andrew W.K. once gave a lecture at NYU titled 'The Philosophy of Partying.'",
+    "The 33⅓ book on I Get Wet was written by Phillip Crandall (2014)."
+  ],
+  "tracklist": [
+    {
+      "title": "It's Time to Party",
+      "displayTitle": "It's Time to Party",
+      "duration": "1:30",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Mission statement in 90 seconds."
+    },
+    {
+      "title": "Party Hard",
+      "displayTitle": "Party Hard",
+      "duration": "3:03",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "THE anthem — licensed by every sports broadcast since."
+    },
+    {
+      "title": "Girls Own Love",
+      "displayTitle": "Girls Own Love",
+      "duration": "3:12",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Ready to Die",
+      "displayTitle": "Ready to Die",
+      "duration": "2:53",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Later the theme of a video game; about commitment, not violence — worth saying aloud."
+    },
+    {
+      "title": "Take It Off",
+      "displayTitle": "Take It Off",
+      "duration": "2:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "I Love NYC",
+      "displayTitle": "I Love NYC",
+      "duration": "3:05",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Hit different two months after 9/11 — ask the class why."
+    },
+    {
+      "title": "She Is Beautiful",
+      "displayTitle": "She Is Beautiful",
+      "duration": "3:39",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The romantic one — still at 200 BPM."
+    },
+    {
+      "title": "Party Til You Puke",
+      "displayTitle": "Party Til You Puke",
+      "duration": "2:58",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Title is the grossest thing on the album; the track is instrumental chanting."
+    },
+    {
+      "title": "Fun Night",
+      "displayTitle": "Fun Night",
+      "duration": "3:33",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Got to Do It",
+      "displayTitle": "Got to Do It",
+      "duration": "3:22",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "I Get Wet",
+      "displayTitle": "I Get Wet",
+      "duration": "3:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Don't Stop Living in the Red",
+      "displayTitle": "Don't Stop Living in the Red",
+      "duration": "3:15",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The closest thing to a thesis: maximum effort, always, in everything."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Party Hard",
+      "note": "Play it loud, then play 10 seconds quietly. It only exists at maximum volume. What does it mean for music to have a REQUIRED listening level?"
+    },
+    {
+      "title": "I Love NYC",
+      "note": "Released weeks after 9/11 — accidental anthem. How does context transform a dumb-simple song into something moving?"
+    },
+    {
+      "title": "Don't Stop Living in the Red",
+      "note": "The philosophy track. 'Living in the red' = pushing every meter past its limit, in audio and in life. Metaphor or mixing instruction? Yes."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "36 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "2000–01, various studios, self-produced"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#84 (UK #71)"
+    },
+    {
+      "label": "Legacy",
+      "value": "Cult classic; 'Party Hard' in permanent sports/film rotation"
+    }
+  ],
+  "discussionQuestions": [
+    "The 33⅓ book asks whether this album is 'so dumb it's genius.' Make the case for genius using one specific musical detail.",
+    "Every element is mixed equally loud, so nothing stands out. How is that different from bad production — or is it?",
+    "Andrew W.K. never breaks character and insists there's no irony. Does an artist's stated sincerity change how you're allowed to hear them?",
+    "Compare with Celine Dion week: both artists are 'critically embarrassing' and beloved. What do our embarrassments have in common?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "aphex-twin-selected-ambient-works-volume-ii",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Selected Ambient Works Volume II",
+      "artist": "Aphex Twin",
+      "year": 1994,
+      "teaser": "Next week: the total opposite — three hours of beatless, untitled electronic dreams from techno's mad genius.",
+      "listenForQuestion": "What is music FOR when it refuses to demand your attention?"
+    },
+    "homeworkAlbum": {
+      "title": "Highway to Hell",
+      "artist": "AC/DC",
+      "year": 1979,
+      "reason": "The one-idea-forever ancestor — already in our library.",
+      "studentTask": "Listen to the title track and 'Party Hard' back to back. Same trick? Different trick? One sentence."
+    }
+  },
+  "week": 197
+},
+{
+  "id": "aphex-twin-selected-ambient-works-volume-ii",
+  "weekNumber": 198,
+  "title": "Selected Ambient Works Volume II",
+  "artist": "Aphex Twin",
+  "year": 1994,
+  "label": "Warp",
+  "producer": "Richard D. James",
+  "artworkKey": "aphex-twin-selected-ambient-works-volume-ii",
+  "genres": [
+    "Ambient",
+    "Electronic",
+    "Experimental"
+  ],
+  "theme": "Almost three hours of untitled, beatless sound that Richard D. James claims came from lucid dreams — music as a place you enter rather than a thing you follow.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "March 7, 1994",
+  "originalLabel": "Warp",
+  "artistCountry": "United Kingdom (Cornwall)",
+  "artistScene": "Ambient · IDM · Electronic Auteur",
+  "artistYearsActive": "1985 – present",
+  "artistOverview": "Richard D. James — Aphex Twin — grew up in Cornwall building his own synthesizers and became electronic music's most mythologized figure: the prankster genius who claimed to sleep two hours a night and compose in lucid dreams. This sprawling double album abandoned dance beats entirely for floating, untitled pieces identified only by cryptic photographs.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Richard D. James",
+      "role": "Everything",
+      "years": "1985–present",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Brian Eno",
+        "note": "Ambient's inventor — Another Green World is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Erik Satie",
+        "note": "The 19th-century 'furniture music' composer — music meant to be half-heard.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Kraftwerk",
+        "note": "The machine-music foundation everything electronic stands on.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Radiohead",
+        "note": "Kid A's textures come straight from Warp records like this — it's in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Burial",
+        "note": "Haunted ambient UK electronics, one generation on.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Lo-fi beats playlists",
+        "note": "Ambient-as-study-companion is this album's mass-market grandchild.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Boards of Canada",
+        "note": "Warp labelmates in melancholy electronics."
+      },
+      {
+        "artist": "Brian Eno",
+        "note": "Music for Airports is the direct ancestor."
+      },
+      {
+        "artist": "Stars of the Lid",
+        "note": "The drone-ambient continuation."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Ambient Electronic",
+    "mood": "Weightless, eerie, peaceful, occasionally unsettling",
+    "mainSounds": "Hand-built synthesizers, tape hiss, distant melodies, almost no percussion anywhere",
+    "productionStyle": "Deliberately lo-fi and mysterious — some tracks reportedly composed in lucid dreams and reconstructed on waking",
+    "energy": "Near-still — the drama is in tiny changes over long spans",
+    "keyIdea": "Ambient music asks a different question: not 'do you like it?' but 'what does the room feel like now?'"
+  },
+  "icebreaker": {
+    "question": "You already use ambient music — studying, gaming, falling asleep. What's the difference between music you listen TO and music you live INSIDE?",
+    "activity": "60 seconds of silence, eyes closed, just listening to the room. Then: what did you hear? (2 min)"
+  },
+  "beforeYouListen": [
+    "The tracks have no official titles — fans name them after the photographs in the album art ('Rhubarb,' 'Cliffs').",
+    "James claimed most of it came from lucid dreaming: composing in dreams, then rebuilding the music on waking.",
+    "There are almost no drums for nearly three hours — radical for a famous techno artist in 1994.",
+    "Don't hunt for hooks today. Notice instead when the room's feeling changes."
+  ],
+  "importance": [
+    "A defining document of ambient music's second era — the bridge from Eno to the streaming age's chill playlists.",
+    "Proved electronic music's biggest names could refuse the dancefloor entirely.",
+    "Its untitled-tracks concept made the LISTENER the namer — participatory minimalism.",
+    "Endlessly sampled, scored into films, and cited by classical composers."
+  ],
+  "historicalContext": "1994: rave culture peaked in Britain, and its biggest producer responded with three beatless hours. Ambient rooms at raves — spaces to recover from the chaos — had made quiet electronics culturally necessary; this album made them canon.",
+  "bandDiscography": [
+    {
+      "title": "Selected Ambient Works 85–92",
+      "artist": "Aphex Twin",
+      "year": 1992,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Selected Ambient Works Volume II",
+      "artist": "Aphex Twin",
+      "year": 1994,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "...I Care Because You Do",
+      "artist": "Aphex Twin",
+      "year": 1995,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Richard D. James Album",
+      "artist": "Aphex Twin",
+      "year": 1996,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Drukqs",
+      "artist": "Aphex Twin",
+      "year": 2001,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Syro",
+      "artist": "Aphex Twin",
+      "year": 2014,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "Track 19 (fan name 'Stone in Focus') is serene; a few pieces are deliberately eerie — nothing beyond mood.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "James has claimed he owned a tank, lived in a converted bank vault, and composed in dreams — myth-making is part of the art.",
+    "Fan-favorite 'Rhubarb' has soundtracked countless films, ads, and YouTube ambience mixes.",
+    "The album sleeve identifies tracks by pie-chart diagrams and photos instead of names.",
+    "The 33⅓ book on Selected Ambient Works Volume II was written by Marc Weidenbaum (2014)."
+  ],
+  "tracklist": [
+    {
+      "title": "Untitled 1",
+      "displayTitle": "Track 1 — 'Cliffs'",
+      "duration": "7:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "All titles are fan names from the artwork photos — the band gave none."
+    },
+    {
+      "title": "Untitled 2",
+      "displayTitle": "Track 2 — 'Radiator'",
+      "duration": "6:08",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Untitled 3",
+      "displayTitle": "Track 3 — 'Rhubarb'",
+      "duration": "7:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The famous one — four chords, infinite calm. Start class here."
+    },
+    {
+      "title": "Untitled 4",
+      "displayTitle": "Track 4 — 'Hankie'",
+      "duration": "5:15",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Untitled 5",
+      "displayTitle": "Track 5 — 'Grass'",
+      "duration": "9:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Untitled 6",
+      "displayTitle": "Track 6 — 'Mould'",
+      "duration": "5:58",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Untitled 7",
+      "displayTitle": "Track 7 — 'Curtains'",
+      "duration": "6:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The eerie one — ambient doesn't always mean comfortable."
+    },
+    {
+      "title": "Untitled 8",
+      "displayTitle": "Track 8 — 'Blur'",
+      "duration": "4:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Untitled 9",
+      "displayTitle": "Track 9 — 'Weathered Stone'",
+      "duration": "6:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Untitled 10",
+      "displayTitle": "Track 10 — 'Tree'",
+      "duration": "10:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Untitled 11",
+      "displayTitle": "Track 11 — 'Domino'",
+      "duration": "4:32",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Untitled 19",
+      "displayTitle": "Track 19 — 'Stone in Focus'",
+      "duration": "10:12",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "CD-only track; a fan favorite for pure serenity — great class closer. (Selection: the full album runs ~160 minutes.)"
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Track 3 — 'Rhubarb'",
+      "note": "Four chords for eight minutes. Notice WHEN you stop being bored and start being somewhere — that threshold is the whole genre."
+    },
+    {
+      "title": "Track 7 — 'Curtains'",
+      "note": "Ambient unease. What specific sounds make calm music feel haunted? Name two."
+    },
+    {
+      "title": "Track 19 — 'Stone in Focus'",
+      "note": "Compare with the lo-fi beats you study to. What did those playlists inherit from this — and what did they sand off?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "~160 min (selections in class)"
+    },
+    {
+      "label": "Recorded",
+      "value": "Early 1990s, home studios, Cornwall/London"
+    },
+    {
+      "label": "Chart Peak (UK)",
+      "value": "#11"
+    },
+    {
+      "label": "Legacy",
+      "value": "Pitchfork 10/10 reissue; ambient canon centerpiece"
+    }
+  ],
+  "discussionQuestions": [
+    "The tracks are untitled, so fans named them. Does a title change what you hear? Rename 'Rhubarb' as a class and test it.",
+    "You study to music like this constantly. Is background listening a lesser way to hear music, or its own skill?",
+    "James wrapped this album in myths (dream composition, tanks, bank vaults). Do artist myths deepen the music or distract from it?",
+    "Three hours, no beats, no titles: is this generous (endless space) or hostile (no guidance)? Defend your answer."
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "richard-hell-and-the-voidoids-blank-generation",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Blank Generation",
+      "artist": "Richard Hell and the Voidoids",
+      "year": 1977,
+      "teaser": "Next week: the man who invented the punk look — torn shirts, spiked hair — and wrote its defining anthem of refusing to be defined.",
+      "listenForQuestion": "Is calling yourself 'blank' emptiness — or freedom?"
+    },
+    "homeworkAlbum": {
+      "title": "Music for Airports",
+      "artist": "Brian Eno",
+      "year": 1978,
+      "reason": "The album that named ambient music — the direct ancestor of today's session.",
+      "studentTask": "Play '1/1' while doing homework, then 5 minutes with full attention. Which mode does it prefer?"
+    }
+  },
+  "week": 198
+},
+{
+  "id": "richard-hell-and-the-voidoids-blank-generation",
+  "weekNumber": 199,
+  "title": "Blank Generation",
+  "artist": "Richard Hell and the Voidoids",
+  "year": 1977,
+  "label": "Sire",
+  "producer": "Richard Gottehrer, Richard Hell",
+  "artworkKey": "richard-hell-and-the-voidoids-blank-generation",
+  "genres": [
+    "Punk",
+    "Art Punk"
+  ],
+  "theme": "The poet who invented punk's look and its central idea — 'blank' not as empty, but as a space where you write yourself.",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "September 1977",
+  "originalLabel": "Sire",
+  "artistCountry": "United States (New York City)",
+  "artistScene": "CBGB Punk · Art Punk · Downtown Poetry",
+  "artistYearsActive": "1969 – 1984 (music), writer since",
+  "artistOverview": "Richard Hell (born Richard Meyers) ran away from Kentucky to New York to be a poet, co-founded Television and the Heartbreakers, and then formed the Voidoids. His torn shirts, safety pins, and spiked hair were photographed by Malcolm McLaren and exported to London as the Sex Pistols' image. This, his only essential album, pairs his yelped philosophy with Robert Quine's razor-wire guitar.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Richard Hell",
+      "role": "Vocals, Bass",
+      "years": "1969–1984",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Robert Quine",
+      "role": "Lead Guitar",
+      "years": "1976–1982",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Ivan Julian",
+      "role": "Guitar",
+      "years": "1976–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Marc Bell",
+      "role": "Drums (later Marky Ramone)",
+      "years": "1976–1978",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Arthur Rimbaud",
+        "note": "The teenage French poet — Hell's true role model.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Velvet Underground",
+        "note": "Quine literally taped their shows; the guitar language starts there. VU & Nico is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Bob Dylan",
+        "note": "The wordy sneer — Highway 61 is in our library.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Sex Pistols",
+        "note": "McLaren took Hell's LOOK to London and built a band around it — Hell got no royalties on safety pins.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Sonic Youth",
+        "note": "Quine's skronk guitar is their foundation — Daydream Nation is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Strokes",
+        "note": "Downtown NYC cool, recycled a generation later.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Television",
+        "note": "Hell co-founded them; Marquee Moon is in our library — compare the two halves of the split."
+      },
+      {
+        "artist": "Patti Smith",
+        "note": "Poetry-first CBGB royalty — Horses is in our library."
+      },
+      {
+        "artist": "Ramones",
+        "note": "Marc Bell's next stop; also in our library."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Art Punk",
+    "mood": "Jittery, sardonic, literary, alive",
+    "mainSounds": "Quine's atonal-but-precise solos, lurching rhythms, Hell's cracked yelp",
+    "productionStyle": "Clean enough to hear every idea — punk's chaos with a jazz player's articulation",
+    "energy": "Twitchy sprints with sudden lounge-jazz swerves",
+    "keyIdea": "Punk wasn't a sound first — it was an idea about self-invention, and this is its founding text."
+  },
+  "icebreaker": {
+    "question": "Hell sang 'I belong to the blank generation' — meaning you fill in your own blank. Is refusing labels its own identity?",
+    "activity": "In pairs: what label do people put on your generation? Accept it, reject it, or rewrite it — 30 seconds each. (2 min)"
+  },
+  "beforeYouListen": [
+    "Richard Hell invented the punk look: torn shirts, safety pins, spiked hair — the Sex Pistols' image was imported from him.",
+    "Guitarist Robert Quine was a lawyer and Velvet Underground obsessive whose solos sound wrong on purpose and perfect immediately.",
+    "The title track's 'blank' is meant as a fill-in-the-____ , not as apathy — Hell has spent 45 years explaining this.",
+    "Drummer Marc Bell left to become Marky Ramone."
+  ],
+  "importance": [
+    "The founding document of punk as SELF-INVENTION — look, name, and philosophy all self-authored.",
+    "Robert Quine's guitar style seeded Sonic Youth, the Voidoids' descendants, and all art-punk since.",
+    "The title track is one of punk's few genuine philosophical anthems.",
+    "Hell's later career as a novelist/critic completed the punk-as-literature argument."
+  ],
+  "historicalContext": "CBGB, 1977: Television, Patti Smith, Ramones, Talking Heads, and the Voidoids shared one filthy stage and invented five different futures. London's punk explosion — using Hell's borrowed image — was already outselling the originals. This album is the source code released after the fork.",
+  "bandDiscography": [
+    {
+      "title": "Blank Generation",
+      "artist": "Richard Hell and the Voidoids",
+      "year": 1977,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Destiny Street",
+      "artist": "Richard Hell and the Voidoids",
+      "year": 1982,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "moderate",
+    "themes": "'Love Comes in Spurts' is suggestive by title (the song is about heartbreak's rhythm); 'Who Says?' contains a strong phrase. Screen tracks; the title track and 'Betrayal Takes Two' are class-safe.",
+    "artworkConcern": "Cover shows Hell shirtless with the phrase 'YOU MAKE ME ____' visible on his chest in some pressings — thumbnail size is fine.",
+    "cleanVersionAvailable": "No.",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "Malcolm McLaren admitted he built the Sex Pistols' image from watching Hell perform.",
+    "Hell co-wrote 'Chinese Rocks' with Dee Dee Ramone — both bands claimed it.",
+    "Quine later played the celebrated solos on Lou Reed's The Blue Mask.",
+    "The 33⅓ book on Blank Generation was written by Pete Astor (2014)."
+  ],
+  "tracklist": [
+    {
+      "title": "Love Comes in Spurts",
+      "displayTitle": "Love Comes in Spurts",
+      "duration": "2:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Title reads cruder than the lyric is — a song about love arriving in painful bursts. Teacher's call."
+    },
+    {
+      "title": "Liars Beware",
+      "displayTitle": "Liars Beware",
+      "duration": "2:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "New Pleasure",
+      "displayTitle": "New Pleasure",
+      "duration": "2:31",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Betrayal Takes Two",
+      "displayTitle": "Betrayal Takes Two",
+      "duration": "3:25",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The lounge-noir swerve — punk's range on display."
+    },
+    {
+      "title": "Down at the Rock and Roll Club",
+      "displayTitle": "Down at the Rock and Roll Club",
+      "duration": "2:37",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "CBGB immortalized."
+    },
+    {
+      "title": "Who Says?",
+      "displayTitle": "Who Says?",
+      "duration": "3:00",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": false,
+      "teacherNote": "One strong line — screen before playing."
+    },
+    {
+      "title": "Blank Generation",
+      "displayTitle": "Blank Generation",
+      "duration": "2:40",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The anthem. Based melodically on a 1959 novelty song 'The Beat Generation' — punk sampling beatniks."
+    },
+    {
+      "title": "Walking on the Water",
+      "displayTitle": "Walking on the Water",
+      "duration": "2:45",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Creedence cover, Voidoid-ized."
+    },
+    {
+      "title": "The Plan",
+      "displayTitle": "The Plan",
+      "duration": "3:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Another World",
+      "displayTitle": "Another World",
+      "duration": "8:14",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "An eight-minute punk song in 1977 — rules were for other people."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Blank Generation",
+      "note": "Listen for the pause where 'blank' sits — Hell sometimes sang other words there live. The blank is participatory: what's YOUR word?"
+    },
+    {
+      "title": "Betrayal Takes Two",
+      "note": "Punk plays a cocktail ballad. Quine's solo is polite and menacing at once — how does he do both?"
+    },
+    {
+      "title": "Another World",
+      "note": "Eight minutes when punk demanded two. What makes it still punk — the sound, or the refusal to obey even punk's own rules?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "35 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1976–77, Electric Lady & Plaza Sound, NYC"
+    },
+    {
+      "label": "Chart Peak",
+      "value": "Did not chart"
+    },
+    {
+      "label": "Legacy",
+      "value": "Punk canon; Rolling Stone 500 (2012 edition)"
+    }
+  ],
+  "discussionQuestions": [
+    "Hell invented a look; McLaren exported it and got rich. Can style be stolen? Should it be protectable?",
+    "'Blank' as fill-in-yourself versus 'blank' as nothing: which reading do you hear in the performance, and what tips it?",
+    "Hell was a poet first. Read the 'Blank Generation' lyric on the page, then hear it. What does the music add that the page can't?",
+    "Television, the Heartbreakers, the Voidoids — Hell kept leaving bands at their peak. Is walking away a form of artistic integrity or self-sabotage?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "the-beach-boys-smile",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Smile",
+      "artist": "The Beach Boys",
+      "year": 1967,
+      "teaser": "Next week: the most famous album never released — Brian Wilson's 'teenage symphony to God,' abandoned in 1967 and finally assembled 44 years later.",
+      "listenForQuestion": "Can an unfinished work of art still be a masterpiece?"
+    },
+    "homeworkAlbum": {
+      "title": "Marquee Moon",
+      "artist": "Television",
+      "year": 1977,
+      "reason": "The band Hell co-founded and quit — hear the road not taken; it's in our library.",
+      "studentTask": "Listen to the 'Marquee Moon' guitar break and Quine's 'Blank Generation' solo. One sentence: how did the split change punk?"
+    }
+  },
+  "week": 199
+},
+{
+  "id": "the-beach-boys-smile",
+  "weekNumber": 200,
+  "title": "Smile",
+  "artist": "The Beach Boys",
+  "year": 1967,
+  "label": "Capitol (released 2011 as The Smile Sessions)",
+  "producer": "Brian Wilson",
+  "artworkKey": "the-beach-boys-smile",
+  "genres": [
+    "Psychedelic Pop",
+    "Baroque Pop",
+    "Americana"
+  ],
+  "theme": "The most famous album never finished — Brian Wilson's 'teenage symphony to God,' abandoned in 1967, mythologized for decades, assembled at last in 2011.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "Recorded 1966–67; released November 1, 2011",
+  "originalLabel": "Capitol",
+  "artistCountry": "United States (Hawthorne, California)",
+  "artistScene": "Psychedelic Pop · Studio Symphony · California Myth",
+  "artistYearsActive": "1961 – present",
+  "artistOverview": "After Pet Sounds (our Week 12), Brian Wilson set out to top it with Smile — a modular 'teenage symphony to God' written with Van Dyke Parks (our Week 193). Under pressure, perfectionism, and worsening mental health, Wilson shelved it in 1967. For 44 years it existed only as bootlegs and legend, until The Smile Sessions finally assembled the pieces.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Brian Wilson",
+      "role": "Composer, Producer, Vocals, Bass",
+      "years": "1961–2025",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Carl Wilson",
+      "role": "Guitar, Vocals",
+      "years": "1961–1998",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Dennis Wilson",
+      "role": "Drums, Vocals",
+      "years": "1961–1983",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Mike Love",
+      "role": "Vocals",
+      "years": "1961–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Al Jardine",
+      "role": "Guitar, Vocals",
+      "years": "1961–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Van Dyke Parks",
+      "role": "Lyricist",
+      "years": "1966–67",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "George Gershwin",
+        "note": "'Rhapsody in Blue' was Brian's north star — American classical-pop fusion.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Beatles",
+        "note": "Rubber Soul provoked Pet Sounds; Revolver raised the stakes for Smile.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Phil Spector",
+        "note": "The Wall of Sound production method Brian extended into modular recording.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "The Beatles",
+        "note": "Paul McCartney heard Smile sessions in progress; the rivalry shaped Sgt. Pepper — in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Animal Collective",
+        "note": "Modular, chopped-vocal psychedelia is Smile's direct grandchild.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Sufjan Stevens",
+        "note": "Orchestral Americana suites — Illinois is in our library.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Van Dyke Parks",
+        "note": "Song Cycle (Week 193) is Smile's solo sibling."
+      },
+      {
+        "artist": "The Beatles",
+        "note": "The transatlantic arms race partner."
+      },
+      {
+        "artist": "The Zombies",
+        "note": "Odessey and Oracle — the other great 1967-68 baroque pop."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Psychedelic / Baroque Pop",
+    "mood": "Ecstatic, playful, haunted, devotional",
+    "mainSounds": "Stacked Beach Boys harmonies, harpsichords, banjos, fire sirens, vegetable-chewing percussion",
+    "productionStyle": "Modular: dozens of short sections recorded separately, meant to be assembled like LEGO — decades before sampling made that normal",
+    "energy": "Constantly morphing — barbershop to orchestral chaos inside one track",
+    "keyIdea": "An unfinished masterpiece asks: does an album exist in the recordings, or in the idea?"
+  },
+  "icebreaker": {
+    "question": "Is an unfinished work of art still art? Would you rather see a genius's abandoned draft or a lesser artist's polished final?",
+    "activity": "In pairs: name something unfinished (game, fic, show cancelled early) you still love. What does incompleteness add? (2 min)"
+  },
+  "beforeYouListen": [
+    "Brian Wilson called this 'a teenage symphony to God' — then abandoned it in 1967 as pressure and mental illness closed in.",
+    "The lyrics are by Van Dyke Parks, whose Song Cycle we studied — 'over and over the crow cries uncover the cornfield.'",
+    "'Fire' scared Brian so much (a building burned nearby during recording) that he shelved the tapes for decades.",
+    "What we hear today is the 2011 Smile Sessions assembly of the original 1966-67 recordings."
+  ],
+  "importance": [
+    "The most mythologized unreleased album in history — the standard against which all 'lost albums' are measured.",
+    "Its modular recording method anticipated sampling and modern DAW composition by decades.",
+    "'Good Vibrations' (from these sessions) was the most expensive single ever made and a #1 hit.",
+    "Its 2011 release finally let history judge the legend — and the legend held."
+  ],
+  "historicalContext": "1966-67: the Beatles-Beach Boys rivalry was pushing pop toward art at terrifying speed. Smile was to be America's answer to everything — until its collapse became pop's great cautionary tale about pressure, perfectionism, and mental health. The 2004 Brian Wilson re-recording and 2011 Sessions release turned tragedy into resolution.",
+  "bandDiscography": [
+    {
+      "title": "Pet Sounds",
+      "artist": "The Beach Boys",
+      "year": 1966,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Smiley Smile",
+      "artist": "The Beach Boys",
+      "year": 1967,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Wild Honey",
+      "artist": "The Beach Boys",
+      "year": 1967,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Friends",
+      "artist": "The Beach Boys",
+      "year": 1968,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Surf's Up",
+      "artist": "The Beach Boys",
+      "year": 1971,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Smile Sessions",
+      "artist": "The Beach Boys",
+      "year": 2011,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "Brian Wilson's mental health collapse is central context — handle with care and accuracy.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "For 'Vega-Tables,' Paul McCartney reportedly chewed celery as percussion.",
+    "Session musicians wore toy fire helmets while recording 'Fire' — then a real fire broke out nearby.",
+    "'Surf's Up' was performed solo by Brian on TV in 1966 — for decades it was the myth's crown jewel.",
+    "The 33⅓ book on Smile was written by Luis Sanchez (2014)."
+  ],
+  "tracklist": [
+    {
+      "title": "Our Prayer",
+      "displayTitle": "Our Prayer",
+      "duration": "1:06",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Wordless a cappella hymn — the choir the band always secretly was."
+    },
+    {
+      "title": "Heroes and Villains",
+      "displayTitle": "Heroes and Villains",
+      "duration": "4:53",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The intended centerpiece single — Old West history as psychedelic barbershop. US #12 (1967 version)."
+    },
+    {
+      "title": "Do You Like Worms (Roll Plymouth Rock)",
+      "displayTitle": "Do You Like Worms (Roll Plymouth Rock)",
+      "duration": "3:36",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "America's colonization retold in cyclical chant — Parks' history-lesson lyrics."
+    },
+    {
+      "title": "Cabin Essence",
+      "displayTitle": "Cabin Essence",
+      "duration": "3:32",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Railroads and frontier myth — the 'crow cries uncover the cornfield' track that made Mike Love revolt."
+    },
+    {
+      "title": "Wonderful",
+      "displayTitle": "Wonderful",
+      "duration": "2:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Look (Song for Children)",
+      "displayTitle": "Look (Song for Children)",
+      "duration": "2:31",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Child Is Father of the Man",
+      "displayTitle": "Child Is Father of the Man",
+      "duration": "2:14",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Surf's Up",
+      "displayTitle": "Surf's Up",
+      "duration": "4:12",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The masterpiece — 'a children's song' rising out of orchestral grief. Leonard Bernstein featured it on TV."
+    },
+    {
+      "title": "Vega-Tables",
+      "displayTitle": "Vega-Tables",
+      "duration": "3:49",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Health-food novelty with chewed-celery percussion — the silly heart of the symphony."
+    },
+    {
+      "title": "Wind Chimes",
+      "displayTitle": "Wind Chimes",
+      "duration": "3:06",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Mrs. O'Leary's Cow (Fire)",
+      "displayTitle": "Mrs. O'Leary's Cow (Fire)",
+      "duration": "2:27",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The Chicago Fire as instrumental — the track that spooked Brian into shelving the album."
+    },
+    {
+      "title": "Good Vibrations",
+      "displayTitle": "Good Vibrations",
+      "duration": "4:13",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "US #1, 1966 — the 'pocket symphony' that proved the modular method worked."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Surf's Up",
+      "note": "Listen to the last section, where 'a children's song' blooms over the wreckage. Many consider this the most beautiful thing the 1960s produced. What is it about?  Nobody fully knows — does that matter?"
+    },
+    {
+      "title": "Good Vibrations",
+      "note": "Six sections recorded in four studios over six months, edited together. Count the seams — then ask why it feels seamless."
+    },
+    {
+      "title": "Heroes and Villains",
+      "note": "The Old West as a fever dream. Track how many different SONGS live inside these five minutes."
+    },
+    {
+      "title": "Mrs. O'Leary's Cow (Fire)",
+      "note": "Instrumental terror from the sunniest band in America. What sounds create the panic?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "49 min (2011 core album)"
+    },
+    {
+      "label": "Recorded",
+      "value": "1966–67, four Hollywood studios"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#27 (2011 Smile Sessions)"
+    },
+    {
+      "label": "Legacy",
+      "value": "Grammy winner 2013; every 'lost album' list, permanently, at #1"
+    }
+  ],
+  "discussionQuestions": [
+    "Smile existed as legend for 44 years before it existed as an album. Can the IDEA of a work be greater than the work?",
+    "Brian Wilson's collapse is inseparable from this music. How should we think about art produced at the cost of the artist's health?",
+    "The band fought over Parks' surreal lyrics — Mike Love demanded to know what they meant. Does a lyric owe you its meaning?",
+    "Compare 'Good Vibrations' to a modern producer assembling a track from stems. Was Brian Wilson the first bedroom producer, just with a full orchestra?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "bobbie-gentry-ode-to-billie-joe",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Ode to Billie Joe",
+      "artist": "Bobbie Gentry",
+      "year": 1967,
+      "teaser": "Next week: a Mississippi songwriter's Southern Gothic mystery knocks the Beatles off #1 — and she never says what got thrown off the bridge.",
+      "listenForQuestion": "Why is what a song DOESN'T tell you sometimes its most powerful part?"
+    },
+    "homeworkAlbum": {
+      "title": "Pet Sounds",
+      "artist": "The Beach Boys",
+      "year": 1966,
+      "reason": "The album Smile was meant to surpass — our Week 12 study.",
+      "studentTask": "Re-listen to 'God Only Knows,' then 'Surf's Up.' One sentence: where was Brian heading?"
+    }
+  },
+  "week": 200
+},
+{
+  "id": "bobbie-gentry-ode-to-billie-joe",
+  "weekNumber": 201,
+  "title": "Ode to Billie Joe",
+  "artist": "Bobbie Gentry",
+  "year": 1967,
+  "label": "Capitol",
+  "producer": "Kelly Gordon, Bobbie Gentry",
+  "artworkKey": "bobbie-gentry-ode-to-billie-joe",
+  "genres": [
+    "Country",
+    "Southern Gothic",
+    "Pop"
+  ],
+  "theme": "A self-made Mississippi songwriter writes a mystery with no solution, produces her own records in an industry that credits men, then walks away from fame entirely — on her own terms.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "August 21, 1967",
+  "originalLabel": "Capitol",
+  "artistCountry": "United States (Chickasaw County, Mississippi)",
+  "artistScene": "Country Pop · Southern Gothic · Singer-Songwriter",
+  "artistYearsActive": "1967 – 1981 (public career)",
+  "artistOverview": "Bobbie Gentry grew up poor in rural Mississippi, put herself through UCLA, and arrived fully formed: writing, arranging, and effectively producing her own material when almost no women were allowed to. 'Ode to Billie Joe' knocked 'All You Need Is Love' off #1. After a decade of hits and Vegas success she retired completely around 1981 and has never spoken publicly since — pop's most graceful vanishing act.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Bobbie Gentry",
+      "role": "Vocals, Guitar, Songwriter, Arranger",
+      "years": "1967–1981",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jimmie Haskell",
+      "role": "String Arrangements",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Delta blues tradition",
+        "note": "The porch-guitar figure under 'Ode' is pure Mississippi.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Flannery O'Connor",
+        "note": "Southern Gothic literature — secrets, grotesques, and dinner-table silence.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Les Baxter",
+        "note": "Exotica-era orchestration echoes in Haskell's strings.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Reba McEntire",
+        "note": "Story-song country carried forward — Reba covered 'Fancy' as a signature.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Taylor Swift",
+        "note": "The narrative-detail school of songwriting descends from Gentry.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Beth Gibbons",
+        "note": "Portishead-adjacent artists cite Gentry's hushed intensity — Dummy is in our library.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Dusty Springfield",
+        "note": "Dusty in Memphis (our Week 22) is the soul-side sister record."
+      },
+      {
+        "artist": "Glen Campbell",
+        "note": "Her duet partner and Capitol labelmate."
+      },
+      {
+        "artist": "Tony Joe White",
+        "note": "Swamp-rock storytelling kin."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Country / Southern Gothic Pop",
+    "mood": "Humid, secretive, matter-of-fact, wry",
+    "mainSounds": "Acoustic guitar figure, close-mic'd conversational voice, Jimmie Haskell's snaking strings",
+    "productionStyle": "Sparse demo-like intimacy — the 'Ode' master take is essentially her demo with strings added",
+    "energy": "Slow Delta simmer throughout",
+    "keyIdea": "Withholding information is a compositional tool: the mystery IS the song."
+  },
+  "icebreaker": {
+    "question": "Think of a story that never explains its central mystery. Why do unanswered questions stick with us longer than answers?",
+    "activity": "In pairs: 60 seconds — invent your own theory of what was thrown off the Tallahatchie Bridge. (2 min)"
+  },
+  "beforeYouListen": [
+    "'Ode to Billie Joe' spent four weeks at US #1 in 1967 — knocking out the Beatles — and Gentry never revealed what was thrown off the bridge.",
+    "The song's real subject is the family's casual dinner-table reaction to a suicide — listen to what they talk about between the lines.",
+    "Gentry wrote, arranged, and steered her own sessions — then had to watch men take the credits for decades.",
+    "In 1981 she retired and disappeared from public life completely. No interviews since."
+  ],
+  "importance": [
+    "A landmark of narrative songwriting taught in literature classes as Southern Gothic.",
+    "One of the first women in pop to control her own writing, arranging, and business.",
+    "The mystery-as-hook launched a thousand story songs (and a 1976 film that invented an answer — badly).",
+    "Her deliberate disappearance reframed fame itself: leaving as the final artistic statement."
+  ],
+  "historicalContext": "Summer of Love, 1967: psychedelia ruled the charts, and a quiet Mississippi story about a family ignoring a tragedy at dinner beat it all. America's counterculture summer had an undertow — race, poverty, and silence in the rural South — and this record carried it to #1 without raising its voice.",
+  "bandDiscography": [
+    {
+      "title": "Ode to Billie Joe",
+      "artist": "Bobbie Gentry",
+      "year": 1967,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Delta Sweete",
+      "artist": "Bobbie Gentry",
+      "year": 1968,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Local Gentry",
+      "artist": "Bobbie Gentry",
+      "year": 1968,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Touch 'Em with Love",
+      "artist": "Bobbie Gentry",
+      "year": 1969,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Fancy",
+      "artist": "Bobbie Gentry",
+      "year": 1970,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Patchwork",
+      "artist": "Bobbie Gentry",
+      "year": 1971,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "The title song concerns a suicide, treated obliquely — frame with care; it's also the discussion's center.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Capitol expected 'Mississippi Delta' to be the hit; 'Ode' was the B-side.",
+    "Jimmie Haskell won a Grammy for the string arrangement he wrote in one afternoon.",
+    "The Tallahatchie Bridge in Money, Mississippi collapsed in 1972 — fans still visit the site.",
+    "The 33⅓ book on Ode to Billie Joe was written by Tara Murtha (2014)."
+  ],
+  "tracklist": [
+    {
+      "title": "Mississippi Delta",
+      "displayTitle": "Mississippi Delta",
+      "duration": "3:03",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The intended A-side — swamp-stomp with spelled-out title."
+    },
+    {
+      "title": "I Saw an Angel Die",
+      "displayTitle": "I Saw an Angel Die",
+      "duration": "3:57",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Chickasaw County Child",
+      "displayTitle": "Chickasaw County Child",
+      "duration": "2:45",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Autobiography — the poverty is documentary."
+    },
+    {
+      "title": "Sunday Best",
+      "displayTitle": "Sunday Best",
+      "duration": "2:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Niki Hoeky",
+      "displayTitle": "Niki Hoeky",
+      "duration": "2:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The one cover — Louisiana swamp-pop."
+    },
+    {
+      "title": "Papa, Won't You Let Me Go to Town with You?",
+      "displayTitle": "Papa, Won't You Let Me Go to Town with You?",
+      "duration": "2:14",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Bugs",
+      "displayTitle": "Bugs",
+      "duration": "2:03",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Comic miniature — the wry Gentry."
+    },
+    {
+      "title": "Hurry, Tuesday Child",
+      "displayTitle": "Hurry, Tuesday Child",
+      "duration": "3:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Lazy Willie",
+      "displayTitle": "Lazy Willie",
+      "duration": "2:18",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Ode to Billie Joe",
+      "displayTitle": "Ode to Billie Joe",
+      "duration": "4:13",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "US #1 four weeks. The dinner-table verses are the real story — the bridge is misdirection."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Ode to Billie Joe",
+      "note": "Track the dinner conversation: pass the biscuits, plow the back forty, a boy is dead. The horror is in the casualness. What does the family's small talk tell you the song never states?"
+    },
+    {
+      "title": "Mississippi Delta",
+      "note": "The A-side that lost. Compare its extroverted stomp to 'Ode's' hush — why did America choose the whisper?"
+    },
+    {
+      "title": "Chickasaw County Child",
+      "note": "Gentry's own childhood, third person. Listen for which details feel remembered rather than invented."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "27 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1967, Capitol Studios, Hollywood"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#1 album; #1 single (4 weeks)"
+    },
+    {
+      "label": "Awards",
+      "value": "3 Grammys 1968, incl. Best New Artist"
+    }
+  ],
+  "discussionQuestions": [
+    "Gentry refused for decades to say what was thrown off the bridge, insisting the song is about indifference, not the mystery. Was she right about her own song?",
+    "The 1976 movie invented an answer. Should mysteries ever be officially solved? What dies when they are?",
+    "Gentry controlled her career, then ended it completely and vanished. Is disappearing the ultimate power move or a loss for the audience — who is owed what?",
+    "Compare this Southern Gothic quiet with Smile's California maximalism from last week. Two 1967 Americas — what does each leave out?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "dead-kennedys-fresh-fruit-for-rotting-vegetables",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Fresh Fruit for Rotting Vegetables",
+      "artist": "Dead Kennedys",
+      "year": 1980,
+      "teaser": "Next week: American hardcore's sharpest satirists — fast, furious, and aimed at everybody, including their own audience.",
+      "listenForQuestion": "How do you tell satire from the thing it's satirizing?"
+    },
+    "homeworkAlbum": {
+      "title": "The Delta Sweete",
+      "artist": "Bobbie Gentry",
+      "year": 1968,
+      "reason": "Her ambitious follow-up — a Southern concept album recently revived by Mercury Rev.",
+      "studentTask": "Listen to 'Reunion' and note how she builds a family scene from overlapping voices."
+    }
+  },
+  "week": 201
+},
+{
+  "id": "dead-kennedys-fresh-fruit-for-rotting-vegetables",
+  "weekNumber": 202,
+  "title": "Fresh Fruit for Rotting Vegetables",
+  "artist": "Dead Kennedys",
+  "year": 1980,
+  "label": "Cherry Red / Alternative Tentacles",
+  "producer": "Norm, East Bay Ray",
+  "artworkKey": "dead-kennedys-fresh-fruit-for-rotting-vegetables",
+  "genres": [
+    "Hardcore Punk",
+    "Satire"
+  ],
+  "theme": "American punk's fiercest satire — surf guitar, machine-gun tempos, and lyrics that skewer everyone, from politicians to punks themselves.",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "September 2, 1980",
+  "originalLabel": "Cherry Red (UK) / IRS-Faulty (US)",
+  "artistCountry": "United States (San Francisco, California)",
+  "artistScene": "Hardcore Punk · Political Satire",
+  "artistYearsActive": "1978 – 1986, later reunions",
+  "artistOverview": "Fronted by Jello Biafra — who once ran for mayor of San Francisco on a platform requiring businessmen to wear clown suits — the Dead Kennedys weaponized surf rock into political satire. Their name alone was a provocation; their targets included governors, war profiteers, trend-chasing punks, and anyone comfortable. Biafra later became a spoken-word artist and free-speech activist after a famous obscenity trial.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Jello Biafra",
+      "role": "Vocals, Lyrics",
+      "years": "1978–1986",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "East Bay Ray",
+      "role": "Guitar",
+      "years": "1978–1986",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Klaus Flouride",
+      "role": "Bass",
+      "years": "1978–1986",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Ted",
+      "role": "Drums",
+      "years": "1978–1981",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Sex Pistols",
+        "note": "The confrontation template, Americanized.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Dick Dale",
+        "note": "East Bay Ray's reverb-drenched surf guitar — the band's secret weapon.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Frank Zappa",
+        "note": "Satire as a full-time musical occupation.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Green Day",
+        "note": "Bay Area punk's mainstream heirs — they know every word.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Rage Against the Machine",
+        "note": "Politics at full volume, arena scale.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "System of a Down",
+        "note": "Satirical whiplash metal descends from Biafra's sneer.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Black Flag",
+        "note": "Southern California's parallel hardcore engine."
+      },
+      {
+        "artist": "Minutemen",
+        "note": "Double Nickels is in our library — the artier neighbors."
+      },
+      {
+        "artist": "Circle Jerks",
+        "note": "The scene's other satirists."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Hardcore Punk",
+    "mood": "Sarcastic, urgent, gleeful, confrontational",
+    "mainSounds": "Surf-reverb guitar at punk speed, rubber-band bass, Biafra's quavering sneer",
+    "productionStyle": "Cheap, fast, and clear — every syllable of satire audible on purpose",
+    "energy": "Sprint tempos with cartoon dynamics — menace played for laughs that turn serious",
+    "keyIdea": "Satire at maximum velocity: making the awful ridiculous so you can't ignore it."
+  },
+  "icebreaker": {
+    "question": "When comedy attacks something serious — war, greed, politics — does the joke sharpen the criticism or let people laugh it off?",
+    "activity": "In pairs: name a satire (show, meme, song) people took at face value. What went wrong? (2 min)"
+  },
+  "beforeYouListen": [
+    "The band's name was chosen to be maximally provocative — Biafra said it honored, not mocked, the American dream's collapse.",
+    "'California Über Alles' imagines then-governor Jerry Brown as a smiling authoritarian — Biafra later rewrote it for every subsequent governor and president.",
+    "'Holiday in Cambodia' aims at privileged Americans romanticizing suffering they've never seen.",
+    "Several tracks are deliberately offensive satire — today we discuss how satire works, using selected tracks."
+  ],
+  "importance": [
+    "The founding album of American political hardcore.",
+    "'Holiday in Cambodia' is regularly ranked among punk's greatest songs.",
+    "Biafra's Alternative Tentacles label and obscenity trial made him a First Amendment landmark figure.",
+    "Its satire-of-everyone stance — including its own scene — set the standard for punk self-critique."
+  ],
+  "historicalContext": "1980: Reagan was winning, California was the future, and San Francisco punk answered with ridicule. Where UK punk raged at class, the Dead Kennedys aimed at American comfort — suburbs, malls, and the smiling language of power. The PMRC wars and Biafra's 1986 obscenity trial were already loaded in these grooves.",
+  "bandDiscography": [
+    {
+      "title": "Fresh Fruit for Rotting Vegetables",
+      "artist": "Dead Kennedys",
+      "year": 1980,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "In God We Trust, Inc.",
+      "artist": "Dead Kennedys",
+      "year": 1981,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Plastic Surgery Disasters",
+      "artist": "Dead Kennedys",
+      "year": 1982,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Frankenchrist",
+      "artist": "Dead Kennedys",
+      "year": 1985,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Bedtime for Democracy",
+      "artist": "Dead Kennedys",
+      "year": 1986,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "strong",
+    "themes": "Satirical treatments of violence, poverty, and atrocity throughout; several tracks ('I Kill Children,' 'Let's Lynch the Landlord') are shock-satire whose titles alone need framing. Classroom set: 'California Über Alles,' 'Holiday in Cambodia,' 'Kill the Poor' (satire of neutron-bomb logic — explain BEFORE playing). Screen everything; hide the rest.",
+    "artworkConcern": "Cover photo shows burning police cars from SF's 1979 White Night riots.",
+    "cleanVersionAvailable": "No.",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "Biafra received 6,591 votes for mayor of San Francisco in 1979, finishing fourth.",
+    "'Kill the Poor' satirizes neutron-bomb logic — the weapon that kills people but saves property.",
+    "The 1986 Frankenchrist obscenity trial (over an enclosed poster) ended in a hung jury and made Biafra a free-speech icon.",
+    "The 33⅓ book on Fresh Fruit for Rotting Vegetables was written by Michael Stewart Foley (2015)."
+  ],
+  "tracklist": [
+    {
+      "title": "Kill the Poor",
+      "displayTitle": "Kill the Poor",
+      "duration": "3:05",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "SATIRE of neutron-bomb logic sung by a cheerful elite narrator — must be framed before playing; lands wrong cold."
+    },
+    {
+      "title": "Forward to Death",
+      "displayTitle": "Forward to Death",
+      "duration": "1:22",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "When Ya Get Drafted",
+      "displayTitle": "When Ya Get Drafted",
+      "duration": "1:23",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "War-profiteer satire — draft-age relevance writes the discussion itself."
+    },
+    {
+      "title": "Let's Lynch the Landlord",
+      "displayTitle": "Let's Lynch the Landlord",
+      "duration": "2:13",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Tenant-rage satire with an unusable title — discuss, don't play."
+    },
+    {
+      "title": "Drug Me",
+      "displayTitle": "Drug Me",
+      "duration": "1:56",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Your Emotions",
+      "displayTitle": "Your Emotions",
+      "duration": "1:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Chemical Warfare",
+      "displayTitle": "Chemical Warfare",
+      "duration": "2:56",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Shock-satire on country-club violence — teacher's call."
+    },
+    {
+      "title": "California Über Alles",
+      "displayTitle": "California Über Alles",
+      "duration": "3:03",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The Jerry Brown satire — great with a two-minute history primer on the title's reference."
+    },
+    {
+      "title": "I Kill Children",
+      "displayTitle": "I Kill Children",
+      "duration": "2:04",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Deliberate shock satire of media panic — keep hidden; cite in discussion of shock's limits."
+    },
+    {
+      "title": "Stealing People's Mail",
+      "displayTitle": "Stealing People's Mail",
+      "duration": "1:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Funland at the Beach",
+      "displayTitle": "Funland at the Beach",
+      "duration": "1:49",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Disaster satire — teacher's call."
+    },
+    {
+      "title": "Ill in the Head",
+      "displayTitle": "Ill in the Head",
+      "duration": "2:46",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Holiday in Cambodia",
+      "displayTitle": "Holiday in Cambodia",
+      "duration": "4:37",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The masterpiece — privileged tourism of others' suffering. The eeriest guitar intro in punk."
+    },
+    {
+      "title": "Viva Las Vegas",
+      "displayTitle": "Viva Las Vegas",
+      "duration": "2:42",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Elvis cover as America satire — the closing joke."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Holiday in Cambodia",
+      "note": "Listen to the intro — echoing, genuinely frightening — before the sprint. The target is comfortable people wearing others' suffering as fashion. Who is today's equivalent target?"
+    },
+    {
+      "title": "California Über Alles",
+      "note": "Satirizing a LIBERAL governor surprised everyone — punk attacking its presumed allies. Why does satire aimed at 'your own side' cut deeper?"
+    },
+    {
+      "title": "Kill the Poor",
+      "note": "The narrator is the villain, singing cheerfully. Without the frame, the song sounds monstrous. What responsibilities does satire have to be understood?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "33 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1980, Möbius Music, San Francisco"
+    },
+    {
+      "label": "Chart Peak (UK)",
+      "value": "#33"
+    },
+    {
+      "label": "Legacy",
+      "value": "Rolling Stone 500 (2020: #380); US hardcore cornerstone"
+    }
+  ],
+  "discussionQuestions": [
+    "'Kill the Poor' sounds monstrous without context and brilliant with it. Does satire that's easy to misread fail at its job?",
+    "Biafra satirized punks as eagerly as politicians. What does it mean for a movement to mock itself — strength or self-destruction?",
+    "The band faced an obscenity trial over art. Where should the legal line sit between offensive art and unprotected speech — and who draws it?",
+    "Compare with MC5's revolutionary sincerity (Week 180). Rage versus ridicule: which political music ages better, and why?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "koji-kondo-super-mario-bros-soundtrack",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Super Mario Bros. Soundtrack",
+      "artist": "Koji Kondo",
+      "year": 1985,
+      "teaser": "Next week: the most-heard melody in human history, composed on a chip that could only play three notes at once.",
+      "listenForQuestion": "What can you create when you're only allowed three sounds?"
+    },
+    "homeworkAlbum": {
+      "title": "Double Nickels on the Dime",
+      "artist": "Minutemen",
+      "year": 1984,
+      "reason": "The other great California punk statement — already in our library.",
+      "studentTask": "Listen to 'This Ain't No Picnic' and compare its politics-per-second to the Dead Kennedys'."
+    }
+  },
+  "week": 202
+},
+{
+  "id": "koji-kondo-super-mario-bros-soundtrack",
+  "weekNumber": 203,
+  "title": "Super Mario Bros. Soundtrack",
+  "artist": "Koji Kondo",
+  "year": 1985,
+  "label": "Nintendo",
+  "producer": "Koji Kondo",
+  "artworkKey": "koji-kondo-super-mario-bros-soundtrack",
+  "genres": [
+    "Video Game Music",
+    "Chiptune",
+    "Electronic"
+  ],
+  "theme": "Three simultaneous notes, a few kilobytes of memory, and the most recognized melody on Earth — constraint as the mother of genius.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "September 13, 1985",
+  "originalLabel": "Nintendo",
+  "artistCountry": "Japan (Nagoya)",
+  "artistScene": "Video Game Composition · Chiptune",
+  "artistYearsActive": "1984 – present",
+  "artistOverview": "Koji Kondo joined Nintendo in 1984 as its first dedicated sound composer and was handed the impossible: score a game on a chip allowing three melodic voices plus noise. His Super Mario Bros. themes — bouncing, jazzy, endlessly hummable — became the most-heard music in human history and founded the entire discipline of video game composition. He later scored The Legend of Zelda, completing the two great pillars of game music.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Koji Kondo",
+      "role": "Composer, Sound Programmer",
+      "years": "1984–present",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Herbie Hancock",
+        "note": "Kondo cites jazz fusion — the Overworld theme is basically a Latin-jazz chart.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Henry Mancini",
+        "note": "Melody-first film/TV scoring translated to 8 bits.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Yellow Magic Orchestra",
+        "note": "Japan's synth-pop pioneers made electronic melody a national language.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Every game composer since",
+        "note": "The entire profession descends from this score.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Deadmau5",
+        "note": "EDM producers raised on NES sound cite chiptune constantly.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Anamanaguchi",
+        "note": "The chiptune-rock scene treats the NES chip as an instrument, not a limitation.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Nobuo Uematsu",
+        "note": "Final Fantasy's composer — game music's other founding giant."
+      },
+      {
+        "artist": "Hirokazu Tanaka",
+        "note": "Metroid/Tetris colleague at Nintendo."
+      },
+      {
+        "artist": "Angelo Badalamenti",
+        "note": "Scene-setting through theme — Twin Peaks arrives in Week 210."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Chiptune / Game Score",
+    "mood": "Buoyant, urgent, mischievous, weirdly Latin",
+    "mainSounds": "Two pulse-wave voices, one triangle-wave bass, one noise channel for percussion — the entire orchestra",
+    "productionStyle": "Composed in code: every note is a program instruction fit into a few kilobytes",
+    "energy": "Perpetual motion — music designed to make you keep moving right",
+    "keyIdea": "Total constraint forces total clarity: with three notes, every note must be perfect."
+  },
+  "icebreaker": {
+    "question": "You get three notes at a time and four sounds total to make music the whole world will hum. What do you write first?",
+    "activity": "Class hums the Overworld theme together from memory. Discuss: how did EVERYONE know that? (2 min)"
+  },
+  "beforeYouListen": [
+    "The NES sound chip allowed exactly three melodic voices plus one noise channel — every piece today lives inside that limit.",
+    "The Overworld theme is widely called the most-heard melody in human history.",
+    "Kondo wrote the themes to match Mario's movement physics — the music and the jumping share a groove.",
+    "Listen for the swing: the Overworld theme is basically Latin jazz played by a calculator."
+  ],
+  "importance": [
+    "Founded video game music as a composed art form with its own composer credit.",
+    "The Overworld theme entered the US Library of Congress National Recording Registry (2023) — the first game music to do so.",
+    "Proved severe technical constraint can produce permanent, universal melody.",
+    "Game music now fills symphony halls worldwide; the repertoire starts here."
+  ],
+  "historicalContext": "1985: the American video game industry had just crashed; Nintendo's NES relaunched it. Game sound until then was mostly bleeps and explosions — Nintendo hiring a real composer signaled that games were becoming a medium. Kondo's melodies did for games what film scores did for silent movies: gave them a soul.",
+  "bandDiscography": [
+    {
+      "title": "Super Mario Bros. Soundtrack",
+      "artist": "Koji Kondo",
+      "year": 1985,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Legend of Zelda Soundtrack",
+      "artist": "Koji Kondo",
+      "year": 1986,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Super Mario Bros. 3 Soundtrack",
+      "artist": "Koji Kondo",
+      "year": 1988,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Super Mario World Soundtrack",
+      "artist": "Koji Kondo",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Super Mario 64 Soundtrack",
+      "artist": "Koji Kondo",
+      "year": 1996,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Kondo's first draft of the Overworld theme didn't match Mario's movement — he rewrote it after watching the finished gameplay.",
+    "The whole game, music included, fits in 40 kilobytes — smaller than one second of a modern MP3.",
+    "In 2023 the theme became the first video game music in the Library of Congress National Recording Registry.",
+    "The 33⅓ book on Koji Kondo's Super Mario Bros. Soundtrack was written by Andrew Schartmann (2015)."
+  ],
+  "tracklist": [
+    {
+      "title": "Overworld (Ground Theme)",
+      "displayTitle": "Overworld (Ground Theme)",
+      "duration": "1:25",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "THE melody. Latin-jazz swing on a sound chip — count the syncopations."
+    },
+    {
+      "title": "Underground Theme",
+      "displayTitle": "Underground Theme",
+      "duration": "0:55",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Four notes and silence — minimalism that tells you exactly where you are."
+    },
+    {
+      "title": "Underwater Theme",
+      "displayTitle": "Underwater Theme",
+      "duration": "1:05",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "A waltz! 3/4 time makes you float — meter as level design."
+    },
+    {
+      "title": "Castle Theme",
+      "displayTitle": "Castle Theme",
+      "duration": "1:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Chromatic unease — danger communicated in seconds."
+    },
+    {
+      "title": "Invincibility (Starman) Theme",
+      "displayTitle": "Invincibility (Starman) Theme",
+      "duration": "0:30",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Pure adrenaline in 30 seconds."
+    },
+    {
+      "title": "Level Complete Fanfare",
+      "displayTitle": "Level Complete Fanfare",
+      "duration": "0:06",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Six seconds of triumph — micro-composition as craft."
+    },
+    {
+      "title": "Warp Zone / Bonus",
+      "displayTitle": "Warp Zone / Bonus",
+      "duration": "0:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Game Over",
+      "displayTitle": "Game Over",
+      "duration": "0:05",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Five sympathetic notes — failure with a smile."
+    },
+    {
+      "title": "Ending Theme",
+      "displayTitle": "Ending Theme",
+      "duration": "0:50",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Overworld (Ground Theme)",
+      "note": "Hum it, then LISTEN to it. The rhythm is syncopated Latin jazz, the harmony moves constantly. Why did a 'simple' game get such a sophisticated chart?"
+    },
+    {
+      "title": "Underwater Theme",
+      "note": "It's a waltz. The 3/4 meter physically suggests floating. Find another example where a time signature IS the message."
+    },
+    {
+      "title": "Underground Theme",
+      "note": "Mostly silence. What do the gaps accomplish that notes couldn't?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "~6 min of unique music, looped forever"
+    },
+    {
+      "label": "Composed",
+      "value": "1985, Nintendo, Kyoto — on NES 2A03 chip"
+    },
+    {
+      "label": "Reach",
+      "value": "The most-heard melody in history"
+    },
+    {
+      "label": "Honor",
+      "value": "Library of Congress National Recording Registry (2023)"
+    }
+  ],
+  "discussionQuestions": [
+    "Kondo had three notes at a time. Modern producers have infinite tracks. Whose job is harder — and whose output lasted?",
+    "Is the Overworld theme 'great music' outside its game, or is being inseparable from the game exactly what makes it great?",
+    "Game music must loop without annoying you for hours. What compositional tricks make repetition survivable — in games and in pop?",
+    "The Library of Congress canonized this in 2023. What other 'non-serious' music deserves institutional recognition and hasn't gotten it?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "beat-happening-beat-happening",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Beat Happening",
+      "artist": "Beat Happening",
+      "year": 1985,
+      "teaser": "Next week: three friends from Olympia who could barely play, recording on a boombox — and accidentally freeing a generation from perfectionism.",
+      "listenForQuestion": "What if 'not good enough' was never a real thing?"
+    },
+    "homeworkAlbum": {
+      "title": "The Legend of Zelda Soundtrack",
+      "artist": "Koji Kondo",
+      "year": 1986,
+      "reason": "Kondo's other immortal score, one year later.",
+      "studentTask": "Compare the Zelda Overworld theme's 'adventure' feel to Mario's 'play' feel — what's musically different?"
+    }
+  },
+  "week": 203
+},
+{
+  "id": "beat-happening-beat-happening",
+  "weekNumber": 204,
+  "title": "Beat Happening",
+  "artist": "Beat Happening",
+  "year": 1985,
+  "label": "K Records",
+  "producer": "Greg Sage, Beat Happening",
+  "artworkKey": "beat-happening-beat-happening",
+  "genres": [
+    "Indie Pop",
+    "Lo-Fi",
+    "Twee"
+  ],
+  "theme": "Three friends who could barely play their instruments, a boombox, and a crayon-drawn cat — the album that made 'amateur' a badge of honor and launched indie culture.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "1985",
+  "originalLabel": "K Records",
+  "artistCountry": "United States (Olympia, Washington)",
+  "artistScene": "Olympia Indie · Lo-Fi · DIY",
+  "artistYearsActive": "1982 – 1992, never officially broken up",
+  "artistOverview": "Calvin Johnson, Heather Lewis, and Bret Lunsford formed Beat Happening in Olympia, Washington with no bassist, swapped instruments they barely played, and recorded wherever a tape machine happened to be. Johnson's K Records — motto: 'exploding the teenage underground into passionate revolt against the corporate ogre' — became the blueprint for indie labels. Kurt Cobain tattooed the K logo on his arm.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Calvin Johnson",
+      "role": "Vocals, Guitar, Drums",
+      "years": "1982–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Heather Lewis",
+      "role": "Vocals, Drums, Guitar",
+      "years": "1982–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Bret Lunsford",
+      "role": "Guitar, Drums",
+      "years": "1982–present",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "The Cramps",
+        "note": "Primitive rock'n'roll as liberation.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Jonathan Richman",
+        "note": "Childlike sincerity as a radical stance — The Modern Lovers is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Shaggs",
+        "note": "The patron saints of 'wrong' music played with total conviction.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Nirvana",
+        "note": "Cobain's K Records tattoo and About a Girl's jangle — the connection is direct.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Beach House",
+        "note": "Two-person minimalism with maximum atmosphere.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Every Bandcamp bedroom artist",
+        "note": "The permission structure for DIY recording starts in Olympia.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "The Vaselines",
+        "note": "Scottish kindred spirits, also beloved by Cobain."
+      },
+      {
+        "artist": "Daniel Johnston",
+        "note": "Outsider sincerity on cassette."
+      },
+      {
+        "artist": "The Pastels",
+        "note": "The UK wing of shambling pop."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Lo-Fi Indie Pop",
+    "mood": "Innocent, spooky, playful, defiant",
+    "mainSounds": "Two-chord guitar, minimal standing drums, Calvin's cavernous baritone against Heather's plain sweetness, tape hiss",
+    "productionStyle": "Recorded partly on boomboxes and borrowed 4-tracks — the hiss is part of the aesthetic",
+    "energy": "Gentle but stubborn — naive surfaces over steel convictions",
+    "keyIdea": "Skill is optional; conviction isn't. 'Anyone can do this' stated as a dare."
+  },
+  "icebreaker": {
+    "question": "Has fear of not being 'good enough' ever stopped you from making something? Who decides what counts as good enough?",
+    "activity": "In pairs: name something you made (music, art, video, anything) before you 'knew how.' What did the not-knowing add? (2 min)"
+  },
+  "beforeYouListen": [
+    "No bassist. The three members swap guitar and drums depending on the song, playing all of them simply.",
+    "Some tracks were recorded live to a boombox on a beach — the hiss and wobble are authentic.",
+    "Calvin Johnson's K Records inspired a generation: Kurt Cobain had its logo tattooed on his forearm.",
+    "The cover art — a crayon cat and rocketship — announced the aesthetic: childhood as rebellion."
+  ],
+  "importance": [
+    "A founding document of American indie: DIY as ideology, not just necessity.",
+    "K Records and Olympia's scene fed directly into riot grrrl and grunge.",
+    "Made lo-fi recording an aesthetic CHOICE, prefiguring home-recording culture entirely.",
+    "Its cheerful defiance of professionalism remains the ur-text for bedroom pop."
+  ],
+  "historicalContext": "Mid-'80s American underground: hardcore punk had turned macho and fast; Beat Happening answered with soft, slow, and childlike — which took more nerve. Olympia, a small capital city with a college radio station, became indie's Vatican, and this record its founding scripture.",
+  "bandDiscography": [
+    {
+      "title": "Beat Happening",
+      "artist": "Beat Happening",
+      "year": 1985,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Jamboree",
+      "artist": "Beat Happening",
+      "year": 1988,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Black Candy",
+      "artist": "Beat Happening",
+      "year": 1989,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Dreamy",
+      "artist": "Beat Happening",
+      "year": 1991,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "You Turn Me On",
+      "artist": "Beat Happening",
+      "year": 1992,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "The band formed after Calvin and Heather met in a college class in Olympia; Bret joined and they toured Japan almost immediately, barely able to play.",
+    "Reissues of this album keep adding tracks — the 'album' is really a cloud of early recordings.",
+    "Calvin Johnson booked all-ages shows on principle — no bars, kids welcome — reshaping indie touring ethics.",
+    "The 33⅓ book on Beat Happening was written by Bryan C. Parker (2015)."
+  ],
+  "tracklist": [
+    {
+      "title": "Foggy Eyes",
+      "displayTitle": "Foggy Eyes",
+      "duration": "2:31",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Heather's gentle lead — the scene's gateway song. (Tracklists vary by pressing; this follows the common reissue.)"
+    },
+    {
+      "title": "Bad Seeds",
+      "displayTitle": "Bad Seeds",
+      "duration": "2:17",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Calvin's baritone anthem — troublemakers as a chosen family."
+    },
+    {
+      "title": "Down at the Sea",
+      "displayTitle": "Down at the Sea",
+      "duration": "2:44",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Recorded outdoors — listen for the world leaking in."
+    },
+    {
+      "title": "I Love You",
+      "displayTitle": "I Love You",
+      "duration": "1:57",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The title is the whole lyric strategy — directness as art."
+    },
+    {
+      "title": "I Spy",
+      "displayTitle": "I Spy",
+      "duration": "1:47",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Run Down the Stairs",
+      "displayTitle": "Run Down the Stairs",
+      "duration": "2:26",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "In Between",
+      "displayTitle": "In Between",
+      "duration": "1:55",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Our Secret",
+      "displayTitle": "Our Secret",
+      "duration": "2:29",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The first K Records single — indie history's page one."
+    },
+    {
+      "title": "What's Important",
+      "displayTitle": "What's Important",
+      "duration": "2:03",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Fourteen",
+      "displayTitle": "Fourteen",
+      "duration": "2:37",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Being fourteen, reported accurately."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Our Secret",
+      "note": "Two chords, a floor tom, and total confidence. List everything 'missing' — bass, solos, polish — then explain why it still works."
+    },
+    {
+      "title": "Foggy Eyes",
+      "note": "Heather's plain, unschooled voice. Compare to the technical divas of Celine week: what does 'good singing' even mean?"
+    },
+    {
+      "title": "Bad Seeds",
+      "note": "Calvin sounds like a cartoon vampire leading a scout troop. Is his voice 'bad'? Does the question matter by the second chorus?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "~25 min (original)"
+    },
+    {
+      "label": "Recorded",
+      "value": "1984–85, Olympia WA — studios, basements, a beach"
+    },
+    {
+      "label": "Chart Peak",
+      "value": "Never near a chart, changed everything anyway"
+    },
+    {
+      "label": "Legacy",
+      "value": "Indie/DIY foundational document; K Records origin"
+    }
+  ],
+  "discussionQuestions": [
+    "Beat Happening chose amateurism even as they got better. Is deliberate naivety honest or an affectation?",
+    "Kurt Cobain, a virtuoso of feeling, worshipped this barely-played music. What did he hear in it?",
+    "Today anyone can record on a phone — the Beat Happening dream realized. Did infinite access produce the revolution they imagined?",
+    "Their shows were all-ages on principle. How do the SPACES where music happens shape who music belongs to?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "metallica-metallica",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Metallica (The Black Album)",
+      "artist": "Metallica",
+      "year": 1991,
+      "teaser": "Next week: thrash's kings slow down, simplify, and sell 30 million records — betrayal or maturity? The argument is the assignment.",
+      "listenForQuestion": "When a band changes to reach more people, what's gained and what's lost?"
+    },
+    "homeworkAlbum": {
+      "title": "Bleach",
+      "artist": "Nirvana",
+      "year": 1989,
+      "reason": "The Olympia-adjacent debut recorded for $606 — the DIY ethos one step before the explosion.",
+      "studentTask": "Listen to 'About a Girl' and find the Beat Happening jangle hiding inside the grunge."
+    }
+  },
+  "week": 204
+},
+{
+  "id": "metallica-metallica",
+  "weekNumber": 205,
+  "title": "Metallica (The Black Album)",
+  "artist": "Metallica",
+  "year": 1991,
+  "label": "Elektra",
+  "producer": "Bob Rock, James Hetfield, Lars Ulrich",
+  "artworkKey": "metallica-metallica",
+  "genres": [
+    "Heavy Metal",
+    "Hard Rock"
+  ],
+  "theme": "The kings of thrash slow down, tune in, and conquer the planet — the definitive case study in the price and payoff of going mainstream.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "August 12, 1991",
+  "originalLabel": "Elektra",
+  "artistCountry": "United States (San Francisco Bay Area, California)",
+  "artistScene": "Heavy Metal · Arena Rock",
+  "artistYearsActive": "1981 – present",
+  "artistOverview": "Metallica spent the 1980s making thrash faster, longer, and more complex, culminating in ...And Justice for All's nine-minute suites. Then they hired pop-metal producer Bob Rock, cut the songs in half, and made the best-selling album of the SoundScan era. Fans screamed sellout; 30 million buyers disagreed; the argument built this week's class.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "James Hetfield",
+      "role": "Vocals, Rhythm Guitar",
+      "years": "1981–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Lars Ulrich",
+      "role": "Drums",
+      "years": "1981–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Kirk Hammett",
+      "role": "Lead Guitar",
+      "years": "1983–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jason Newsted",
+      "role": "Bass",
+      "years": "1986–2001",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Black Sabbath",
+        "note": "The source of all heaviness — Master of Reality is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Motörhead",
+        "note": "Speed and attitude, the thrash starter kit.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Ennio Morricone",
+        "note": "'The Ecstasy of Gold' opens every Metallica show — drama learned from westerns.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Avenged Sevenfold",
+        "note": "The modern arena-metal template is the Black Album's.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Ghost",
+        "note": "Melodic metal built for the biggest rooms.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Every rock radio format since",
+        "note": "'Enter Sandman' recalibrated what 'heavy' could mean on the radio.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Slayer",
+        "note": "Reign in Blood (Week 187) — the road Metallica chose not to take."
+      },
+      {
+        "artist": "Megadeth",
+        "note": "Countdown to Extinction followed the same simplification a year later."
+      },
+      {
+        "artist": "Guns N' Roses",
+        "note": "Use Your Illusion (Week 182) — same month, opposite philosophy: excess versus discipline."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Heavy Metal",
+    "mood": "Massive, brooding, controlled, confident",
+    "mainSounds": "Downtuned wall-of-rhythm guitar, Ulrich's huge simple drums, Hetfield's newly melodic growl",
+    "productionStyle": "Bob Rock made them play to a click, sing harmonies, and record until perfect — a year in the studio, three marriages strained",
+    "energy": "Mid-tempo power — the sound of a sports arena flexing",
+    "keyIdea": "Subtraction as ambition: fewer notes, slower tempos, bigger everything."
+  },
+  "icebreaker": {
+    "question": "When your favorite artist changes their sound and suddenly everyone likes them, why does it feel like losing something?",
+    "activity": "In pairs: name an artist you 'had first' before they blew up. Did they change, or did the audience? (2 min)"
+  },
+  "beforeYouListen": [
+    "Metallica's previous album had nine-minute songs and won metal's first real Grammy; this one has no song over seven minutes and simple structures throughout.",
+    "Producer Bob Rock had made Bon Jovi and Mötley Crüe records — hiring him was, to thrash fans, treason.",
+    "It debuted at #1 and became the best-selling album of the SoundScan era in America — over 30 million worldwide.",
+    "It came out five weeks before Nevermind and one month before Use Your Illusion — 1991's three-way collision."
+  ],
+  "importance": [
+    "The best-selling album of the US SoundScan era — metal's commercial summit.",
+    "Redefined 'heavy' for radio: slow and loud replaced fast and complex.",
+    "The documentary A Year and a Half in the Life pioneered warts-and-all studio films.",
+    "The sellout debate it ignited remains the genre's defining argument."
+  ],
+  "historicalContext": "August 1991: hair metal was about to die, grunge was about to land, and Metallica threaded the needle — heavy enough to survive the purge, melodic enough to own radio. While Guns N' Roses released 30 songs, Metallica released 12 perfect ones; only one of those strategies survived the decade.",
+  "bandDiscography": [
+    {
+      "title": "Kill 'Em All",
+      "artist": "Metallica",
+      "year": 1983,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Ride the Lightning",
+      "artist": "Metallica",
+      "year": 1984,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Master of Puppets",
+      "artist": "Metallica",
+      "year": 1986,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "...And Justice for All",
+      "artist": "Metallica",
+      "year": 1988,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Metallica",
+      "artist": "Metallica",
+      "year": 1991,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Load",
+      "artist": "Metallica",
+      "year": 1996,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "mild",
+    "themes": "'Enter Sandman' trades in nightmare imagery; 'The God That Failed' processes Hetfield's mother's death via faith-healing — heavy themes, clean language throughout.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "The all-black cover with the barely visible snake was a Spinal Tap joke waiting to happen — the band did it anyway.",
+    "'Nothing Else Matters' began as a private phone-call melody Hetfield never intended to share.",
+    "The album has spent over 750 weeks on the Billboard 200 — it literally never left.",
+    "The 33⅓ book on Metallica was written by David Masciotra (2015)."
+  ],
+  "tracklist": [
+    {
+      "title": "Enter Sandman",
+      "displayTitle": "Enter Sandman",
+      "duration": "5:31",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Built from one riff, layered patiently — the arena-metal blueprint. US #16."
+    },
+    {
+      "title": "Sad but True",
+      "displayTitle": "Sad but True",
+      "duration": "5:24",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Tuned down a whole step — the heaviest single of its era; sampled by Kid Rock."
+    },
+    {
+      "title": "Holier Than Thou",
+      "displayTitle": "Holier Than Thou",
+      "duration": "3:47",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "The Unforgiven",
+      "displayTitle": "The Unforgiven",
+      "duration": "6:27",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Inverts the metal formula: quiet chorus, loud verses. Morricone influence audible."
+    },
+    {
+      "title": "Wherever I May Roam",
+      "displayTitle": "Wherever I May Roam",
+      "duration": "6:44",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Sitar intro; touring as identity."
+    },
+    {
+      "title": "Don't Tread on Me",
+      "displayTitle": "Don't Tread on Me",
+      "duration": "4:00",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Quotes West Side Story's 'America' in the opening riff."
+    },
+    {
+      "title": "Through the Never",
+      "displayTitle": "Through the Never",
+      "duration": "4:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The fastest thing here — a thrash postcard from the old country."
+    },
+    {
+      "title": "Nothing Else Matters",
+      "displayTitle": "Nothing Else Matters",
+      "duration": "6:28",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Hetfield sings his first ballad and plays the solo himself. Orchestrated by Michael Kamen."
+    },
+    {
+      "title": "Of Wolf and Man",
+      "displayTitle": "Of Wolf and Man",
+      "duration": "4:16",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "The God That Failed",
+      "displayTitle": "The God That Failed",
+      "duration": "5:08",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Hetfield's mother died refusing medical treatment on religious grounds — the album's rawest wound."
+    },
+    {
+      "title": "My Friend of Misery",
+      "displayTitle": "My Friend of Misery",
+      "duration": "6:49",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Newsted's bass finally audible — his co-write."
+    },
+    {
+      "title": "The Struggle Within",
+      "displayTitle": "The Struggle Within",
+      "duration": "3:53",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Enter Sandman",
+      "note": "One riff, introduced instrument by instrument for a full minute. Compare to Slayer's zero-patience openings — what does patience buy?"
+    },
+    {
+      "title": "Nothing Else Matters",
+      "note": "The thrash band plays a love ballad with an orchestra. Find the exact moment it earns it — or argue it never does."
+    },
+    {
+      "title": "Sad but True",
+      "note": "Slower than anything on Reign in Blood and arguably heavier. Debate: is heaviness speed, weight, or attitude?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "62 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1990–91, One on One Studios, Los Angeles"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#1 (4 weeks)"
+    },
+    {
+      "label": "Sales",
+      "value": "30+ million worldwide; best-seller of SoundScan era"
+    }
+  ],
+  "discussionQuestions": [
+    "Define 'selling out' precisely. By your definition, is this album guilty? Would the band's old fans and new fans ever agree?",
+    "Bob Rock forced 100+ takes and click tracks on a band that hated him for it. When is a producer's tyranny justified by the result?",
+    "Same month: GN'R released 30 songs, Metallica released 12. Which form of ambition impresses you more, excess or discipline?",
+    "'The God That Failed' turns private grief into arena rock. Does scaling pain up to 20,000 seats amplify it or cheapen it?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "phish-a-live-one",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "A Live One",
+      "artist": "Phish",
+      "year": 1995,
+      "teaser": "Next week: the band that never plays a song the same way twice — and the community that tapes, trades, and travels for every note.",
+      "listenForQuestion": "Can a song's best version be one that only happened once?"
+    },
+    "homeworkAlbum": {
+      "title": "Master of Puppets",
+      "artist": "Metallica",
+      "year": 1986,
+      "reason": "The complex thrash peak they simplified FROM — hear what was traded.",
+      "studentTask": "Listen to the title track's middle section, then 'Enter Sandman.' One sentence: what got subtracted, and did it hurt?"
+    }
+  },
+  "week": 205
+},
+{
+  "id": "phish-a-live-one",
+  "weekNumber": 206,
+  "title": "A Live One",
+  "artist": "Phish",
+  "year": 1995,
+  "label": "Elektra",
+  "producer": "Phish",
+  "artworkKey": "phish-a-live-one",
+  "genres": [
+    "Jam Band",
+    "Rock",
+    "Improvisation"
+  ],
+  "theme": "A band whose real albums are its concerts — improvisation, community, and the strange economy of never playing anything the same way twice.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "June 27, 1995",
+  "originalLabel": "Elektra",
+  "artistCountry": "United States (Burlington, Vermont)",
+  "artistScene": "Jam Band · Improvised Rock · Tape-Trading Culture",
+  "artistYearsActive": "1983 – present",
+  "artistOverview": "Formed at the University of Vermont, Phish built one of music's most devoted communities not through radio hits — they've never had one — but through concerts where set lists never repeat and songs stretch into twenty-minute explorations. A Live One, their first official live album, was the fans' currency (tapes) finally issued as legal tender; it went platinum without a single.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Trey Anastasio",
+      "role": "Guitar, Vocals",
+      "years": "1983–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Page McConnell",
+      "role": "Keyboards, Vocals",
+      "years": "1985–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Mike Gordon",
+      "role": "Bass, Vocals",
+      "years": "1983–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jon Fishman",
+      "role": "Drums, Vocals, Vacuum Cleaner",
+      "years": "1983–present",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Grateful Dead",
+        "note": "The improvisation-plus-community business model — Workingman's Dead is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Frank Zappa",
+        "note": "Through-composed absurdist complexity.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Miles Davis",
+        "note": "Electric-era group improvisation — Bitches Brew is in our library.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Goose",
+        "note": "The current jam-band generation runs on Phish's roadmap.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Billy Strings",
+        "note": "Bluegrass improv at arena scale — same audience economy.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Live-streaming concert culture",
+        "note": "Phish's webcasts pioneered the pay-per-show model.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Grateful Dead",
+        "note": "The ancestor — though the bands' vocabularies differ completely."
+      },
+      {
+        "artist": "Ween",
+        "note": "Chocolate and Cheese (Week 194) — Phish covers 'Roses Are Free.'"
+      },
+      {
+        "artist": "Medeski Martin & Wood",
+        "note": "The jazz wing of the same scene."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Improvised Rock",
+    "mood": "Playful, patient, exploratory, communal",
+    "mainSounds": "Anastasio's singing sustain, McConnell's piano/organ orchestra, telepathic rhythm section, arena crowd as fifth member",
+    "productionStyle": "Live tapes chosen from the 1994 tour — the 'production' is the band's own listening",
+    "energy": "Long arcs: quiet lattices building to collective peaks over 10+ minutes",
+    "keyIdea": "The song is a map, not the territory — each performance is the actual artwork."
+  },
+  "icebreaker": {
+    "question": "Would you rather hear a perfect studio version of a song or a risky live version that might fail — and why?",
+    "activity": "In pairs: describe the best live moment (concert, game, theater) you've witnessed. Could a recording capture it? (2 min)"
+  },
+  "beforeYouListen": [
+    "Phish encouraged fans to tape shows and trade them free — the OPPOSITE of the industry's piracy panic, and it built an empire.",
+    "'Tweezer' here runs over 30 minutes — abbreviated, fans insist, compared to some versions.",
+    "Every night's setlist is different; superfans track statistics like baseball (gap charts, debuts, bust-outs).",
+    "The crowd sounds are part of the composition — listen for the roar when a jam turns a corner."
+  ],
+  "importance": [
+    "Codified the post-Dead jam-band economy: no hits, endless touring, fan taping, statistical fandom.",
+    "'You Enjoy Myself' and 'Tweezer' became reference points for rock improvisation at scale.",
+    "The tape-trading model prefigured internet music sharing — and how community can replace radio.",
+    "Platinum certification with zero radio play rewrote the industry's rulebook."
+  ],
+  "historicalContext": "1995: Jerry Garcia died two months after this release, and the Grateful Dead's audience needed somewhere to go. Phish — younger, weirder, more compositionally intricate — inherited the caravan. Meanwhile the industry was suing tape traders; Phish had already proven sharing SELLS.",
+  "bandDiscography": [
+    {
+      "title": "Junta",
+      "artist": "Phish",
+      "year": 1989,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Lawn Boy",
+      "artist": "Phish",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "A Picture of Nectar",
+      "artist": "Phish",
+      "year": 1992,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Rift",
+      "artist": "Phish",
+      "year": 1993,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Hoist",
+      "artist": "Phish",
+      "year": 1994,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "A Live One",
+      "artist": "Phish",
+      "year": 1995,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Billy Breathes",
+      "artist": "Phish",
+      "year": 1996,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "Jam-scene drug culture is context worth acknowledging in discussion; the music itself is clean.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Drummer Jon Fishman performs a vacuum cleaner solo on 'Hold Your Head Up' segments — not on this album, to fans' relief or grief.",
+    "The album cover features a flying hot dog — a prop the band actually rode over an arena crowd on New Year's Eve 1994.",
+    "Phish's Halloween tradition: performing another band's entire album as a 'musical costume.'",
+    "The 33⅓ book on A Live One was written by Walter Holland (2015)."
+  ],
+  "tracklist": [
+    {
+      "title": "Bouncing Around the Room",
+      "displayTitle": "Bouncing Around the Room",
+      "duration": "4:11",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The accessible one — interlocking vocal rounds."
+    },
+    {
+      "title": "Stash",
+      "displayTitle": "Stash",
+      "duration": "12:11",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Tension-and-release clinic — the crowd claps the syncopation."
+    },
+    {
+      "title": "Gumbo",
+      "displayTitle": "Gumbo",
+      "duration": "5:11",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Montana",
+      "displayTitle": "Montana",
+      "duration": "2:11",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "You Enjoy Myself",
+      "displayTitle": "You Enjoy Myself",
+      "duration": "20:56",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The signature composition: written fugue → funk jam → vocal jam → trampolines (really). Play 5 minutes minimum."
+    },
+    {
+      "title": "Chalk Dust Torture",
+      "displayTitle": "Chalk Dust Torture",
+      "duration": "6:55",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The school-frustration rocker — your students' anthem."
+    },
+    {
+      "title": "Slave to the Traffic Light",
+      "displayTitle": "Slave to the Traffic Light",
+      "duration": "10:31",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The patient build — a jam that climbs one hill for eight minutes."
+    },
+    {
+      "title": "Wilson",
+      "displayTitle": "Wilson",
+      "duration": "4:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The crowd chants the intro — audience as instrument."
+    },
+    {
+      "title": "Tweezer",
+      "displayTitle": "Tweezer",
+      "duration": "30:57",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Thirty-one minutes. Assign sections to groups; nobody plays it all in class."
+    },
+    {
+      "title": "Simple",
+      "displayTitle": "Simple",
+      "duration": "4:58",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Harry Hood",
+      "displayTitle": "Harry Hood",
+      "duration": "15:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The beloved peak — 'you can feel good' as the payoff of 13 minutes of patience."
+    },
+    {
+      "title": "The Squirming Coil",
+      "displayTitle": "The Squirming Coil",
+      "duration": "6:41",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Ends with Page's solo piano as the band leaves — the quiet bow."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "You Enjoy Myself",
+      "note": "Composed like Bach, jammed like funk, ends in pure vocal nonsense. Map its sections — where does 'the song' end and 'the jam' begin, and does the border matter?"
+    },
+    {
+      "title": "Harry Hood",
+      "note": "Skip to the final five minutes: one chord progression climbing to release. Why does a delayed payoff feel EARNED in a way a chorus doesn't?"
+    },
+    {
+      "title": "Stash",
+      "note": "Listen to the crowd clapping in rhythm mid-jam. What's the audience's job in improvised music?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "124 min (2 discs)"
+    },
+    {
+      "label": "Recorded",
+      "value": "1994 tour, various arenas, USA"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#18"
+    },
+    {
+      "label": "Certification",
+      "value": "Platinum — with zero radio hits"
+    }
+  ],
+  "discussionQuestions": [
+    "Phish gave recordings away and got rich. The industry sued file-sharers and shrank. What did Phish understand that labels didn't?",
+    "If every performance is different, what IS the song — the composition, the best version, or the average of all versions?",
+    "Thirty-one minutes of 'Tweezer': self-indulgence or generosity? Defend with a specific passage.",
+    "Jam fandom is statistical — setlist databases, gap charts. What other fandoms work this way, and what does counting add to loving?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "new-kids-on-the-block-hangin-tough",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Hangin' Tough",
+      "artist": "New Kids on the Block",
+      "year": 1988,
+      "teaser": "Next week: the machine-made boy band that conquered the world — and what the 33⅓ book found when it took 'manufactured' pop seriously.",
+      "listenForQuestion": "If a song is engineered to make you feel something and it works — what exactly is fake about it?"
+    },
+    "homeworkAlbum": {
+      "title": "Workingman's Dead",
+      "artist": "Grateful Dead",
+      "year": 1970,
+      "reason": "The ancestor's songbook — already in our library.",
+      "studentTask": "Listen to 'Uncle John's Band' and note one thing Phish inherited and one thing they discarded."
+    }
+  },
+  "week": 206
+},
+{
+  "id": "new-kids-on-the-block-hangin-tough",
+  "weekNumber": 207,
+  "title": "Hangin' Tough",
+  "artist": "New Kids on the Block",
+  "year": 1988,
+  "label": "Columbia",
+  "producer": "Maurice Starr",
+  "artworkKey": "new-kids-on-the-block-hangin-tough",
+  "genres": [
+    "Pop",
+    "Boy Band",
+    "New Jack Swing"
+  ],
+  "theme": "Five Boston teenagers assembled by a producer, drilled like athletes, and launched at the world — the boy-band blueprint, and the question of what 'manufactured' really means.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "August 8, 1988",
+  "originalLabel": "Columbia",
+  "artistCountry": "United States (Boston, Massachusetts)",
+  "artistScene": "Boy Band · Teen Pop · New Jack Swing",
+  "artistYearsActive": "1984 – 1994, 2008 – present",
+  "artistOverview": "Producer Maurice Starr, who had launched New Edition and lost them, set out to build a replacement from Boston's white working-class neighborhoods — teaching five teenagers to sing, dance, and rap in his basement studio. Hangin' Tough, their second album, produced five Top 10 hits and invented the modern boy-band industrial complex: Backstreet Boys, NSYNC, One Direction, and BTS all descend from this playbook.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Jordan Knight",
+      "role": "Lead Vocals",
+      "years": "1984–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Joey McIntyre",
+      "role": "Vocals",
+      "years": "1985–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Donnie Wahlberg",
+      "role": "Vocals, Rap",
+      "years": "1984–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Danny Wood",
+      "role": "Vocals, Dance",
+      "years": "1984–present",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Jonathan Knight",
+      "role": "Vocals",
+      "years": "1984–present",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "New Edition",
+        "note": "Maurice Starr's first creation — the direct prototype.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Jackson 5",
+        "note": "The original boy-band model: family harmony plus choreography.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Osmonds",
+        "note": "The earlier white-teen-idol machine.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Backstreet Boys",
+        "note": "Lou Pearlman openly copied the NKOTB formula.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "NSYNC",
+        "note": "Generation two of the same blueprint.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "BTS",
+        "note": "The global idol system is this model, perfected across an ocean.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "New Edition",
+        "note": "The R&B original — compare who got which radio formats, and why."
+      },
+      {
+        "artist": "Debbie Gibson",
+        "note": "Fellow late-'80s teen-pop power."
+      },
+      {
+        "artist": "Bobby Brown",
+        "note": "New Edition alum whose new jack swing NKOTB borrowed."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Teen Pop / New Jack Swing",
+    "mood": "Eager, polished, street-adjacent, sweet",
+    "mainSounds": "Drum machines, synth stabs, five-part teen harmony, tough-pose raps over bubblegum chords",
+    "productionStyle": "Maurice Starr wrote, played, and produced nearly everything — the Kids executed his vision",
+    "energy": "Up-tempo swagger alternating with slow-dance ballads — the formula in its purest form",
+    "keyIdea": "'Manufactured' describes the process, not the audience's real feelings — and maybe every pop record is manufactured."
+  },
+  "icebreaker": {
+    "question": "K-pop groups train for years under companies before debuting. Does knowing how an act was built change whether the music is 'real'?",
+    "activity": "In pairs: name a current group you suspect was 'assembled.' Does it matter to their fans? Should it? (2 min)"
+  },
+  "beforeYouListen": [
+    "Producer Maurice Starr created New Edition first, lost them in a lawsuit, and built NKOTB as the deliberate sequel.",
+    "This album produced FIVE Top 10 singles and made them the first teen act to gross $100 million a year in merchandise.",
+    "The screaming-fan phenomenon around them was dismissed as hysteria — the 33⅓ book takes the fans seriously instead.",
+    "Listen for the new jack swing production — the same beats powering R&B radio, aimed at a different audience."
+  ],
+  "importance": [
+    "The founding document of the modern boy-band industry — the template for a billion-dollar global system.",
+    "Its merchandising empire (dolls, lunchboxes, a cartoon) rewrote the economics of pop fandom.",
+    "A key case study in race and radio: Black new jack swing sounds crossing over via white performers.",
+    "The 33⅓ book's fan-centered approach helped legitimize taking teen-girl audiences seriously as critics."
+  ],
+  "historicalContext": "1988-89: hair metal and hip-hop split the radio, and teen pop was considered dead. NKOTB's explosion — driven by an audience of young girls the industry ignored — proved that audience was the most powerful in music. Every subsequent pop empire, from TRL to K-pop stan armies, descends from this proof.",
+  "bandDiscography": [
+    {
+      "title": "New Kids on the Block",
+      "artist": "New Kids on the Block",
+      "year": 1986,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Hangin' Tough",
+      "artist": "New Kids on the Block",
+      "year": 1988,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Step by Step",
+      "artist": "New Kids on the Block",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Face the Music",
+      "artist": "New Kids on the Block",
+      "year": 1994,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Block",
+      "artist": "New Kids on the Block",
+      "year": 2008,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Donnie Wahlberg's little brother Mark was briefly a New Kid before quitting — he became Marky Mark, then a movie star.",
+    "At their 1990 peak, NKOTB out-earned Michael Jackson and Madonna combined in gross revenue.",
+    "'Hangin' Tough' hit #1 while the band members were still doing homework on the tour bus.",
+    "The 33⅓ book on Hangin' Tough was written by Rebecca Wallwork (2016)."
+  ],
+  "tracklist": [
+    {
+      "title": "You Got It (The Right Stuff)",
+      "displayTitle": "You Got It (The Right Stuff)",
+      "duration": "4:07",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "US #3 — the oh-oh-oh-oh hook and THE dance. The formula's finest hour."
+    },
+    {
+      "title": "Please Don't Go Girl",
+      "displayTitle": "Please Don't Go Girl",
+      "duration": "4:31",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "US #10 — Joey was 15, and the falsetto is real."
+    },
+    {
+      "title": "I'll Be Loving You (Forever)",
+      "displayTitle": "I'll Be Loving You (Forever)",
+      "duration": "4:22",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "US #1 — the slow-dance standard of 1989."
+    },
+    {
+      "title": "Cover Girl",
+      "displayTitle": "Cover Girl",
+      "duration": "4:13",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "US #2."
+    },
+    {
+      "title": "I Need You",
+      "displayTitle": "I Need You",
+      "duration": "3:57",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Hangin' Tough",
+      "displayTitle": "Hangin' Tough",
+      "duration": "4:22",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "US #1 — suburban toughness anthem; the Celtics adopted it."
+    },
+    {
+      "title": "I Remember When",
+      "displayTitle": "I Remember When",
+      "duration": "4:29",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "What'cha Gonna Do (About It)",
+      "displayTitle": "What'cha Gonna Do (About It)",
+      "duration": "4:04",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "My Favorite Girl",
+      "displayTitle": "My Favorite Girl",
+      "duration": "4:32",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Hold On",
+      "displayTitle": "Hold On",
+      "duration": "4:24",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "You Got It (The Right Stuff)",
+      "note": "Engineered hook stacking: chant, bass hit, harmony, repeat. Diagram the parts like a machine — then explain why knowing the machine doesn't stop it working."
+    },
+    {
+      "title": "Please Don't Go Girl",
+      "note": "A 15-year-old sings his heart out on a song an adult wrote to sell to girls his age. Where's the line between performance and exploitation — and who was exploited, if anyone?"
+    },
+    {
+      "title": "Hangin' Tough",
+      "note": "Five suburban teens posing tough over a playground chant. It hit #1. What does its success say about what pop audiences actually want from 'toughness'?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "43 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1988, Mission Control Studios, Boston"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#1"
+    },
+    {
+      "label": "Sales",
+      "value": "17 million worldwide; five Top 10 singles"
+    }
+  ],
+  "discussionQuestions": [
+    "Maurice Starr built this group like a product. Is that different in kind — or only in honesty — from how any band gets shaped by producers and labels?",
+    "The band's audience was mocked as hysterical teenage girls. That same audience picked the Beatles first. Why does culture keep dismissing the most predictive audience in pop?",
+    "New Edition (Black, R&B radio) and NKOTB (white, pop radio) ran the same playbook with different outcomes. What does this pair teach about race and radio in the 1980s?",
+    "Trace the line: NKOTB → Backstreet → NSYNC → One Direction → BTS. What has each generation of the machine improved, and what has never changed?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "geto-boys-the-geto-boys",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "The Geto Boys",
+      "artist": "Geto Boys",
+      "year": 1990,
+      "teaser": "Next week: the Houston album so extreme its distributor refused to press it — a discussion of horrorcore, censorship, and where lines belong.",
+      "listenForQuestion": "Who should decide what music is too far — labels, stores, government, or listeners?"
+    },
+    "homeworkAlbum": {
+      "title": "Candy Girl",
+      "artist": "New Edition",
+      "year": 1983,
+      "reason": "Maurice Starr's FIRST creation — the group NKOTB was built to replace.",
+      "studentTask": "Listen to 'Candy Girl' then 'Please Don't Go Girl.' One sentence: what did Starr keep, and what did he change for the new audience?"
+    }
+  },
+  "week": 207
+},
+{
+  "id": "geto-boys-the-geto-boys",
+  "weekNumber": 208,
+  "title": "The Geto Boys",
+  "artist": "Geto Boys",
+  "year": 1990,
+  "label": "Def American",
+  "producer": "Rick Rubin, James Prince",
+  "artworkKey": "geto-boys-the-geto-boys",
+  "genres": [
+    "Hip-Hop",
+    "Horrorcore",
+    "Southern Rap"
+  ],
+  "theme": "The Houston album so extreme its own distributor refused to press it — the hardest test case in the censorship debate, discussed rather than played.",
+  "status": "approved",
+  "teacherApproved": false,
+  "needsTeacherReview": true,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "September 25, 1990",
+  "originalLabel": "Def American",
+  "artistCountry": "United States (Houston, Texas)",
+  "artistScene": "Southern Hip-Hop · Horrorcore · Rap-A-Lot",
+  "artistYearsActive": "1986 – 2018",
+  "artistOverview": "Scarface, Willie D, and Bushwick Bill put Houston on hip-hop's map when the coasts ignored the South. This Rick Rubin-assembled album (mostly remixes of their Grip It! On That Other Level material) was so graphic that Geffen refused to distribute it and the pressing plant declined the job — a first. The group's later 'Mind Playing Tricks on Me' became one of rap's most acclaimed songs, proving the same voices could produce both shock and profound introspection.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Scarface",
+      "role": "Rap",
+      "years": "1989–2018",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Willie D",
+      "role": "Rap",
+      "years": "1986–2018",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Bushwick Bill",
+      "role": "Rap",
+      "years": "1986–2019",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "DJ Ready Red",
+      "role": "DJ, Production",
+      "years": "1986–1991",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "N.W.A",
+        "note": "Street reportage at maximum intensity — the West Coast permission slip.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Public Enemy",
+        "note": "The sonic aggression — It Takes a Nation is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Horror cinema",
+        "note": "Slasher-film logic imported into rap — the 'horrorcore' name is literal.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Three 6 Mafia",
+        "note": "Memphis horrorcore descends directly.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "UGK",
+        "note": "The Texas rap lineage the Geto Boys opened.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Kendrick Lamar",
+        "note": "Scarface's introspective streak feeds TPAB-era self-examination — in our library.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "N.W.A",
+        "note": "The parallel censorship lightning rod."
+      },
+      {
+        "artist": "Public Enemy",
+        "note": "The political wing of rap's late-'80s explosion."
+      },
+      {
+        "artist": "2 Live Crew",
+        "note": "The other 1990 obscenity-battle defendants."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Southern Hip-Hop / Horrorcore",
+    "mood": "Menacing, chaotic, darkly comic, unfiltered",
+    "mainSounds": "Dusty funk samples, sparse 808s, three wildly different voices trading verses",
+    "productionStyle": "Rick Rubin remixed Houston tapes into national-release shape — raw kept raw on purpose",
+    "energy": "Relentless — shock as strategy, charisma as delivery system",
+    "keyIdea": "The censorship question in its hardest form: material designed to be indefensible, defended anyway on principle."
+  },
+  "icebreaker": {
+    "question": "A pressing plant refused to manufacture this album — a private company saying no. Is that censorship, or just business? Does your answer change if it's a government?",
+    "activity": "In pairs: where does each of you personally draw the 'too far' line in music — and who should enforce it, if anyone? (2 min)"
+  },
+  "beforeYouListen": [
+    "IMPORTANT: we will not be playing most of this album in class — today is a DISCUSSION of the controversy, using clips your teacher selects.",
+    "Geffen Records refused to distribute it; the pressing plant initially refused to press it — unprecedented for a major-label release.",
+    "It carried one of the first versions of the now-standard parental advisory framing, with a defensive disclaimer from Def American.",
+    "The same group's 'Mind Playing Tricks on Me' (1991) is one of the most acclaimed rap songs ever — introspection from the same voices."
+  ],
+  "importance": [
+    "A landmark case in music-industry censorship: the first major album a distributor and manufacturer refused outright.",
+    "Put Southern hip-hop on the national map years before Atlanta's rise.",
+    "Its disclaimer sticker helped standardize the parental-advisory era.",
+    "Scarface emerged from it as one of rap's most respected storytellers."
+  ],
+  "historicalContext": "1990: the PMRC sticker wars, the 2 Live Crew obscenity trial, and police fax campaigns against N.W.A were all live. Into that fire came Houston's entry — more graphic than any of them. The fights over this album helped define where American music censorship actually landed: warning labels, not bans.",
+  "bandDiscography": [
+    {
+      "title": "Making Trouble",
+      "artist": "Geto Boys",
+      "year": 1988,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Grip It! On That Other Level",
+      "artist": "Geto Boys",
+      "year": 1989,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Geto Boys",
+      "artist": "Geto Boys",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "We Can't Be Stopped",
+      "artist": "Geto Boys",
+      "year": 1991,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Resurrection",
+      "artist": "Geto Boys",
+      "year": 1996,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "strong",
+    "themes": "EXTREME: graphic violence, sexual content, and slurs throughout — genuinely not classroom-playable beyond teacher-vetted seconds-long clips. Teach the CONTROVERSY (distribution refusal, disclaimer sticker, First Amendment debate) and the group's later acclaimed work ('Mind Playing Tricks on Me') instead. All tracks hidden by default.",
+    "artworkConcern": "Cover is a stark member portrait grid — printable.",
+    "cleanVersionAvailable": "No meaningful clean edit exists.",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": false,
+  "keyFacts": [
+    "Def American's disclaimer read in part: 'Def American Recordings is opposed to censorship. Our manufacturer and distributor, however, do not condone or endorse the content of this recording.'",
+    "Rick Rubin signed the group after hearing Grip It! — the same year he produced Slayer and the Black Album era began.",
+    "Scarface later made Rolling Stone and Complex lists of the greatest rappers of all time.",
+    "The 33⅓ book on The Geto Boys was written by Rolf Potts (2016)."
+  ],
+  "tracklist": [
+    {
+      "title": "Fuck 'Em",
+      "displayTitle": "F*** 'Em",
+      "duration": "3:04",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Title censored for display; not for class play."
+    },
+    {
+      "title": "Size Ain't Shit",
+      "displayTitle": "Size Ain't S***",
+      "duration": "3:41",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Mind of a Lunatic",
+      "displayTitle": "Mind of a Lunatic",
+      "duration": "5:13",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "The center of the controversy — cite, never play."
+    },
+    {
+      "title": "Gangster of Love",
+      "displayTitle": "Gangster of Love",
+      "duration": "4:16",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "The Steve Miller sample got it pulled and replaced on later pressings — a licensing story worth telling."
+    },
+    {
+      "title": "Trigga Happy Nigga",
+      "displayTitle": "Trigga Happy [censored]",
+      "duration": "3:19",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Life in the Fast Lane",
+      "displayTitle": "Life in the Fast Lane",
+      "duration": "3:56",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Assassins",
+      "displayTitle": "Assassins",
+      "duration": "3:42",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Do It Like a G.O.",
+      "displayTitle": "Do It Like a G.O.",
+      "duration": "4:34",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "The most defensible track — social commentary mode; a possible vetted excerpt."
+    },
+    {
+      "title": "Read These Nikes",
+      "displayTitle": "Read These Nikes",
+      "duration": "3:38",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Talkin' Loud Ain't Saying Nothin'",
+      "displayTitle": "Talkin' Loud Ain't Saying Nothin'",
+      "duration": "3:23",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "Scarface",
+      "displayTitle": "Scarface",
+      "duration": "4:36",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "The star-making verse — Scarface's origin story."
+    },
+    {
+      "title": "Let a Ho Be a Ho",
+      "displayTitle": "Let a Ho Be a Ho",
+      "duration": "3:05",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": ""
+    },
+    {
+      "title": "City Under Siege",
+      "displayTitle": "City Under Siege",
+      "duration": "4:04",
+      "single": false,
+      "explicit": true,
+      "hiddenFromStudentView": true,
+      "teacherNote": "Crack-era reportage — the second possible vetted excerpt."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Do It Like a G.O.",
+      "note": "The track defenders point to: media critique and community frustration inside the same album critics called mindless. Does one substantive track change the calculus for a whole record?"
+    },
+    {
+      "title": "City Under Siege",
+      "note": "Reportage mode — Houston's Fifth Ward under the crack epidemic. Compare to news coverage of the same era: who documented it more accurately?"
+    },
+    {
+      "title": "Scarface",
+      "note": "Discuss via the 1991 follow-up 'Mind Playing Tricks on Me' — the same rapper examining paranoia and guilt. The shock opened the door; the introspection is what lasted."
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "49 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1988–90, Houston; remixed by Rick Rubin, LA"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#171"
+    },
+    {
+      "label": "Legacy",
+      "value": "Censorship-history landmark; Southern rap's national arrival"
+    }
+  ],
+  "discussionQuestions": [
+    "A label refused to distribute this; a plant refused to press it; it came out anyway and charted. Did the refusals accomplish anything?",
+    "The same artists made shock horrorcore AND one of rap's most humane songs. Can an artist's worst work be the price of their best?",
+    "The disclaimer sticker said 'we oppose censorship' while distancing from the content. Is that principled or having it both ways?",
+    "Thirty-five years later, is anything in music still 'unreleasable'? What replaced the pressing plant as the gatekeeper?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "donny-hathaway-live",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Live",
+      "artist": "Donny Hathaway",
+      "year": 1972,
+      "teaser": "Next week: the warmest live album ever recorded — a genius at his peak, a crowd that becomes the choir, and soul music as pure communion.",
+      "listenForQuestion": "What does it sound like when an audience loves a performer back?"
+    },
+    "homeworkAlbum": {
+      "title": "We Can't Be Stopped",
+      "artist": "Geto Boys",
+      "year": 1991,
+      "reason": "Contains 'Mind Playing Tricks on Me' — the introspective masterpiece that reframed the group.",
+      "studentTask": "Listen to 'Mind Playing Tricks on Me' (clean edit) and write one sentence on how it differs from everything we discussed today."
+    }
+  },
+  "week": 208
+},
+{
+  "id": "donny-hathaway-live",
+  "weekNumber": 209,
+  "title": "Live",
+  "artist": "Donny Hathaway",
+  "year": 1972,
+  "label": "Atco",
+  "producer": "Arif Mardin, Jerry Wexler",
+  "artworkKey": "donny-hathaway-live",
+  "genres": [
+    "Soul",
+    "R&B",
+    "Live"
+  ],
+  "theme": "The warmest recording in soul music — a classically trained genius, a small club, and an audience that becomes the second lead vocalist.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "March 1972",
+  "originalLabel": "Atco",
+  "artistCountry": "United States (Chicago, Illinois / St. Louis, Missouri)",
+  "artistScene": "Soul · Gospel · Jazz Fusion",
+  "artistYearsActive": "1969 – 1979",
+  "artistOverview": "Donny Hathaway trained classically at Howard University, arranged for Aretha Franklin and Curtis Mayfield, and made duet history with Roberta Flack. This live set — recorded at the Troubadour in LA and the Bitter End in New York — captures what studio tape never quite could: his electric piano voicings, his band's telepathy, and audiences singing so beautifully he stops to let them. He struggled with severe mental illness and died at 33; this record is his joy preserved.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Donny Hathaway",
+      "role": "Vocals, Electric Piano",
+      "years": "1969–1979",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Willie Weeks",
+      "role": "Bass",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Cornell Dupree",
+      "role": "Guitar",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Mike Howard",
+      "role": "Guitar",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Fred White",
+      "role": "Drums",
+      "years": "session",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Earl DeRouen",
+      "role": "Percussion",
+      "years": "session",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Ray Charles",
+        "note": "Gospel and secular fused at the keyboard — the founding move.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Curtis Mayfield",
+        "note": "Chicago soul mentorship — Hathaway arranged for Curtom; Superfly is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Marvin Gaye",
+        "note": "'What's Going On' opens this album — peer speaking to peer; it's in our library.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Stevie Wonder",
+        "note": "The Rhodes-driven soul palette — Songs in the Key of Life is in our library.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "D'Angelo",
+        "note": "Voodoo (in our library) is openly built on Hathaway's live feel.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Amy Winehouse",
+        "note": "Named him her favorite artist ever, on 'Rehab' itself.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Roberta Flack",
+        "note": "His duet partner — the other half of soul's greatest pairing."
+      },
+      {
+        "artist": "Stevie Wonder",
+        "note": "The parallel keyboard genius."
+      },
+      {
+        "artist": "Bill Withers",
+        "note": "Live at Carnegie Hall is this album's only rival for warmth."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "Soul / R&B",
+    "mood": "Joyful, intimate, church-warm, grooving",
+    "mainSounds": "Fender Rhodes electric piano, Willie Weeks' melodic bass, hand percussion, a crowd that can SING",
+    "productionStyle": "Two small clubs, minimal mics, everything live — the room is the record",
+    "energy": "Simmering grooves that erupt — 'The Ghetto' runs twelve minutes on crowd energy alone",
+    "keyIdea": "A live album where the audience is an instrument — communion captured on tape."
+  },
+  "icebreaker": {
+    "question": "When a whole room sings together — concert, church, stadium — something happens that solo listening can't produce. What is that thing?",
+    "activity": "In pairs: describe the best group-singing moment you've been part of. What did it feel like physically? (2 min)"
+  },
+  "beforeYouListen": [
+    "Recorded in two tiny clubs — the Troubadour (LA) and the Bitter End (NYC) — with the crowd inches from the stage.",
+    "On 'You've Got a Friend,' the audience sings the whole song WITH him, in tune, in harmony — listen for him laughing with delight.",
+    "Willie Weeks' bass solo on 'Voices Inside' is legendary — bassists study it like scripture.",
+    "Hathaway opens with Marvin Gaye's 'What's Going On' — released just months earlier — turning a new song into a standard on the spot."
+  ],
+  "importance": [
+    "Routinely ranked among the greatest live albums ever recorded, any genre.",
+    "The reference recording for Fender Rhodes electric piano in soul.",
+    "Directly shaped neo-soul: D'Angelo, Erykah Badu, and the Soulquarians treated it as a textbook.",
+    "Preserves Black club culture of the early '70s — communal, virtuosic, joyful — as primary document."
+  ],
+  "historicalContext": "1972: soul was pivoting from singles to album statements — What's Going On, Superfly (both in our library) — and live albums were proving Black artists' full range to the industry. Hathaway, the genre's greatest technician, chose small rooms over arenas, and the intimacy became the statement.",
+  "bandDiscography": [
+    {
+      "title": "Everything Is Everything",
+      "artist": "Donny Hathaway",
+      "year": 1970,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Donny Hathaway",
+      "artist": "Donny Hathaway",
+      "year": 1971,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Roberta Flack & Donny Hathaway",
+      "artist": "Roberta Flack & Donny Hathaway",
+      "year": 1972,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Live",
+      "artist": "Donny Hathaway",
+      "year": 1972,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Extension of a Man",
+      "artist": "Donny Hathaway",
+      "year": 1973,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "'The Ghetto' and 'Little Ghetto Boy' address poverty with dignity; Hathaway's mental illness and early death deserve careful, honest framing.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "The audience harmonies on 'You've Got a Friend' were unplanned — the crowd simply knew every word of the Carole King song.",
+    "Willie Weeks' 'Voices Inside' bass solo is among the most transcribed bass performances ever.",
+    "Amy Winehouse called Hathaway her favorite artist in the lyrics of 'Rehab.'",
+    "The 33⅓ book on Donny Hathaway Live was written by Emily J. Lordi (2016)."
+  ],
+  "tracklist": [
+    {
+      "title": "What's Going On",
+      "displayTitle": "What's Going On",
+      "duration": "5:15",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Marvin's song, months old, already a standard — compare with our Week 16 original."
+    },
+    {
+      "title": "The Ghetto",
+      "displayTitle": "The Ghetto",
+      "duration": "12:19",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Twelve minutes, mostly groove and crowd — the Latin-soul epic."
+    },
+    {
+      "title": "Hey Girl",
+      "displayTitle": "Hey Girl",
+      "duration": "3:31",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "You've Got a Friend",
+      "displayTitle": "You've Got a Friend",
+      "duration": "4:34",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The audience-choir track — the album's miracle. Carole King wrote it; the Troubadour crowd owns it."
+    },
+    {
+      "title": "Little Ghetto Boy",
+      "displayTitle": "Little Ghetto Boy",
+      "duration": "4:29",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Later sampled by Dr. Dre and many others."
+    },
+    {
+      "title": "We're Still Friends",
+      "displayTitle": "We're Still Friends",
+      "duration": "5:37",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Jealous Guy",
+      "displayTitle": "Jealous Guy",
+      "duration": "3:16",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "John Lennon covered by soul's warmest voice — released the year after Imagine."
+    },
+    {
+      "title": "Voices Inside (Everything Is Everything)",
+      "displayTitle": "Voices Inside (Everything Is Everything)",
+      "duration": "13:45",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The closer — Willie Weeks' famous bass solo lives here; the band introduces themselves through solos."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "You've Got a Friend",
+      "note": "The crowd sings the whole song in harmony, unprompted. Listen to Donny listening to THEM. Who is performing for whom?"
+    },
+    {
+      "title": "The Ghetto",
+      "note": "Twelve minutes from a two-chord vamp. Track what keeps it alive: percussion conversation, crowd chants, Rhodes solos. This is groove as architecture."
+    },
+    {
+      "title": "Voices Inside (Everything Is Everything)",
+      "note": "Willie Weeks' bass solo builds for minutes and the crowd responds like it's a preacher. What makes a bass solo — usually a punchline — into the emotional peak?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "53 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1971, The Troubadour (LA) & The Bitter End (NYC)"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#18 (R&B #4)"
+    },
+    {
+      "label": "Legacy",
+      "value": "Perennial 'greatest live albums' top-ten fixture"
+    }
+  ],
+  "discussionQuestions": [
+    "Compare this with Metallica's studio perfectionism (Week 205) and Phish's improvisation (Week 206): three definitions of a 'definitive version.' Which convinces you?",
+    "The audience is audibly essential here. In the streaming era, where did that communal listening go — and what replaced it?",
+    "Hathaway covered a Motown peer, a Beatles member, and Carole King in one set. What does a cover choice tell an audience about who an artist thinks they are?",
+    "Hathaway's genius coexisted with severe mental illness. How should knowing an artist's suffering change — or not change — how we hear their joy?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "angelo-badalamenti-soundtrack-from-twin-peaks",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "Soundtrack from Twin Peaks",
+      "artist": "Angelo Badalamenti",
+      "year": 1990,
+      "teaser": "Final new week: the TV score that made an entire country feel haunted — jazz, dread, and small-town America in minor key.",
+      "listenForQuestion": "How does music tell you something is wrong before anything happens?"
+    },
+    "homeworkAlbum": {
+      "title": "Roberta Flack & Donny Hathaway",
+      "artist": "Roberta Flack & Donny Hathaway",
+      "year": 1972,
+      "reason": "The duet album from the same year — soul's greatest pairing.",
+      "studentTask": "Listen to 'Where Is the Love' and note what Donny does differently as a duet partner versus a solo star."
+    }
+  },
+  "week": 209
+},
+{
+  "id": "angelo-badalamenti-soundtrack-from-twin-peaks",
+  "weekNumber": 210,
+  "title": "Soundtrack from Twin Peaks",
+  "artist": "Angelo Badalamenti",
+  "year": 1990,
+  "label": "Warner Bros.",
+  "producer": "Angelo Badalamenti, David Lynch",
+  "artworkKey": "angelo-badalamenti-soundtrack-from-twin-peaks",
+  "genres": [
+    "Soundtrack",
+    "Dream Pop",
+    "Jazz Noir"
+  ],
+  "theme": "The score that made television feel haunted — how a composer and a director built an entire town's soul out of synth strings, cool jazz, and dread.",
+  "status": "approved",
+  "teacherApproved": true,
+  "needsTeacherReview": false,
+  "presentationLength": "50 min",
+  "artwork": {
+    "showArtwork": true,
+    "useTextOnlyFallback": false
+  },
+  "originalReleaseDate": "September 11, 1990",
+  "originalLabel": "Warner Bros.",
+  "artistCountry": "United States (Brooklyn, New York)",
+  "artistScene": "Film & TV Scoring · Jazz Noir · Dream Pop",
+  "artistYearsActive": "1970s – 2022",
+  "artistOverview": "Angelo Badalamenti was a journeyman Brooklyn composer until David Lynch sat beside him at a keyboard and described a girl named Laura Palmer walking through the woods. What Badalamenti improvised under that monologue became 'Laura Palmer's Theme,' and the pair built the entire Twin Peaks sound the same way — Lynch talking, Badalamenti playing. The result changed television scoring forever and gave dream pop its blueprint.",
+  "artistImages": {},
+  "members": [
+    {
+      "name": "Angelo Badalamenti",
+      "role": "Composer, Keyboards",
+      "years": "1970s–2022",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "Julee Cruise",
+      "role": "Vocals",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    },
+    {
+      "name": "David Lynch",
+      "role": "Lyrics, Co-producer",
+      "years": "collaborator",
+      "manualImageUrl": ""
+    }
+  ],
+  "influenceMap": {
+    "influencedBy": [
+      {
+        "artist": "Bernard Herrmann",
+        "note": "Hitchcock's composer — dread as orchestration.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Chet Baker",
+        "note": "The cool-jazz haze of 'Audrey's Dance.'",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "The Everly Brothers",
+        "note": "The '50s slow-dance innocence the score corrupts.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "influenced": [
+      {
+        "artist": "Beach House",
+        "note": "Dream pop's reverb-soaked slow-motion is Julee Cruise's legacy.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Lana Del Rey",
+        "note": "The whole doomed-Americana aesthetic descends from this score.",
+        "manualArtistImageUrl": ""
+      },
+      {
+        "artist": "Every prestige-TV composer",
+        "note": "Television as cinema begins with this music.",
+        "manualArtistImageUrl": ""
+      }
+    ],
+    "similarArtists": [
+      {
+        "artist": "Julee Cruise",
+        "note": "Floating into the Night is the companion album — same team."
+      },
+      {
+        "artist": "Portishead",
+        "note": "Dummy (in our library) shares the noir-torch DNA."
+      },
+      {
+        "artist": "Koji Kondo",
+        "note": "Week 203's other proof that 'functional' music can be immortal."
+      }
+    ],
+    "teacherVerified": false,
+    "sourceNotes": ""
+  },
+  "soundAndStyle": {
+    "genre": "TV Score / Jazz Noir / Dream Pop",
+    "mood": "Haunted, romantic, sleepy, wrong-in-a-beautiful-way",
+    "mainSounds": "Synthesized strings, twanging baritone guitar, brushed jazz drums, finger snaps, Julee Cruise's ghost-soprano",
+    "productionStyle": "Cheap synths played with total sincerity — the artificiality IS the atmosphere",
+    "energy": "Slow motion throughout — even the jazz saunters",
+    "keyIdea": "Music can characterize a PLACE: the town of Twin Peaks exists mostly in these chords."
+  },
+  "icebreaker": {
+    "question": "Think of a show or game whose theme music you can hum instantly. What does the theme tell you about that world before anything happens?",
+    "activity": "In pairs: hum a theme, partner guesses the mood it's selling — cozy, scary, epic, sad. How fast did you know? (2 min)"
+  },
+  "beforeYouListen": [
+    "Lynch couldn't read or write music; he DESCRIBED scenes aloud while Badalamenti improvised — 'Laura Palmer's Theme' was born in twenty minutes that way.",
+    "Twin Peaks was a network TV phenomenon in 1990 — a murder mystery where the real mystery was the mood.",
+    "Julee Cruise's songs (lyrics by Lynch) float over the same chords as the score — songs and score are one organism.",
+    "Listen for the trick everywhere: '50s innocence (diners, slow dances) played at half speed until it becomes unsettling."
+  ],
+  "importance": [
+    "Reinvented television scoring — the direct ancestor of all prestige-TV music.",
+    "'Falling' (the theme, with Cruise's vocal) hit #1 in Australia and launched dream pop's commercial life.",
+    "Created the 'haunted Americana' palette that Lana Del Rey, Beach House, and a thousand aesthetics mine.",
+    "Proved a TV soundtrack could stand alone as an album — it charted worldwide."
+  ],
+  "historicalContext": "1990: network television was formula, and Twin Peaks broke it — a surrealist art film airing after cop shows. The score did the heavy lifting, teaching mass audiences to sit inside ambiguity. Thirty years of moody prestige television and bedroom dream pop have been living in the space it opened.",
+  "bandDiscography": [
+    {
+      "title": "Soundtrack from Twin Peaks",
+      "artist": "Angelo Badalamenti",
+      "year": 1990,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Floating into the Night",
+      "artist": "Julee Cruise",
+      "year": 1989,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Twin Peaks: Fire Walk with Me (Soundtrack)",
+      "artist": "Angelo Badalamenti",
+      "year": 1992,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "Blue Velvet (Soundtrack)",
+      "artist": "Angelo Badalamenti",
+      "year": 1986,
+      "artworkSource": "itunes"
+    },
+    {
+      "title": "The Straight Story (Soundtrack)",
+      "artist": "Angelo Badalamenti",
+      "year": 1999,
+      "artworkSource": "itunes"
+    }
+  ],
+  "contentNotes": {
+    "language": "none",
+    "themes": "The show concerns a murdered teenager — the score itself is clean; frame the source material briefly.",
+    "artworkConcern": "",
+    "cleanVersionAvailable": "",
+    "teacherDecision": ""
+  },
+  "classroomSafeMode": true,
+  "keyFacts": [
+    "Badalamenti composed 'Laura Palmer's Theme' live while Lynch narrated: 'It's the darkness of the woods... now she's coming out from behind a tree...'",
+    "The same synth patch (cheap Fender Rhodes imitation) carries the whole score — limitation as signature, like Kondo's three channels.",
+    "'Falling' won the 1990 Grammy for Best Pop Instrumental.",
+    "The 33⅓ book on Soundtrack from Twin Peaks was written by Clare Nina Norelli (2017)."
+  ],
+  "tracklist": [
+    {
+      "title": "Twin Peaks Theme",
+      "displayTitle": "Twin Peaks Theme",
+      "duration": "5:07",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Grammy winner. The baritone guitar twang + synth swell = instant place."
+    },
+    {
+      "title": "Laura Palmer's Theme",
+      "displayTitle": "Laura Palmer's Theme",
+      "duration": "4:51",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Improvised under Lynch's spoken description — dread, then heartbreaking beauty, then dread."
+    },
+    {
+      "title": "Audrey's Dance",
+      "displayTitle": "Audrey's Dance",
+      "duration": "5:16",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Finger-snap cool jazz gone slightly wrong — the show's mischief in music."
+    },
+    {
+      "title": "The Nightingale",
+      "displayTitle": "The Nightingale",
+      "duration": "4:52",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Julee Cruise vocal, Lynch lyric."
+    },
+    {
+      "title": "Freshly Squeezed",
+      "displayTitle": "Freshly Squeezed",
+      "duration": "3:46",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Vibraphone noir — coffee-and-pie music with a raised eyebrow."
+    },
+    {
+      "title": "The Bookhouse Boys",
+      "displayTitle": "The Bookhouse Boys",
+      "duration": "3:20",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Into the Night",
+      "displayTitle": "Into the Night",
+      "duration": "4:42",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "Cruise at her most weightless."
+    },
+    {
+      "title": "Night Life in Twin Peaks",
+      "displayTitle": "Night Life in Twin Peaks",
+      "duration": "3:26",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Dance of the Dream Man",
+      "displayTitle": "Dance of the Dream Man",
+      "duration": "3:40",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The Red Room's snapping jazz — TV's strangest scene, scored."
+    },
+    {
+      "title": "Love Theme from Twin Peaks",
+      "displayTitle": "Love Theme from Twin Peaks",
+      "duration": "5:02",
+      "single": false,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": ""
+    },
+    {
+      "title": "Falling",
+      "displayTitle": "Falling",
+      "duration": "5:20",
+      "single": true,
+      "explicit": false,
+      "hiddenFromStudentView": false,
+      "teacherNote": "The theme with Julee Cruise's vocal — an international hit single from a TV score."
+    }
+  ],
+  "keySongs": [
+    {
+      "title": "Laura Palmer's Theme",
+      "note": "Three sections: dread, ascent into almost unbearable beauty, collapse back to dread. Lynch called the middle 'the top of the mountain.' Map the emotions bar by bar — no lyrics needed."
+    },
+    {
+      "title": "Audrey's Dance",
+      "note": "Jazz that's 5% wrong on purpose — the snaps slightly too slow, the sax slightly too woozy. Find the wrongness. That 5% is Lynch's whole method."
+    },
+    {
+      "title": "Falling",
+      "note": "The instrumental theme becomes a pop single when Cruise floats over it. Compare both versions: what do words add, and what do they cost?"
+    }
+  ],
+  "releaseFacts": [
+    {
+      "label": "Runtime",
+      "value": "46 min"
+    },
+    {
+      "label": "Recorded",
+      "value": "1989–90, Excalibur Sound, New York"
+    },
+    {
+      "label": "Chart Peak (US)",
+      "value": "#124 (UK #27)"
+    },
+    {
+      "label": "Awards",
+      "value": "Grammy, Best Pop Instrumental ('Twin Peaks Theme')"
+    }
+  ],
+  "discussionQuestions": [
+    "Badalamenti composed while Lynch talked. What does this collaboration method say about whose 'work' the music is?",
+    "The score makes '50s Americana feel sinister at half speed. Why does slowing something familiar make it uncanny?",
+    "From Kondo (Week 203) to this: 'functional' music — for games, for TV — keeps outliving 'real' albums. Should the album club's next season include more scores?",
+    "This is our last new week: of the three finale albums — a censored rap record, a soul communion, and a TV score — which one will people still study in fifty years, and why?"
+  ],
+  "classScore": "",
+  "oneWordReaction": "",
+  "completedDate": "",
+  "nextWeekAlbumId": "",
+  "nextWeekPreview": {
+    "nextAlbum": {
+      "title": "To Be Announced",
+      "artist": "",
+      "year": "",
+      "teaser": "",
+      "listenForQuestion": ""
+    },
+    "homeworkAlbum": {
+      "title": "Floating into the Night",
+      "artist": "Julee Cruise",
+      "year": 1989,
+      "reason": "The companion album — same trio (Lynch/Badalamenti/Cruise), full dream-pop form.",
+      "studentTask": "Listen to 'Falling' in its full vocal version and note one difference from the TV theme."
+    }
+  },
+  "week": 210
 }
 ];
